@@ -1,0 +1,772 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - img [ref=e8]
+        - generic [ref=e10]:
+          - textbox "输入 URL 或 DOI" [ref=e11]
+          - button "打开" [ref=e12] [cursor=pointer]
+      - generic [ref=e13]: 对每个人的知识
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - link "su" [ref=e17] [cursor=pointer]:
+            - /url: //sci-hub.su
+          - link "st" [ref=e18] [cursor=pointer]:
+            - /url: //sci-hub.st
+          - link "red" [ref=e19] [cursor=pointer]:
+            - /url: //sci-hub.red
+          - link "box" [ref=e20] [cursor=pointer]:
+            - /url: //sci-hub.box
+          - link "ru" [ref=e21] [cursor=pointer]:
+            - /url: //sci-hub.ru
+          - link "→" [ref=e22] [cursor=pointer]:
+            - /url: /mirrors
+        - img [ref=e23]
+        - generic [ref=e24]:
+          - img [ref=e26]
+          - generic [ref=e27]:
+            - generic [ref=e28]: 向 Sci-Hub 捐赠
+            - generic [ref=e29]: 通过支付宝捐赠，支持项目的进一步发展
+    - generic [ref=e30]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]: "06"
+            - generic [ref=e37]: 3月
+          - generic [ref=e38]:
+            - generic [ref=e39]: Sci-Bot - 基于研究文献回答问题
+            - generic [ref=e40]:
+              - paragraph [ref=e41]:
+                - text: 好消息：人工智能的最新进展使 Sci-Hub 得以推出一个
+                - link "机器人" [ref=e42] [cursor=pointer]:
+                  - /url: //sci-bot.ru/
+                - text: ，可以对问题给出有科学依据的回答。该机器人首先在 Sci-Hub 数据库中搜索相关文献，然后筛选并阅读最新的研究，并根据这些信息组织答案。答案包含所有参考文献，每篇引用的文章都可以在 Sci-Hub 上一键阅读。
+              - paragraph [ref=e43]: 与基于早期神经网络的问答机器人不同，Sci-Hub 机器人不会产生幻觉，不会编造科学事实，也不会引用不存在的来源。Sci-Bot 使用 Sci-Hub 数据库中的文章来支持其陈述。可以用任何语言提问，答案可以保存在服务器上并分享。
+              - paragraph [ref=e44]: Alpha 版本仅支持回答单个问题，支持对话模式的更高级版本即将推出。右侧栏显示了机器人已回答的示例问题——点击问题即可查看生成的答案。
+        - generic [ref=e45]:
+          - img [ref=e47]
+          - link "月相对人生活认知的影响" [ref=e50] [cursor=pointer]:
+            - /url: //sci-bot.ru/the-influence-of-moon-phases-9f62
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - generic [ref=e57]: "|"
+              - text: 智能文章推荐
+            - generic [ref=e59]: 新功能
+          - generic [ref=e60]:
+            - paragraph [ref=e62]: 人工智能已经来到 Sci-Hub：现在该服务能够根据用户的查询生成文章推荐列表。只需在输入框中输入任意查询并点击按钮，系统就会从数据库中展示最相关的文章合集。由于使用了 Google 的多语言模型，查询可以用任何语言进行。 注意：该服务独立于 Google 运行，所有数据库处理均在自有服务器上完成。
+            - generic [ref=e63]:
+              - paragraph [ref=e64]: 此外，人工智能还能生成相似文章的推荐列表：选择一篇文章，通过 Sci-Hub 打开它，在文章面板底部点击向上箭头，就会打开一个页面，显示数据库中主题相近的其他文章。这对于编写参考文献列表非常有用。
+              - paragraph [ref=e65]: 点击下方链接即可尝试 ↓
+              - paragraph [ref=e66]:
+                - 'link "Artificial Intelligence to Win the Nobel Prize and Beyond: Creating the Engine for Scientific Discovery" [ref=e67] [cursor=pointer]':
+                  - /url: /similar/10.1609/aimag.v37i1.2642
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - heading "如何获取最新文章？" [level=1] [ref=e71]
+            - paragraph [ref=e72]:
+              - text: Sci-Hub 对 2022 年之前在主要学术出版物上发表的所有论文的覆盖率超过 90%。较新的文章可以在新平台
+              - link "Sci-Net" [ref=e73] [cursor=pointer]:
+                - /url: //sci-net.xyz
+              - text: 上请求获取，这是一个研究人员互助社交网络：您可以发布请求，其他成员会帮助解决。全文通常在几分钟内就会被上传，除了一些特殊情况。一旦上传，论文将对所有人免费开放，无需注册。您也可以上传自己的论文，以确保它们永久开放获取。
+            - paragraph [ref=e74]: 该项目使用 Sci-Hub 知识代币来奖励积极帮助建设开放获取存储库的活跃成员。
+          - img [ref=e76]
+  - generic [ref=e77]:
+    - generic [ref=e78]: 正在阅读
+    - generic [ref=e79]:
+      - link [ref=e80] [cursor=pointer]:
+        - /url: /meta/10.1002/2015jd023927
+        - generic [ref=e81]:
+          - img "Saudi Arabia" [ref=e83]
+          - generic [ref=e84]: 16:02:53
+        - generic [ref=e85]: Investigation of PBL schemes combining the WRF model simulations with scanning water vapor differential absorption lidar measurements
+        - generic [ref=e86]: JGR Atmospheres, 2016
+        - generic [ref=e87]: Six simulations with the Weather Research and Forecasting (WRF) model differing in planetary boundary layer (PBL) schemes and land surface models (LSMs) are investigated in a case study in western Germany during clear-sky weather conditions. The simulations were performed at 2 km resolution with two local and two nonlocal PBL schemes, combined with two LSMs (NOAH and NOAH-MP). Resulting convective boundary layer (CBL) features are investigated in combination with high-resolution water vapor differential absorption lidar measurements at an experimental area. Further, the simulated soil-vegetation-atmosphere feedback processes are quantified applying a mixing diagram approach. The investigation shows that the nonlocal PBL schemes simulate a deeper and drier CB...
+      - link [ref=e88] [cursor=pointer]:
+        - /url: /meta/10.1128/jvi.78.13.6766-6774.2004
+        - generic [ref=e89]:
+          - img "Philippines" [ref=e91]
+          - generic [ref=e92]: 16:02:53
+        - generic [ref=e93]: Identification of the Human Rhinovirus Serotype 1A Binding Site on the Murine Low-Density Lipoprotein Receptor by Using Human-Mouse Receptor Chimeras
+        - generic [ref=e94]: J Virol, 2004
+        - generic [ref=e95]: "ABSTRACT Human rhinovirus serotype 1A (HRV1A) binds more strongly to the mouse low-density lipoprotein receptor (LDLR) than to the human homologue (M. Reithmayer, A. Reischl, L. Snyers, and D. Blaas, J. Virol. 76: 6957-6965, 2002). Here, we used this fact to determine the binding site of HRV1A by replacing selected ligand binding modules of the human receptor with the corresponding ligand binding modules of the mouse receptor. The chimeric proteins were expressed in mouse fibroblasts deficient in endogenous LDLR and LDLR-related protein, both used by minor group HRVs for cell entry. Binding was assessed by virus overlay blots, by immunofluorescence microscopy, and by measuring cell attachment of radiolabeled virus. Replacement of ligand binding repeat 5 of t..."
+      - link [ref=e96] [cursor=pointer]:
+        - /url: /meta/10.1089/dia.2011.0082
+        - generic [ref=e97]:
+          - img "Philippines" [ref=e99]
+          - generic [ref=e100]: 16:02:53
+        - generic [ref=e101]: Area of the Diabetic Ulcers Estimated Applying a Foot Scanner–Based Home Telecare System and Three Reference Methods
+        - generic [ref=e102]: Diabetes Technology & Therapeutics, 2011
+        - generic [ref=e103]: Diabetic foot ulcer area is a basic parameter used for monitoring the wound healing and effectiveness of the treatment applied. TeleDiaFoS (developed earlier in collaboration with the Department and Clinic of Gastroenterology and Metabolic Diseases, Medical University of Warsaw, Warsaw, Poland) is one of just a few systems available that make possible monitoring of the wound size remotely based on the foot scans transmitted to the physician from a patient's home. The aim of this study was to compare the diabetic foot ulcer areas measured using TeleDiaFoS with the results obtained using three reference methods.The reference measurements were conducted using the elliptical method with a ruler, the wound tracing method and planimetrics with the Visitrak (Smith ...
+      - link [ref=e104] [cursor=pointer]:
+        - /url: /meta/10.1103/PhysRevD.52.2422
+        - generic [ref=e105]:
+          - img "United States" [ref=e107]
+          - generic [ref=e108]: 16:02:53
+        - generic [ref=e109]: Extending the Euler-Heisenberg Lagrangian to some nonperturbative and inhomogeneous field configurations
+        - generic [ref=e110]: Phys. Rev. D, 1995
+        - generic [ref=e111]: "In this paper we discuss the Euler-Heisenberg effective Lagrangian in nonperturbative and inhomogeneous field configurations characterized by a strong magnetic field of the form ${\\mathit{B}}_{\\mathit{x}}$=${\\mathit{B}}_{\\mathit{y}}$=0,rotectinebreak ${\\mathit{B}}_{\\mathit{z}}$=B(x,y). Our treatment exploits some interesting properties of the second-order Dirac Hamiltonian describing the electronic motion in the transverse plane (x,y). In particular, we take advantage of the existence of an energy gap separating the excited states from the lowest-lying modes. The latter are exactly calculable and give the leading nontrivial contribution to the effective Lagrangian. Our results show that the presence of gradients can be accounted for by introducing an effecti..."
+      - link [ref=e112] [cursor=pointer]:
+        - /url: /meta/10.3109/09637486.2011.653552
+        - generic [ref=e113]:
+          - img "United States" [ref=e115]
+          - generic [ref=e116]: 16:02:53
+        - generic [ref=e117]: Polyphenolic content and comparative antioxidant capacity of flavoured black teas
+        - generic [ref=e118]: International Journal of Food Sciences and Nutrition, 2012
+        - generic [ref=e119]: The content of selected flavonoids and phenolic acids of 12 commercial flavoured black tea infusions was determined by high-performance liquid chromatography with tandem mass spectrometry in the negative electrospray ionization mode. Assays for the evaluation of their antioxidant capacity were carried out by cupric ion reducing antioxidant capacity, Folin-Ciocalteu assay, cyclic voltammetry and potentiometry. Flavonoids were predominantly present as glycosides in the studied infusions. Only quercetin as a free aglycone was found at trace levels. Notable amount of naringin and hesperidin was determined in teas with citrus aromas or fruits. These compounds were not found in premium black tea. Two principal groups of the studied teas were found using cluster an...
+      - 'link "China 16:02:53 Transport and climate change: a review Journal of Transport Geography, 2007 Transport accounts for 26% of global CO2 emissions and is one of the few industrial sectors where emissions are still growing. Car use, road freight and aviation are the principal contributors to greenhouse gas emissions from the transport sector and this review focuses on approaches to reduce emissions from these three problem areas. An assessment of new technologies including alternative transport fuels to break the dependence on petroleum is presented, although it appears that technological innovation is unlikely to be the sole answer to the climate change problem. To achieve a stabilisation of greenhouse gas emissions from transport, behavioural change brought about by policy will also be required. Pressure is growing on policy makers to tackle the issue..." [ref=e120] [cursor=pointer]':
+        - /url: /meta/10.1016/j.jtrangeo.2006.11.008
+        - generic [ref=e121]:
+          - img "China" [ref=e123]
+          - generic [ref=e124]: 16:02:53
+        - generic [ref=e125]: "Transport and climate change: a review"
+        - generic [ref=e126]: Journal of Transport Geography, 2007
+        - generic [ref=e127]: Transport accounts for 26% of global CO2 emissions and is one of the few industrial sectors where emissions are still growing. Car use, road freight and aviation are the principal contributors to greenhouse gas emissions from the transport sector and this review focuses on approaches to reduce emissions from these three problem areas. An assessment of new technologies including alternative transport fuels to break the dependence on petroleum is presented, although it appears that technological innovation is unlikely to be the sole answer to the climate change problem. To achieve a stabilisation of greenhouse gas emissions from transport, behavioural change brought about by policy will also be required. Pressure is growing on policy makers to tackle the issue...
+      - link [ref=e128] [cursor=pointer]:
+        - /url: /meta/10.1016/j.scitotenv.2019.134526
+        - generic [ref=e129]:
+          - img "China" [ref=e131]
+          - generic [ref=e132]: 16:02:53
+        - generic [ref=e133]: Current situation of polycyclic aromatic hydrocarbons (PAH) in PM2.5 in a receptor site in Mexico City and estimation of carcinogenic PAH by combining non-real-time and real-time measurement techniques
+        - generic [ref=e134]: Science of The Total Environment, 2020
+        - generic [ref=e135]: Air pollution is a public health concern. Polycyclic aromatic hydrocarbons (PAH) are ubiquitous atmospheric pollutants contained in the atmospheric aerosol. PAH in particulate matter with diameters ≤2.5 µm (PM2.5) represent a human health risk due to their toxic properties. In this study, PAH in PM2.5 at a receptor site of Mexico City during the dry cold season were determined. The most abundant PAH (median, 10–90th percentile, pg m−3) were benzo[ghi]perylene (467, 291–697), followed by pyrene (427, 218–642). A decrease around 40% in the carcinogenic PAH onto PM2.5 was calculated with respect to the same PAH measured a decade ago, at the same receptor site, despite of increase in vehicle fleet. The PAH decrease trend agrees with the decrease trend...
+      - link [ref=e136] [cursor=pointer]:
+        - /url: /meta/10.1039/c9cp01146c
+        - generic [ref=e137]:
+          - img "China" [ref=e139]
+          - generic [ref=e140]: 16:02:53
+        - generic [ref=e141]:
+          - text: Superior spin-polarized electronic structure in MoS
+          - subscript [ref=e142]: "2"
+          - text: /MnO
+          - subscript [ref=e143]: "2"
+          - text: heterostructures with an efficient hole injection
+        - generic [ref=e144]: Phys. Chem. Chem. Phys., 2019
+        - generic [ref=e145]: Two-dimensional (2D) materials with intrinsic magnetism and low hole injection barriers to transition metal dichalcogenides are crucial to develop dopant-free all-2D p-type spin field effect transistors for CMOS logic and spintronic applications. Here, the electronic structures of 2D MoS2/MnO2 heterostructures are investigated by first-principles calculations, where the monolayered MnO2 has two polymorphs including magnetic metal h-MnO2 and magnetic semiconductor t-MnO2. Both the MoS2/h-MnO2 and MoS2/t-MnO2 heterostructures show p-type doping for MoS2. In the MoS2/h-MnO2 model with a semiconductor/metal contact, the charge transfer can affect the occupation of Mn 3d and O 2p orbitals, which results in a half-metallic characteristic of the heterostructure wit...
+      - link [ref=e146] [cursor=pointer]:
+        - /url: /meta/10.1016/s1226-8615(08)60201-0
+        - generic [ref=e147]:
+          - img "Philippines" [ref=e149]
+          - generic [ref=e150]: 16:02:53
+        - generic [ref=e151]: Juvenile Hormone Action on Vitellogenesis of the Beet Armyworm, Spodoptera exigua
+        - generic [ref=e152]: Journal of Asia-Pacific Entomology, 2004
+        - generic [ref=e153]: Juvenile hormone (JH) is a major insect gonadotropin. However, no endogenous types of JH have been found in beet armyworm, Spodoptera exigua. Here we analyzed the JH effect on vitellogenesis of S. exigua, which was used for determining the type of endogenous JHs in the species. Females were decapitated at different times after adult emergence to remove the source of JH. This treatment prevented vitellogenic development of S. exigua when the decapitation was executed as early as 4h after adult emergence. Both JH analogs, fenoxycarb and pyriproxyfen, induced vitellogenesis of the decapitated females. Similarly, JH I and JH II could induce vitellogenesis of the decapitated females, but not JH III. Follicle cell patency, allowing access of vitellogenin (Vg) in t...
+      - link "India 16:02:53 Design and implementation of a star-tracker for LEO satellite Optik, 2020 An important task of the attitude determination and control subsystem (ADCS) is the determination of attitude of the satellite in reference to the Earth or any other planetary and correct any deviation from the expected attitude. In order to determine the attitude of the satellite, sensors are needed to sense the orientation of the satellite. The star-tracker is able to determine the attitude from the view field of the star set without any prior knowledge of sensor information. In this paper, the design, simulation and implementation of a star-tracker is presented for LEO satellites. For capturing image data, the MT9P031 CMOS image sensor from Aptina Imaging was used. The star tracker uses a Texas Instrument OMAP3530 using an ARM Cortex A8. The processor sup..." [ref=e154] [cursor=pointer]:
+        - /url: /meta/10.1016/j.ijleo.2020.164343
+        - generic [ref=e155]:
+          - img "India" [ref=e157]
+          - generic [ref=e158]: 16:02:53
+        - generic [ref=e159]: Design and implementation of a star-tracker for LEO satellite
+        - generic [ref=e160]: Optik, 2020
+        - generic [ref=e161]: An important task of the attitude determination and control subsystem (ADCS) is the determination of attitude of the satellite in reference to the Earth or any other planetary and correct any deviation from the expected attitude. In order to determine the attitude of the satellite, sensors are needed to sense the orientation of the satellite. The star-tracker is able to determine the attitude from the view field of the star set without any prior knowledge of sensor information. In this paper, the design, simulation and implementation of a star-tracker is presented for LEO satellites. For capturing image data, the MT9P031 CMOS image sensor from Aptina Imaging was used. The star tracker uses a Texas Instrument OMAP3530 using an ARM Cortex A8. The processor sup...
+      - link [ref=e162] [cursor=pointer]:
+        - /url: /meta/10.1016/0022-2836(76)90206-0
+        - generic [ref=e163]:
+          - img "United States" [ref=e165]
+          - generic [ref=e166]: 16:02:53
+        - generic [ref=e167]: Similarity in structure and function of the 3′-terminal region of the four brome mosaic viral RNAs
+        - generic [ref=e168]: Journal of Molecular Biology, 1976
+        - generic [ref=e169]: Abstract A 3′-terminal fragment, about 160 nucleotides long, was cleaved by limited nuclease digestion from each of the four RNA components of brome mosaic virus, and purified by two cycles of gel electrophoresis. These fragments accepted tyrosine in reactions catalyzed by wheat germ aminoacyl-tRNA synthetase. Analyses of nuclease digests suggested that the sequences of the fragments from brome mosaic virus RNA 3 and 4 were identical and that the fragments from RNA 1 and 2 differed from that of RNA 4 only in the positions of two and one nucleotides, respectively. A fragment isolated in a similar way from cowpea chlorotic mottle virus was similar in size to the brome mosaic virus RNA fragments, accepted tyrosine in the presence of wheat germ aminoacyl-tRNA ...
+      - link [ref=e170] [cursor=pointer]:
+        - /url: /meta/10.1016/j.bone.2010.10.159
+        - generic [ref=e171]:
+          - img "United States" [ref=e173]
+          - generic [ref=e174]: 16:02:53
+        - generic [ref=e175]: "Bisphosphonate effects on bone turnover, microdamage, and mechanical properties: What we think we know and what we know that we don't know"
+        - generic [ref=e176]: Bone, 2011
+        - generic [ref=e177]: The bisphosphonates (BPs) have been useful tools in our understanding of the role that bone remodeling plays in skeletal health. The purpose of this paper is to outline what we know, and what is still unknown, about the role that BPs play in modulating bone turnover, how this affects microdamage accumulation, and ultimately what the effects of these changes elicited by BPs are to the structural and the material biomechanical properties of the skeleton. We know that BPs suppress remodeling site-specifically, probably do not have a direct effect on formation, and that the individual BPs vary with respect to speed of onset, duration of effect and magnitude of suppression. However, we do not know if these differences are meaningful in a clinical sense, how much ...
+      - link [ref=e178] [cursor=pointer]:
+        - /url: /meta/10.1088/2053-1591/3/5/055010
+        - generic [ref=e179]:
+          - img "China" [ref=e181]
+          - generic [ref=e182]: 16:02:53
+        - generic [ref=e183]: Metal oxide nanoparticles embedded in rare-earth matrix for low temperature thermal imaging applications
+        - generic [ref=e184]: Mater. Res. Express, 2016
+        - generic [ref=e185]: "We report on the synthesis and characterization of nanocomposites comprising of oxide nanoparticles (NPs) (ZnO, CaHfO3 and SrHfO3) embedded in rare-earth oxide (Eu2O3, Nd2O3) matrices by using atomic layer deposition. The different oxide surroundings allowed highlighting the role of interface defects in the recombination processes of charge carriers in the NPs. We provide a comparative analysis of optical absorption and emission properties of the constituents: thin films, free-standing and embedded NPs, and discuss the intrinsic and extrinsic nature of the luminescent sites in different nanocomposites. The photoluminescence properties of ZnO nanocomposites are clearly distinguishable from those of free-standing NPs in terms of overall quantum efficiency as w..."
+      - link [ref=e186] [cursor=pointer]:
+        - /url: /meta/10.1016/s0891-5849(00)00223-9
+        - generic [ref=e187]:
+          - img "China" [ref=e189]
+          - generic [ref=e190]: 16:02:53
+        - generic [ref=e191]: Intercellular adhesion molecule-1 (ICAM-1) expression and cell signaling cascades
+        - generic [ref=e192]: Free Radical Biology and Medicine, 2000
+        - generic [ref=e193]: The collective interaction between cells is, in part, mediated by different families of adhesion molecules. Intercellular adhesion molecules (ICAMs) are structurally related members of the immunoglobulin supergene family and are ligands for the β2 integrin molecules present on leukocytes. Of the five ICAMs identified, ICAM-1 is the most extensively studied. Although ICAM-1 is expressed constitutively at low levels on endothelial cells and on some lymphocytes and monocytes, its expression can be significantly increased in the presence of cytokines (TNFα, IL-1, IFNγ) and reactive oxygen species. Depending upon cell type, ICAM-1 participates in trafficking of inflammatory cells, in cell:cell interactions during antigen presentation, in microbial pathogenesis...
+      - link [ref=e194] [cursor=pointer]:
+        - /url: /meta/10.1002/2015jb012744
+        - generic [ref=e195]:
+          - img "Saudi Arabia" [ref=e197]
+          - generic [ref=e198]: 16:02:52
+        - generic [ref=e199]: Homogenized moment tensor and the effect of near‐field heterogeneities on nonisotropic radiation in nuclear explosion
+        - generic [ref=e200]: JGR Solid Earth, 2016
+        - generic [ref=e201]: We investigate the effect of small-scale heterogeneities close to a seismic explosive source, at intermediate periods (20–50 s), with an emphasis on the resulting nonisotropic far-field radiation. First, using a direct numerical approach, we show that small-scale elastic heterogeneities located in the near-field of an explosive source, generate unexpected phases (i.e., long period S waves). We then demonstrate that the nonperiodic homogenization theory applied to 2-D and 3-D elastic models, with various pattern of small-scale heterogeneities near the source, leads to accurate waveforms at a reduced computational cost compared to direct modeling. Further, it gives an interpretation of how nearby small-scale features interact with the source at low frequenci...
+      - link [ref=e202] [cursor=pointer]:
+        - /url: /meta/10.1016/j.colsurfa.2020.125118
+        - generic [ref=e203]:
+          - img "Argentina" [ref=e205]
+          - generic [ref=e206]: 16:02:52
+        - generic [ref=e207]: Facile synthesis of ZnO/GO/Ag3PO4 heterojunction photocatalyst with excellent photodegradation activity for tetracycline hydrochloride under visible light
+        - generic [ref=e208]: "Colloids and Surfaces A: Physicochemical and Engineering Aspects, 2020"
+        - generic [ref=e209]: A novel ZnO/GO/Ag3PO4 heterojunction photocatalyst was synthesized by a facile ultrasonic-assisted precipitation method for wastewater treatment. The structure, morphology, optical properties and photoelectrochemical properties of the catalysts were tested by various characterization methods. Compared with pure Ag3PO4, all the composite catalysts show significantly enhanced photocatalytic activity for the degradation of tetracycline hydrochloride (TC). And ZnO (20 wt%)/GO (2 wt%)/Ag3PO4 catalyst displays the highest photodegradation activity for TC (30 mg/L) without adjusting pH under visible light, while the degradation rate reaches 96.32 % adding 1.0 g/L catalyst. The enhanced photocatalytic activity can be attributed to the better adsorption ability, effe...
+      - link [ref=e210] [cursor=pointer]:
+        - /url: /meta/10.1088/2053-1591/3/10/105035
+        - generic [ref=e211]:
+          - img "China" [ref=e213]
+          - generic [ref=e214]: 16:02:52
+        - generic [ref=e215]:
+          - text: The novel dielectric relaxation behavior around the Curie point of (Ba
+          - subscript [ref=e216]: "0.7"
+          - text: Sr
+          - subscript [ref=e217]: "0.3"
+          - text: )
+          - subscript [ref=e218]: "0.96"
+          - text: "Y"
+          - subscript [ref=e219]: "0.04"
+          - text: TiO
+          - subscript [ref=e220]: "3"
+          - text: ceramics with giant effective permittivity
+        - generic [ref=e221]: Mater. Res. Express, 2016
+        - generic [ref=e222]: The temperature (80 K ~ 423 K) and frequency (40 Hz ~ 5 MHz) dependence of the permittivity were studied in (Ba0.7Sr0.3)0.96Y0.04TiO3 ceramics. A giant effective permittivity over 105 with a certain frequency and temperature stability and Debye-type dielectric relaxation behavior was observed. The complex impedance spectrum analysis reveals that the giant permittivity is due to the heterogeneous structure with a semiconducting bulk and high resistance electrode–ceramic interface. Deviating from low temperature (below 200 K) thermal activated behavior, the odd change of the characteristic relaxation frequency around the Curie point is observed and proven to be induced by the competition between the positive temperature coefficient of the resistance effect o...
+      - link [ref=e223] [cursor=pointer]:
+        - /url: /meta/10.1016/j.jpainsymman.2010.03.017
+        - generic [ref=e224]:
+          - img "China" [ref=e226]
+          - generic [ref=e227]: 16:02:52
+        - generic [ref=e228]: Impact of a Palliative Care Consultation Team on Cancer-Related Symptoms in Advanced Cancer Patients Referred to an Outpatient Supportive Care Clinic
+        - generic [ref=e229]: Journal of Pain and Symptom Management, 2011
+        - generic [ref=e230]: ContextPatients with advanced cancer may develop severe physical and psychosocial symptoms. There are limited data on the impact of an outpatient palliative consultation (PC) team on cancer-related symptoms.ObjectivesTo study the impact of the PC on symptoms in patients with advanced cancer receiving outpatient palliative care.MethodsFour hundred six consecutive patients referred to a supportive care outpatient center (OPC) from January 2006 to June 2007 with complete Edmonton Symptom Assessment Scale (0–10 scale) at the initial and follow-up visits were reviewed. Patient characteristics, change of symptoms at follow-up visit, and response rate were analyzed. Using logistic regression models, the predictors of improvement of pain and fatigue were assessed....
+      - link [ref=e231] [cursor=pointer]:
+        - /url: /meta/10.1111/pce.12082
+        - generic [ref=e232]:
+          - img "United States" [ref=e234]
+          - generic [ref=e235]: 16:02:52
+        - generic [ref=e236]: Arbuscular mycorrhizal fungi native from a Mediterranean saline area enhance maize tolerance to salinity through improved ion homeostasis
+        - generic [ref=e237]: Plant Cell & Environment, 2013
+        - generic [ref=e238]: Soil salinity restricts plant growth and productivity. Na(+) represents the major ion causing toxicity because it competes with K(+) for binding sites at the plasma membrane. Inoculation with arbuscular mycorrhizal fungi (AMF) can alleviate salt stress in the host plant through several mechanisms. These may include ion selection during the fungal uptake of nutrients from the soil or during transfer to the host plant. AM benefits could be enhanced when native AMF isolates are used. Thus, we investigated whether native AMF isolated from an area with problems of salinity and desertification can help maize plants to overcome the negative effects of salinity stress better than non-AM plants or plants inoculated with non-native AMF. Results showed that plants inoc...
+      - link [ref=e239] [cursor=pointer]:
+        - /url: /meta/10.1016/j.colsurfb.2017.08.019
+        - generic [ref=e240]:
+          - img "VPN" [ref=e242]
+          - generic [ref=e243]: 16:02:52
+        - generic [ref=e244]: "Catalase-modified gold nanoparticles: Determination of the degree of protein adsorption by gel electrophoresis"
+        - generic [ref=e245]: "Colloids and Surfaces B: Biointerfaces, 2017"
+        - generic [ref=e246]: In this study we present a method to determine the degree to which catalase (CAT) is adsorbed onto gold nanoparticles (AuNPs) using polyacrylamide gel electrophoresis (PAGE) with silver staining. AuNPs (13nm) were synthesized in water by the chemical reduction method and modified with CAT (AuNPs-CAT). The colloidal stability and NP size before and after the modification were investigated by dynamic light scattering and scanning transmission electron microscopy. Electrophoresis was performed under different conditions (native, with and without SDS, and with and without β-mercaptoethanol) to find the optimal conditions for determining the surface coverage of AuNPs with CAT protein. The results clearly indicate that PAGE can be used to determine the amount of ...
+      - 'link "Bulgaria 16:02:52 Predicting crown fuel biomass of Turkish red pine (Pinus brutia Ten.) for the Mediterranean regions of Turkey Šumar. list (Online), 2018 Točna procjena količine goriva je važan preduvjet za učinkovito upravljanje šumskim požarima. Ovo je istraživanje imalo za cilj razviti empirijske alometrijske jednadžbe za procjenu količine goriva iz krošnji stabala kalabrijskog bora ( Pinus brutia Ten.) u jugozapadnom mediteranskom području Turske korištenjem dendrometrijskih varijabli. Destruktivnom metodom uzorkovana su 84 stabla. Uzorci grana u gorivu iz biomase krošnji klasificirani su kao iglice i kao grane prema sljedećem rasponu promjera: vrlo tanke (&#8804;0,3 cm), tanke (0,31–0,6 cm), srednje (0,61–1,0 cm), debele (1,01–2,5 cm) i aktivno gorivo. Za procjenu biomase krošnjanja korištene su prsne visine, visine stabala, visine krošnji i širine krošnji kao neovisne varija..." [ref=e247] [cursor=pointer]':
+        - /url: /meta/10.31298/sl.142.11-12.4
+        - generic [ref=e248]:
+          - img "Bulgaria" [ref=e250]
+          - generic [ref=e251]: 16:02:52
+        - generic [ref=e252]: Predicting crown fuel biomass of Turkish red pine (Pinus brutia Ten.) for the Mediterranean regions of Turkey
+        - generic [ref=e253]: Šumar. list (Online), 2018
+        - generic [ref=e254]: "Točna procjena količine goriva je važan preduvjet za učinkovito upravljanje šumskim požarima. Ovo je istraživanje imalo za cilj razviti empirijske alometrijske jednadžbe za procjenu količine goriva iz krošnji stabala kalabrijskog bora ( Pinus brutia Ten.) u jugozapadnom mediteranskom području Turske korištenjem dendrometrijskih varijabli. Destruktivnom metodom uzorkovana su 84 stabla. Uzorci grana u gorivu iz biomase krošnji klasificirani su kao iglice i kao grane prema sljedećem rasponu promjera: vrlo tanke (&#8804;0,3 cm), tanke (0,31–0,6 cm), srednje (0,61–1,0 cm), debele (1,01–2,5 cm) i aktivno gorivo. Za procjenu biomase krošnjanja korištene su prsne visine, visine stabala, visine krošnji i širine krošnji kao neovisne varija..."
+      - link [ref=e255] [cursor=pointer]:
+        - /url: /meta/10.1016/j.petrol.2019.06.028
+        - generic [ref=e256]:
+          - img "Indonesia" [ref=e258]
+          - generic [ref=e259]: 16:02:52
+        - generic [ref=e260]: Experimental study on nitrogen drive and foam assisted nitrogen drive in varying-aperture fractures of carbonate reservoir
+        - generic [ref=e261]: Journal of Petroleum Science and Engineering, 2019
+        - generic [ref=e262]: Nitrogen gas drive and foam drive are commonly adopted for practical production in fractured carbonate reservoirs. A systematic study on nitrogen gas drive and foam assisted nitrogen gas drive in varying-aperture fractures is a practical and essential method to understand the EOR mechanism. In this study, we designed and fabricated similarity models and microscopic visual models. The fluid flow mechanisms were discussed combining the pressure response and dynamic displacement phenomenon. Experimental results show that the effective time of nitrogen gas drive was longer in decreasing-aperture fractures than that in increasing-aperture fractures. After water flooding, 0.8 PV nitrogen gas injection lead to gas channeling in decreasing-aperture fracture of 1 mm�...
+      - link [ref=e263] [cursor=pointer]:
+        - /url: /meta/10.1111/jce.12651
+        - generic [ref=e264]:
+          - img "United States" [ref=e266]
+          - generic [ref=e267]: 16:02:52
+        - generic [ref=e268]: Age, Atrial Fibrillation, and Structural Heart Disease Are the Main Determinants of Left Atrial Fibrosis Detected by Delayed‐Enhanced Magnetic Resonance Imaging in a General Cardiology Population
+        - generic [ref=e269]: Cardiovasc electrophysiol, 2015
+        - generic [ref=e270]: Atrial Fibrosis on MRI in Patients Introduction We studied the extent and distribution of left atrial (LA) fibrosis on delayed‐enhanced (DE) MRI in a general cardiology population. Methods and Results One hundred ninety consecutive patients referred for cardiac MRI underwent DE imaging using a free breathing method. The population comprised 60 AF patients and 130 patients without AF, including 75 with structural heart disease (SHD). DE was quantified using histogram thresholding, expressed in % of the wall. Regression analysis was performed to identify predictors of DE. Additionally, DE was registered on a template to study its distribution in subpopulations. In the total population, age, AF, and SHD were independently associated with DE. DE was increasing...
+      - link "Mexico 16:02:52 Molecular and functional characteristics of purified gum from Australian chia seeds Carbohydrate Polymers, 2016 Chia seed gum (CSG) was extracted from the seed coat of Salvia hispanica, purified in the laboratory and its chemical composition and functional properties were investigated. CSG was found to comprise 93.8% carbohydrate consisting of xylose, glucose, arabinose, galactose, glucuronic acid and galacturonic acid as monosaccharide units. The presence of uronic acids was reflected in the anionic behavior of the CSG solution over a wide range of pH (≥ 1.8). The solubility of CSG increased slightly with temperature and pH of the aqueous medium. CSG was able to resist pyrolytic decomposition at temperatures well in excess of 250 °C, and exhibited a high water holding capacity (23 times of its own weight). The surface activity and emulsifying properties of CSG wer..." [ref=e271] [cursor=pointer]:
+        - /url: /meta/10.1016/j.carbpol.2015.09.035
+        - generic [ref=e272]:
+          - img "Mexico" [ref=e274]
+          - generic [ref=e275]: 16:02:52
+        - generic [ref=e276]: Molecular and functional characteristics of purified gum from Australian chia seeds
+        - generic [ref=e277]: Carbohydrate Polymers, 2016
+        - generic [ref=e278]: Chia seed gum (CSG) was extracted from the seed coat of Salvia hispanica, purified in the laboratory and its chemical composition and functional properties were investigated. CSG was found to comprise 93.8% carbohydrate consisting of xylose, glucose, arabinose, galactose, glucuronic acid and galacturonic acid as monosaccharide units. The presence of uronic acids was reflected in the anionic behavior of the CSG solution over a wide range of pH (≥ 1.8). The solubility of CSG increased slightly with temperature and pH of the aqueous medium. CSG was able to resist pyrolytic decomposition at temperatures well in excess of 250 °C, and exhibited a high water holding capacity (23 times of its own weight). The surface activity and emulsifying properties of CSG wer...
+      - link [ref=e279] [cursor=pointer]:
+        - /url: /meta/10.1038/aps.2016.6
+        - generic [ref=e280]:
+          - img "United States" [ref=e282]
+          - generic [ref=e283]: 16:02:52
+        - generic [ref=e284]: Autophagy activation prevents sevoflurane-induced neurotoxicity in H4 human neuroglioma cells
+        - generic [ref=e285]: Acta Pharmacol Sin, 2016
+        - generic [ref=e286]: The inhaled anesthetic sevoflurane may induce cognitive impairment in both animals and humans. Previous study has shown that sevoflurane triggers ER stress and may lead to apoptosis in rat hippocampal neurons. In this study, we examined whether sevoflurane caused autophagy and its contributions to sevoflurane induced neuronal cell injury.H4 human neuroglioma cells were exposed to 4.1% sevoflurane for 6 h. Cell viability and apoptosis ratio were assessed using a CCK8 kit and flow cytometry, respectively. Autophagosomes in the cells were detected using GFP-LC3 plasmid transfection or transmission electronic microscopy. The expression of LC3B, p62/SQSTM, C/EBP homologous protein (CHOP) and glucose-related protein 78 (GRP78) was assessed with Western blotting.Se...
+      - link "China 16:02:52 A Question of Ethics Archives of Otolaryngology - Head and Neck Surgery, 1965 A QUERY regarding the ethics of mailing reprints to one's colleagues appears in the \"Letters to the Editor\" section of this issue. In an editorial in the July 1962 issue of theArchives of Otolaryngologythe problem of publicity in the lay press was considered. It was noted that \"Credit to a physician for his scientific contributions is accorded him by his professional colleagues... who alone are qualified to judge the merits of new procedures and techniques. The ethical physician is expected to acquire new patients from fellow physicians who recognize his competence or from other patients who have been well served by him.\" The mailing of reprints to professional colleagues is not different in its intent or effect from publication of an article in a scientific..." [ref=e287] [cursor=pointer]:
+        - /url: /meta/10.1001/archotol.1965.00760010006002
+        - generic [ref=e288]:
+          - img "China" [ref=e290]
+          - generic [ref=e291]: 16:02:52
+        - generic [ref=e292]: A Question of Ethics
+        - generic [ref=e293]: Archives of Otolaryngology - Head and Neck Surgery, 1965
+        - generic [ref=e294]: A QUERY regarding the ethics of mailing reprints to one's colleagues appears in the "Letters to the Editor" section of this issue. In an editorial in the July 1962 issue of theArchives of Otolaryngologythe problem of publicity in the lay press was considered. It was noted that "Credit to a physician for his scientific contributions is accorded him by his professional colleagues... who alone are qualified to judge the merits of new procedures and techniques. The ethical physician is expected to acquire new patients from fellow physicians who recognize his competence or from other patients who have been well served by him." The mailing of reprints to professional colleagues is not different in its intent or effect from publication of an article in a scientific...
+      - 'link "United States 16:02:52 Thermodynamics of hyperfiltration (reverse osmosis): criteria for efficient membranes Desalination, 1966 A theory of hyperfiltration, based on non-equilibrium thermodynamics, is presented, in which authors combine elements of their own previous work with important contributions of other investigators. The theory pinpoints criteria for salt-rejecting membranes; it does not deal with concentration polarization. The equations for water and salt flux across a differential membrane layer are derived from first principles, and integrated across the membrane, assuming constancy of three coefficients, viz. the specific hydraulic permeability, p 1 , the local solute permeability, P , and the reflection factor, σ. which is known to be a quantitative index of salt rejection, varying from zero to unity (for non-rejecting to perfect membranes respectively). This procedure ..." [ref=e295] [cursor=pointer]':
+        - /url: /meta/10.1016/s0011-9164(00)80018-1
+        - generic [ref=e296]:
+          - img "United States" [ref=e298]
+          - generic [ref=e299]: 16:02:52
+        - generic [ref=e300]: "Thermodynamics of hyperfiltration (reverse osmosis): criteria for efficient membranes"
+        - generic [ref=e301]: Desalination, 1966
+        - generic [ref=e302]: A theory of hyperfiltration, based on non-equilibrium thermodynamics, is presented, in which authors combine elements of their own previous work with important contributions of other investigators. The theory pinpoints criteria for salt-rejecting membranes; it does not deal with concentration polarization. The equations for water and salt flux across a differential membrane layer are derived from first principles, and integrated across the membrane, assuming constancy of three coefficients, viz. the specific hydraulic permeability, p 1 , the local solute permeability, P , and the reflection factor, σ. which is known to be a quantitative index of salt rejection, varying from zero to unity (for non-rejecting to perfect membranes respectively). This procedure ...
+      - 'link "Uruguay 16:02:52 Water fluoridation: current effectiveness and dental fluorosis Comm Dent Oral Epid, 1994 Abstract – This paper reviewed the literature on the evidence for water fluoridation''s effectiveness under current conditions of multiple fluoride use at recommended and at reduced concentrations, the extent of dental fluorosis at different fluoride concentrations, and the “halo” effect of water fluoridation. Using the relative difference in dental caries between communities with low and optimal water fluoride as an indicator, the effectiveness of water fluoridation has decreased over time as the use of other fluorides has increased. Thus the effectiveness of water fluoridation alone cannot now be determined. Compared to the early fluoridation studies, the differences in dental caries and fluorosis prevalence between fluoridated and non-fluoridated are..." [ref=e303] [cursor=pointer]':
+        - /url: /meta/10.1111/j.1600-0528.1994.tb01833.x
+        - generic [ref=e304]:
+          - img "Uruguay" [ref=e306]
+          - generic [ref=e307]: 16:02:52
+        - generic [ref=e308]: "Water fluoridation: current effectiveness and dental fluorosis"
+        - generic [ref=e309]: Comm Dent Oral Epid, 1994
+        - generic [ref=e310]: Abstract – This paper reviewed the literature on the evidence for water fluoridation's effectiveness under current conditions of multiple fluoride use at recommended and at reduced concentrations, the extent of dental fluorosis at different fluoride concentrations, and the “halo” effect of water fluoridation. Using the relative difference in dental caries between communities with low and optimal water fluoride as an indicator, the effectiveness of water fluoridation has decreased over time as the use of other fluorides has increased. Thus the effectiveness of water fluoridation alone cannot now be determined. Compared to the early fluoridation studies, the differences in dental caries and fluorosis prevalence between fluoridated and non-fluoridated are...
+      - 'link "China 16:02:52 Beyond the Influence of IDH Mutations: Exploring Epigenetic Vulnerabilities in Chondrosarcoma Cancers, 2020 Mutations in the isocitrate dehydrogenase (IDH1 or IDH2) genes are common in enchondromas and chondrosarcomas, and lead to elevated levels of the oncometabolite D-2-hydroxyglutarate causing widespread changes in the epigenetic landscape of these tumors. With the use of a DNA methylation array, we explored whether the methylome is altered upon progression from IDH mutant enchondroma towards high-grade chondrosarcoma. High-grade tumors show an overall increase in the number of highly methylated genes, indicating that remodeling of the methylome is associated with tumor progression. Therefore, an epigenetics compound screen was performed in five chondrosarcoma cell lines to therapeutically explore these underlying epigenetic vulnerabilities. Chondrosarcomas dem..." [ref=e311] [cursor=pointer]':
+        - /url: /meta/10.3390/cancers12123589
+        - generic [ref=e312]:
+          - img "China" [ref=e314]
+          - generic [ref=e315]: 16:02:52
+        - generic [ref=e316]: "Beyond the Influence of IDH Mutations: Exploring Epigenetic Vulnerabilities in Chondrosarcoma"
+        - generic [ref=e317]: Cancers, 2020
+        - generic [ref=e318]: Mutations in the isocitrate dehydrogenase (IDH1 or IDH2) genes are common in enchondromas and chondrosarcomas, and lead to elevated levels of the oncometabolite D-2-hydroxyglutarate causing widespread changes in the epigenetic landscape of these tumors. With the use of a DNA methylation array, we explored whether the methylome is altered upon progression from IDH mutant enchondroma towards high-grade chondrosarcoma. High-grade tumors show an overall increase in the number of highly methylated genes, indicating that remodeling of the methylome is associated with tumor progression. Therefore, an epigenetics compound screen was performed in five chondrosarcoma cell lines to therapeutically explore these underlying epigenetic vulnerabilities. Chondrosarcomas dem...
+      - link [ref=e319] [cursor=pointer]:
+        - /url: /meta/10.4103/ijmm.ijmm_20_138
+        - generic [ref=e320]:
+          - img "Russian Federation" [ref=e322]
+          - generic [ref=e323]: 16:02:52
+        - generic [ref=e324]: "Current Understanding, Knowledge Gaps and a Perspective on the Future of COVID-19 Infections: A Systematic Review"
+        - generic [ref=e325]: Indian Journal of Medical Microbiology, 2020
+        - generic [ref=e326]: A novel coronavirus infection, which began as an outbreak of unusual viral pneumonia in Wuhan, a central city in China, has evolved into a global health crisis. The outbreak is an unembellished reminder of the hazard coronaviruses pose to public health. Government and researchers around the world have been taking swift measures to control the outbreak and conduct aetiological studies to understand the various facets of the outbreak. This review is an attempt at providing an insight about the current understanding, knowledge gaps and a perspective on the future of coronavirus disease 2019 (COVID-19) infections. All the authentic data published so far on COVID-19 has been systematically analysed. PubMed, NCBI, World Health Organisation, Ministry of Health and ...
+      - 'link "Pakistan 16:02:52 Neonatal behavioural profile and crying in premature infants at term age Acta Paediatrica, 2006 To analyse behavioural characteristics of infants who cried more versus those who cried less, in a sample of low-risk premature infants.Participants were 63 low-risk healthy premature infants. At term age, the Neonatal Behavioral Assessment Scale (NBAS) was administered, and a 1-d diary for crying was recorded starting on the following day. Infants were categorized into two groups: those with \"high level of crying\" (> or = 75th percentile) and those with \"less crying\" (< 75th percentile), based on the total amount of crying time.Some individual NBAS scores and \"habituation\" and \"regulation of state\" cluster scores were lower in the high-level-of-crying group. Infants in the group with a high level of crying had lower thresholds for response in the \"peak of e..." [ref=e327] [cursor=pointer]':
+        - /url: /meta/10.1080/08035250600602984
+        - generic [ref=e328]:
+          - img "Pakistan" [ref=e330]
+          - generic [ref=e331]: 16:02:52
+        - generic [ref=e332]: Neonatal behavioural profile and crying in premature infants at term age
+        - generic [ref=e333]: Acta Paediatrica, 2006
+        - generic [ref=e334]: "To analyse behavioural characteristics of infants who cried more versus those who cried less, in a sample of low-risk premature infants.Participants were 63 low-risk healthy premature infants. At term age, the Neonatal Behavioral Assessment Scale (NBAS) was administered, and a 1-d diary for crying was recorded starting on the following day. Infants were categorized into two groups: those with \"high level of crying\" (> or = 75th percentile) and those with \"less crying\" (< 75th percentile), based on the total amount of crying time.Some individual NBAS scores and \"habituation\" and \"regulation of state\" cluster scores were lower in the high-level-of-crying group. Infants in the group with a high level of crying had lower thresholds for response in the \"peak of e..."
+      - 'link "Saudi Arabia 16:02:52 NUTRITIONAL ESSENTIALITY Nutrition Today, 1999 Log in or Register Subscribe to journalSubscribe Get new issue alertsGet alerts Enter your Email address: Wolters Kluwer Health may email you for journal alerts and information, but is committed to maintaining your privacy and will not share your personal information without your express consent. For more information, please refer to our Privacy Policy. Subscribe to eTOC Secondary Logo Journal Logo All Articles Images Videos Podcasts Blogs Advanced Search Toggle navigation Subscribe Register Login Articles & Issues Current IssuePrevious IssuesPublished Ahead-of-Print Collections Topical Collections CEFor Authors Submit a ManuscriptInformation for AuthorsLanguage Editing ServicesAuthor Permissions Journal Info About the JournalEditorial BoardAdvertisingOpen A..." [ref=e335] [cursor=pointer]':
+        - /url: /meta/10.1097/00017285-199911000-00005
+        - generic [ref=e336]:
+          - img "Saudi Arabia" [ref=e338]
+          - generic [ref=e339]: 16:02:52
+        - generic [ref=e340]: NUTRITIONAL ESSENTIALITY
+        - generic [ref=e341]: Nutrition Today, 1999
+        - generic [ref=e342]: "Log in or Register Subscribe to journalSubscribe Get new issue alertsGet alerts Enter your Email address: Wolters Kluwer Health may email you for journal alerts and information, but is committed to maintaining your privacy and will not share your personal information without your express consent. For more information, please refer to our Privacy Policy. Subscribe to eTOC Secondary Logo Journal Logo All Articles Images Videos Podcasts Blogs Advanced Search Toggle navigation Subscribe Register Login Articles & Issues Current IssuePrevious IssuesPublished Ahead-of-Print Collections Topical Collections CEFor Authors Submit a ManuscriptInformation for AuthorsLanguage Editing ServicesAuthor Permissions Journal Info About the JournalEditorial BoardAdvertisingOpen A..."
+      - link [ref=e343] [cursor=pointer]:
+        - /url: /meta/10.3233/wor-2012-0737-4402
+        - generic [ref=e344]:
+          - img "VPN" [ref=e346]
+          - generic [ref=e347]: 16:02:52
+        - generic [ref=e348]: Managing ergonomics in the development of rotation between workstations in the automotive industry. A balance between health and traceability of tasks
+        - generic [ref=e349]: "WORK: A Journal of Prevention, Assessment & Rehabilitation, 2012"
+        - generic [ref=e350]: Abstract When the subject rotation between workstations (job rotation) is inside the organizations it's seemed that technically there are lots of restrictions to the development of an adequate system of rotation. We went from the need for an advanced ergonomic study and even possible restrictions of versatility and training of employees. The implementation of the ideal system of rotation passes through stages of development and research ergonomic study of the level of employee versatility, awareness and discussion with employees, implementation of the proposed system, feedback and audits for maintenance of the ideal sequence and time of rotation. For the success of the project there is a need for multidisciplinary involvement in the areas of manufacturing en...
+      - link [ref=e351] [cursor=pointer]:
+        - /url: /meta/10.1016/j.toxrep.2015.07.018
+        - generic [ref=e352]:
+          - img "Saudi Arabia" [ref=e354]
+          - generic [ref=e355]: 16:02:52
+        - generic [ref=e356]: β-Caryophyllene attenuates dextran sulfate sodium-induced colitis in mice via modulation of gene expression associated mainly with colon inflammation
+        - generic [ref=e357]: Toxicology Reports, 2015
+        - generic [ref=e358]: We examined the modulatory activity of β-caryophyllene (CA) and gene expression in colitic colon tissues in a dextran sulfate sodium (DSS)-induced colitis model. Experimental colitis was induced by exposing male BALB/c mice to 5% DSS in drinking water for 7 days. CA (30 or 300 mg/kg) was administered orally once a day together with DSS. CA administration attenuated the increases in the disease activity index, colon weight/length ratio, inflammation score, and myeloperoxidase activity in DSS-treated mice. Microarray analysis showed that CA administration regulated the expression in colon tissue of inflammation-related genes including those for cytokines and chemokines (Ccl2, Ccl7, Ccl11, Ifitm3, IL-1β, IL-28, Tnfrsf1b, Tnfrsf12a); acute-phase proteins (S100...
+      - link [ref=e359] [cursor=pointer]:
+        - /url: /meta/10.1016/j.petrol.2019.05.010
+        - generic [ref=e360]:
+          - img "Argentina" [ref=e362]
+          - generic [ref=e363]: 16:02:52
+        - generic [ref=e364]: Using a segregated flow model to forecast production of oil, gas, and water in shale oil plays
+        - generic [ref=e365]: Journal of Petroleum Science and Engineering, 2019
+        - generic [ref=e366]: Application of a segregated-flow assumption to a physics-based flow model simplifies decline analysis for multi-phase fluid production. The segregated flow model assumes that, during production, oil and water can be treated as taking different flow paths from the matrix to the hydrofracture network. This simplifies forecasting production of both the oil and water phases. Subsurface and reservoir property data for horizontal fractured wells are limited. As a consequence, attempts to estimate decline curves and ultimate recoveries utilizing full-physics, multiphase reservoir simulations are poorly constrained. In contrast, robust production forecasts can be made using a simple, physics-based model based on scaling laws. In this study, analysis of production de...
+      - link [ref=e367] [cursor=pointer]:
+        - /url: /meta/10.1021/acsnano.1c00033
+        - generic [ref=e368]:
+          - img "China" [ref=e370]
+          - generic [ref=e371]: 16:02:52
+        - generic [ref=e372]: Oxygen-Delivering Polyfluorocarbon Nanovehicles Improve Tumor Oxygenation and Potentiate Photodynamic-Mediated Antitumor Immunity
+        - generic [ref=e373]: ACS Nano, 2021
+        - generic [ref=e374]: Hypoxia is a critical cause of tumor immunosuppression, and it significantly limits the efficacy of many anticancer modalities. Herein, we report an amphiphilic F11-derivative-based oxygen-delivering polyfluorocarbon nanovehicle loading photodynamic DiIC18(5) and reactive oxygen species (ROS)-sensitive prodrug of chemo-immunomodulatory gemcitabine (PF11DG), aimed at relieving tumor hypoxia and boosting antitumor immunity for cancer therapy. We optimized F11-based polyfluorocarbon nanovehicles with a 10-fold enhancement of tumor oxygenation. PF11DG exhibited intriguing capabilities, such as oxygen-dissolving, ROS production, and responsive drug release. In tumors, PF11DG exhibited flexible intratumoral permeation and boosted robust antitumor immune responses ...
+      - link [ref=e375] [cursor=pointer]:
+        - /url: /meta/10.1002/jcb.26404
+        - generic [ref=e376]:
+          - img "China" [ref=e378]
+          - generic [ref=e379]: 16:02:52
+        - generic [ref=e380]: SIRT1 deacetylates KLF4 to activate Claudin‐5 transcription in ovarian cancer cells
+        - generic [ref=e381]: J of Cellular Biochemistry, 2017
+        - generic [ref=e382]: Malignant cancers are distinguished from more benign forms of cancers by enhanced ability to disseminate. A number of factors aid the migration and invasion of malignant cancer cells. Epithelial-to-mesenchymal transition (EMT), which greatly facilitates the dissemination of cancer cells, is characterized by the loss of epithelial markers and the acquisition of mesenchymal markers thereby rendering the cells more migratory and invasive. We have previously shown that the class III lysine deacetylase SIRT1 plays a critical role curbing the metastasis of ovarian cancer cells partly by blocking EMT. Here we investigated the mechanism by which SIRT1 regulates the transcription of Claudin 5 (CLDN5), an epithelial marker gene, in ovarian cancer cells. SIRT1 activati...
+      - link [ref=e383] [cursor=pointer]:
+        - /url: /meta/10.1016/j.cemconcomp.2016.08.009
+        - generic [ref=e384]:
+          - img "Canada" [ref=e386]
+          - generic [ref=e387]: 16:02:52
+        - generic [ref=e388]: "Pseudo-coating model for predicting chloride diffusion into surface-coated concrete in tidal zone: Time-dependent approach"
+        - generic [ref=e389]: Cement and Concrete Composites, 2016
+        - generic [ref=e390]: There are three fundamental physical types for repairs by surface treatment on concrete, i.e., coating, penetrant, and sealer. Due to the inconsistency in using the penetrant-based model in a previous study, three limitations occur. To avoid the limitations, this paper proposes a simple pseudo-coating model embedded in a Fick-based time-dependent approach for modeling the performance of surface-coated concrete in the tidal zone subjected to chloride attack. In addition, the time-dependent regression equation is also developed and combined in computation. To validate the approach, the chloride diffusion predicted by the developed approach is compared to that measured in the previous study. From the study, it is found that the nonlinear and linear surface chlo...
+      - link [ref=e391] [cursor=pointer]:
+        - /url: /meta/10.1007/s10336-015-1218-1
+        - generic [ref=e392]:
+          - img "India" [ref=e394]
+          - generic [ref=e395]: 16:02:52
+        - generic [ref=e396]: Evidence that dorsally mounted satellite transmitters affect migration chronology of Northern Pintails
+        - generic [ref=e397]: J Ornithol, 2015
+        - generic [ref=e398]: We compared migration movements and chronology between Northern Pintails (Anas acuta) marked with dorsally mounted satellite transmitters and pintails marked only with tarsus rings. During weekly intervals of spring and autumn migration between their wintering area in Japan and nesting areas in Russia, the mean distance that ringed pintails had migrated was up to 1000 km farther than the mean distance radiomarked pintails migrated. Radiomarked pintails were detected at spring migration sites on average 9.9 days (90 % CI 8.0, 11.8) later than ringed pintails that were recovered within 50 km. Although ringed and radiomarked pintails departed from Japan on similar dates, the disparity in detection of radiomarked versus ringed pintails at shared sites increased ...
+      - link [ref=e399] [cursor=pointer]:
+        - /url: /meta/10.1207/s15374424jccp3401_5
+        - generic [ref=e400]:
+          - img "United States" [ref=e402]
+          - generic [ref=e403]: 16:02:52
+        - generic [ref=e404]: "Adolescent Peer Relations, Friendships, and Romantic Relationships: Do They Predict Social Anxiety and Depression?"
+        - generic [ref=e405]: Journal of Clinical Child & Adolescent Psychology, 2005
+        - generic [ref=e406]: This study examined multiple levels of adolescents' interpersonal functioning, including general peer relations (peer crowd affiliations, peer victimization), and qualities of best friendships and romantic relationships as predictors of symptoms of depression and social anxiety. An ethnically diverse sample of 421 adolescents (57% girls; 14 to 19 years) completed measures of peer crowd affiliation, peer victimization, and qualities of best friendships and romantic relationships. Peer crowd affiliations (high and low status), positive qualities in best friendships, and the presence of a dating relationship protected adolescents against feelings of social anxiety, whereas relational victimization and negative interactions in best friendships predicted high soc...
+      - 'link "Jordan 16:02:51 Interface plasmons at metal-metal junctions J. Phys. F: Met. Phys., 1982 An investigation of the nature and properties of interface plasmons at metal-metal junctions has been completed. It is shown that interface plasmons possess two characteristic momenta (and wavevectors), one being two-dimensional and the other three-dimensional. The three-dimensional momentum may be so large as to rule out the possibility of observing interface plasmons at some interfaces. A diffuse density profile at the interface can produce a complex structure in the interfacial density of plasmon modes. However, there is always strong structure with a zero two-dimensional wavevector at the interface plasma frequency. For three metal systems it is shown how the structure, associated with the individual interfaces, arises in the interfacial density of plasm..." [ref=e407] [cursor=pointer]':
+        - /url: /meta/10.1088/0305-4608/12/10/026
+        - generic [ref=e408]:
+          - img "Jordan" [ref=e410]
+          - generic [ref=e411]: 16:02:51
+        - generic [ref=e412]: Interface plasmons at metal-metal junctions
+        - generic [ref=e413]: "J. Phys. F: Met. Phys., 1982"
+        - generic [ref=e414]: An investigation of the nature and properties of interface plasmons at metal-metal junctions has been completed. It is shown that interface plasmons possess two characteristic momenta (and wavevectors), one being two-dimensional and the other three-dimensional. The three-dimensional momentum may be so large as to rule out the possibility of observing interface plasmons at some interfaces. A diffuse density profile at the interface can produce a complex structure in the interfacial density of plasmon modes. However, there is always strong structure with a zero two-dimensional wavevector at the interface plasma frequency. For three metal systems it is shown how the structure, associated with the individual interfaces, arises in the interfacial density of plasm...
+      - link "China 16:02:51 KAM tori for higher dimensional beam equations with constant potentials* Nonlinearity, 2006 In this paper, we consider the higher dimensional nonlinear beam equations with periodic boundary conditions, where the nonlinearity f(u) is a real–analytic function near u = 0 with f(0) = f'(0) = 0 and σ is a real parameter in an interval . It is proved that for 'most' positive parameters σ lying in the finite interval , the above equations admit a family of small-amplitude, linearly stable quasi-periodic solutions corresponding to a Cantor family of finite dimensional invariant tori of an associated infinite dimensional dynamical system. The proof is based on an infinite dimensional KAM theorem, modified from (Geng and You 2006 Commun. Math. Phys. 262 343–72) and (Xu J et al 1996 Sci. China Ser. A 39 372–83, 383–94) with weaker non-degeneracy con..." [ref=e415] [cursor=pointer]:
+        - /url: /meta/10.1088/0951-7715/19/10/007
+        - generic [ref=e416]:
+          - img "China" [ref=e418]
+          - generic [ref=e419]: 16:02:51
+        - generic [ref=e420]:
+          - text: KAM tori for higher dimensional beam equations with constant potentials
+          - superscript [ref=e421]: "*"
+        - generic [ref=e422]: Nonlinearity, 2006
+        - generic [ref=e423]: In this paper, we consider the higher dimensional nonlinear beam equations with periodic boundary conditions, where the nonlinearity f(u) is a real–analytic function near u = 0 with f(0) = f'(0) = 0 and σ is a real parameter in an interval . It is proved that for 'most' positive parameters σ lying in the finite interval , the above equations admit a family of small-amplitude, linearly stable quasi-periodic solutions corresponding to a Cantor family of finite dimensional invariant tori of an associated infinite dimensional dynamical system. The proof is based on an infinite dimensional KAM theorem, modified from (Geng and You 2006 Commun. Math. Phys. 262 343–72) and (Xu J et al 1996 Sci. China Ser. A 39 372–83, 383–94) with weaker non-degeneracy con...
+      - link [ref=e424] [cursor=pointer]:
+        - /url: /meta/10.1016/j.marpolbul.2011.10.023
+        - generic [ref=e425]:
+          - img "Argentina" [ref=e427]
+          - generic [ref=e428]: 16:02:51
+        - generic [ref=e429]: Distribution and seasonal variation in the partial pressure of CO2 during autumn and winter in Jiaozhou Bay, a region of high urbanization
+        - generic [ref=e430]: Marine Pollution Bulletin, 2012
+        - generic [ref=e431]: We investigated the partial pressure of carbon dioxide (pCO2) in Jiaozhou Bay (JZB), which is surrounded by the economically developed city of Qingdao, during two cruises undertaken in November, 2007 (autumn) and February, 2008 (winter). Results indicated that sea surface pCO2 in autumn varied between 315 and 720 μatm, with an average level of 418 μatm. In winter the sea surface pCO2 ranged from 145 to 315 μatm with an average of 249 μatm, which is below atmospheric pCO2. Despite seasonal temperature variation between autumn and winter, it was noted that biological process (production and respiration) were responsible for both spatial and seasonal variation during these seasons. We found that Jiaozhou Bay served as a net atmospheric CO2 source in autumn ...
+      - 'link "Brazil 16:02:51 Island detention: Affective eruption as trauma''s disruption Emotion, Space and Society, 2017 This article examines how remote detention facilities on islands function as transnational landscapes of sedimentation. Where trauma lies buried, affective eruptions move through seemingly fixed sites from hidden depths to surface. Detention facilities take many material forms in built landscapes: open and closed facilities, motels and military bases that have been repurposed, or state prisons. Much spatio-temporal logic surrounding island detentions assumes the possibility of enclosure and isolation of detainee bodies, subjectivities, and emotions. Research findings on island detentions debunk the assumption that people and emotions can be contained in the ''total institution.'' On the contrary, detention facilities are transnationally embedded in families, c..." [ref=e432] [cursor=pointer]':
+        - /url: /meta/10.1016/j.emospa.2017.02.006
+        - generic [ref=e433]:
+          - img "Brazil" [ref=e435]
+          - generic [ref=e436]: 16:02:51
+        - generic [ref=e437]: "Island detention: Affective eruption as trauma's disruption"
+        - generic [ref=e438]: Emotion, Space and Society, 2017
+        - generic [ref=e439]: "This article examines how remote detention facilities on islands function as transnational landscapes of sedimentation. Where trauma lies buried, affective eruptions move through seemingly fixed sites from hidden depths to surface. Detention facilities take many material forms in built landscapes: open and closed facilities, motels and military bases that have been repurposed, or state prisons. Much spatio-temporal logic surrounding island detentions assumes the possibility of enclosure and isolation of detainee bodies, subjectivities, and emotions. Research findings on island detentions debunk the assumption that people and emotions can be contained in the 'total institution.' On the contrary, detention facilities are transnationally embedded in families, c..."
+      - 'link "Chile 16:02:51 Time to diagnosis of retinoblastoma in Latin America: A systematic review Pediatric Hematology and Oncology, 2019 Retinoblastoma (RB) is the most common intraocular tumor of childhood. In low income countries, Time to diagnosis (TTD: interval between first symptom and diagnosis) has been associated with extraocular disease, metastasis and mortality. However, the relationship between TTD and prognosis is complex and not simply a linear correlation, particularly if TTD is" [ref=e440] [cursor=pointer]':
+        - /url: /meta/10.1080/08880018.2019.1605432
+        - generic [ref=e441]:
+          - img "Chile" [ref=e443]
+          - generic [ref=e444]: 16:02:51
+        - generic [ref=e445]: "Time to diagnosis of retinoblastoma in Latin America: A systematic review"
+        - generic [ref=e446]: Pediatric Hematology and Oncology, 2019
+        - generic [ref=e447]: "Retinoblastoma (RB) is the most common intraocular tumor of childhood. In low income countries, Time to diagnosis (TTD: interval between first symptom and diagnosis) has been associated with extraocular disease, metastasis and mortality. However, the relationship between TTD and prognosis is complex and not simply a linear correlation, particularly if TTD is"
+      - link [ref=e448] [cursor=pointer]:
+        - /url: /meta/10.1016/j.jtice.2021.04.037
+        - generic [ref=e449]:
+          - img "Russian Federation" [ref=e451]
+          - generic [ref=e452]: 16:02:51
+        - generic [ref=e453]: Structuring graphene quantum dots anchored CuO for high-performance hybrid supercapacitors
+        - generic [ref=e454]: Journal of the Taiwan Institute of Chemical Engineers, 2021
+        - generic [ref=e455]: Pseudocapacitive materials with multiple oxidation/reduction modes can deliver an improved specific capacity and energy density owing to their reversible Faradic redox reactions. Also, ingeniously integrating a conductive carbon material and a pseudocapacitive transition metal to develop reactive compounds with a high conductivity is a plausible solution to make up for the deficiencies of individual oxides and hydroxides. In this study, we rationally design graphene quantum dots decorated CuO nanoframework (GQDs/CuO) for high-performance supercapacitors. Specifically, the Cu-MOF template as the precursor with a confined porosity and skeleton as well as Cu2+ as the central atoms is converted into CuO by in-situ growth and annealing. Afterward, the negatively ...
+      - link [ref=e456] [cursor=pointer]:
+        - /url: /meta/10.2307/800751
+        - generic [ref=e457]:
+          - img "Brazil" [ref=e459]
+          - generic [ref=e460]: 16:02:51
+        - generic [ref=e461]: "From Sex as Sin to Sex as Work: COYOTE and the Reorganization of Prostitution as a Social Problem"
+        - generic [ref=e462]: Social Problems, 1990
+        - generic [ref=e463]: COYOTE (an acronym for “Call Off Your Old Tired Ethics”) is the central organization in the social movement to challenge traditional definitions of prostitution as a social problem. Using historical documents, this work focuses on COYOTE's campaign to sever prostitution from its historical association with sin, crime, and illicit sex, and place the social problem of prostitution firmly in the discourse of work, choice and civil rights. COYOTE has done this through extended debate with law enforcement officials over discrimination and selective enforcement of the law, with the feminist movement over the freedom of women to control and use their bodies as they see fit, and with public health agencies over the role of prostitutes in the AIDS epidemic. Combi...
+      - link "Oman 16:02:51 Kôzulite, an Mn-rich alkali amphibole Acta Crystallogr E Struct Rep Online, 2010 The crystal structure of kôzulite, an Mn-rich alkali amphibole with the ideal formula NaNa2[Mn42+(Fe3+,Al)]Si8O22(OH)2, trisodium tetramanganese iron/aluminium octasilicate dihydroxide, was refined from a natural specimen with composition (K0.20Na0.80)(Na1.60Ca0.18Mn2+0.22)(Mn2+2.14Mn3+0.25Mg2.20Fe3+0.27Al0.14)(Si7.92Al0.06Ti0.02)O22[(OH)1.86F0.14]. The site occupancies determined from the refinements are M1 = 0.453 (1) Mn + 0.547 (1) Mg, M2 = 0.766 (1) Mn + 0.234 (1) Mg, and M3 = 0.257 (1) Mn + 0.743 (1) Mg, where Mn and Mg represent (Mn+Fe) and (Mg+Al), respectively. The average M—O bond lengths are 2.064 (1), 2.139 (1), and 2.060 (1) Å for the M1, M2, and M3 sites, respectively, indicating the preference of large Mn2+ for the M2 site. Four parti..." [ref=e464] [cursor=pointer]:
+        - /url: /meta/10.1107/s1600536810046015
+        - generic [ref=e465]:
+          - img "Oman" [ref=e467]
+          - generic [ref=e468]: 16:02:51
+        - generic [ref=e469]: Kôzulite, an Mn-rich alkali amphibole
+        - generic [ref=e470]: Acta Crystallogr E Struct Rep Online, 2010
+        - generic [ref=e471]: The crystal structure of kôzulite, an Mn-rich alkali amphibole with the ideal formula NaNa2[Mn42+(Fe3+,Al)]Si8O22(OH)2, trisodium tetramanganese iron/aluminium octasilicate dihydroxide, was refined from a natural specimen with composition (K0.20Na0.80)(Na1.60Ca0.18Mn2+0.22)(Mn2+2.14Mn3+0.25Mg2.20Fe3+0.27Al0.14)(Si7.92Al0.06Ti0.02)O22[(OH)1.86F0.14]. The site occupancies determined from the refinements are M1 = 0.453 (1) Mn + 0.547 (1) Mg, M2 = 0.766 (1) Mn + 0.234 (1) Mg, and M3 = 0.257 (1) Mn + 0.743 (1) Mg, where Mn and Mg represent (Mn+Fe) and (Mg+Al), respectively. The average M—O bond lengths are 2.064 (1), 2.139 (1), and 2.060 (1) Å for the M1, M2, and M3 sites, respectively, indicating the preference of large Mn2+ for the M2 site. Four parti...
+      - link [ref=e472] [cursor=pointer]:
+        - /url: /meta/10.1186/2047-9158-3-11
+        - generic [ref=e473]:
+          - img "Venezuela, RB" [ref=e475]
+          - generic [ref=e476]: 16:02:51
+        - generic [ref=e477]: "The efficacy and safety of pramipexole ER versus IR in Chinese patients with Parkinson’s disease: a randomized, double-blind, double-dummy, parallel-group study"
+        - generic [ref=e478]: Transl Neurodegener, 2014
+        - generic [ref=e479]: To evaluate the non-inferiority of pramipexole extended-release (ER) versus immediate-release (IR) in Chinese patients with Parkinson’s disease (PD) in a double-blind, randomized, parallel-group study. Subjects were Chinese patients with idiopathic PD with diagnosis ≥ 2 years prior to trial, age ≥ 30 years old at diagnosis, and Modified Hoehn and Yahr score 2-4 during ‘on’-time. Subjects received treatment with pramipexole ER (n=234) or IR (n=239). Non-inferiority was based on the primary endpoint, the change from baseline to end of maintenance (week 18) in the UPDRS (Parts II + III) total score. For the primary endpoint, the adjusted mean changes (standard error) of UPDRS Parts II + III at week 18 were -13.81 (0.655) and -13.05 (0.643) for ER and ...
+      - link [ref=e480] [cursor=pointer]:
+        - /url: /meta/10.1016/s0141-8130(98)00088-9
+        - generic [ref=e481]:
+          - img "United States" [ref=e483]
+          - generic [ref=e484]: 16:02:51
+        - generic [ref=e485]: Designing recombinant spider silk proteins to control assembly
+        - generic [ref=e486]: International Journal of Biological Macromolecules, 1999
+        - generic [ref=e487]: The consensus repeat sequence found in the dragline silk from the spider, Nephila clavipes, was redesigned to incorporate a redox trigger flanking the beta-sheet forming polyalanine sequences. The methionine redox trigger, in the oxidized state, was incorporated to prevent the formation of the beta sheets, while in the reduced state would not result in sterical limitations to beta sheet formation. A synthetic gene incorporating the trigger was constructed, cloned and then expressed in Escherichia coli. The purified protein, about 25 kDa, contained the expected amino acid composition and migration behavior on SDS-PAGE. The recombinant protein was analyzed by X-ray diffraction, TEM, electron diffraction and circular dichroism in both oxidized and reduced state...
+      - link "United States 16:02:51 The Association Between Community Water Fluoridation and Adult Tooth Loss Am J Public Health, 2010 We sought to estimate the association between community water fluoridation (CWF) exposure at various stages of life and adult tooth loss.We used data from the 1995 through 1999 Behavioral Risk Factor Surveillance System, merged with data from the 1992 Water Fluoridation Census, to estimate interval regression models that relate CWF exposure with tooth loss.Our results indicate that CWF levels in the county of residence at the time of the respondent's birth are significantly related to tooth loss but current CWF levels are not. In addition, the impact of CWF exposure is larger for individuals of lower socioeconomic status.This study suggests that the benefits of CWF may be larger than previously believed and that CWF has a lasting improvement in racial/ethnic..." [ref=e488] [cursor=pointer]:
+        - /url: /meta/10.2105/ajph.2009.189555
+        - generic [ref=e489]:
+          - img "United States" [ref=e491]
+          - generic [ref=e492]: 16:02:51
+        - generic [ref=e493]: The Association Between Community Water Fluoridation and Adult Tooth Loss
+        - generic [ref=e494]: Am J Public Health, 2010
+        - generic [ref=e495]: We sought to estimate the association between community water fluoridation (CWF) exposure at various stages of life and adult tooth loss.We used data from the 1995 through 1999 Behavioral Risk Factor Surveillance System, merged with data from the 1992 Water Fluoridation Census, to estimate interval regression models that relate CWF exposure with tooth loss.Our results indicate that CWF levels in the county of residence at the time of the respondent's birth are significantly related to tooth loss but current CWF levels are not. In addition, the impact of CWF exposure is larger for individuals of lower socioeconomic status.This study suggests that the benefits of CWF may be larger than previously believed and that CWF has a lasting improvement in racial/ethnic...
+      - link "United States 16:02:51 Using Multiwavelength Variability to Explore the Connection among X-Ray Emission, the Far-ultraviolet H2 Bump, and Accretion in T Tauri Stars ApJ, 2019 The high-energy radiation fields of T Tauri stars (TTS) should affect the surrounding circumstellar disk, having implications for disk transport and heating. Yet, observational evidence of the effect of high-energy fields on disks is scarce. Here we investigate the connection between X-ray emission and the innermost gas disk by leveraging the variability of TTS. We obtained multiple epochs of coordinated data (taken either simultaneously or within a few hours) of accreting TTS with the Hubble Space Telescope, the Neil Gehrels Swift Observatory, and the Chandra X-ray Observatory. We measured the far-ultraviolet (FUV) H2 bump feature at 1600 A, which traces gas" [ref=e496] [cursor=pointer]:
+        - /url: /meta/10.3847/1538-4357/ab16e6
+        - generic [ref=e497]:
+          - img "United States" [ref=e499]
+          - generic [ref=e500]: 16:02:51
+        - generic [ref=e501]:
+          - text: Using Multiwavelength Variability to Explore the Connection among X-Ray Emission, the Far-ultraviolet H
+          - subscript [ref=e502]: "2"
+          - text: Bump, and Accretion in T Tauri Stars
+        - generic [ref=e503]: ApJ, 2019
+        - generic [ref=e504]: The high-energy radiation fields of T Tauri stars (TTS) should affect the surrounding circumstellar disk, having implications for disk transport and heating. Yet, observational evidence of the effect of high-energy fields on disks is scarce. Here we investigate the connection between X-ray emission and the innermost gas disk by leveraging the variability of TTS. We obtained multiple epochs of coordinated data (taken either simultaneously or within a few hours) of accreting TTS with the Hubble Space Telescope, the Neil Gehrels Swift Observatory, and the Chandra X-ray Observatory. We measured the far-ultraviolet (FUV) H2 bump feature at 1600 A, which traces gas
+      - link [ref=e505] [cursor=pointer]:
+        - /url: /meta/10.1016/j.clinph.2004.03.004
+        - generic [ref=e506]:
+          - img "Pakistan" [ref=e508]
+          - generic [ref=e509]: 16:02:51
+        - generic [ref=e510]: Primary motor cortex activation during action observation revealed by wavelet analysis of the EEG
+        - generic [ref=e511]: Clinical Neurophysiology, 2004
+        - generic [ref=e512]: We characterised the spectral response of the EEG to median nerve stimulation using wavelet analysis, and compared the relative magnitudes of effect of several different action–observation conditions on the beta and mu ‘rebound’ rhythms. EEG responses to median nerve stimulation were recorded from 8 normal adult subjects during baseline or action–observation conditions. Analysis was performed by convolution of the EEG with a family of wavelets. Decreased power in the mu and beta bands characterized the EEG following median nerve stimulation until 500 ms post-stimulus, followed by increased amplitudes (‘rebound’) of both rhythms. Execution of movement, observation of object-directed movement and observation of somatosensory stimulation all caused ...
+      - 'link "United States 16:02:51 PRINT: A Protein Bioconjugation Method with Exquisite N-terminal Specificity Sci Rep, 2015 Abstract Chemical conjugation is commonly used to enhance the pharmacokinetics, biodistribution and potency of protein therapeutics, but often leads to non-specific modification or loss of bioactivity. Here, we present a simple, versatile and widely applicable method that allows exquisite N-terminal specific modification of proteins. Combining reversible side-chain blocking and protease mediated cleavage of a commonly used HIS tag appended to a protein, we generate with high yield and purity exquisitely site specific and selective bio-conjugates of TNF-α by using amine reactive NHS ester chemistry. We confirm the N terminal selectivity and specificity using mass spectral analyses and show near complete retention of the biological activity of our model prote..." [ref=e513] [cursor=pointer]':
+        - /url: /meta/10.1038/srep18363
+        - generic [ref=e514]:
+          - img "United States" [ref=e516]
+          - generic [ref=e517]: 16:02:51
+        - generic [ref=e518]: "PRINT: A Protein Bioconjugation Method with Exquisite N-terminal Specificity"
+        - generic [ref=e519]: Sci Rep, 2015
+        - generic [ref=e520]: Abstract Chemical conjugation is commonly used to enhance the pharmacokinetics, biodistribution and potency of protein therapeutics, but often leads to non-specific modification or loss of bioactivity. Here, we present a simple, versatile and widely applicable method that allows exquisite N-terminal specific modification of proteins. Combining reversible side-chain blocking and protease mediated cleavage of a commonly used HIS tag appended to a protein, we generate with high yield and purity exquisitely site specific and selective bio-conjugates of TNF-α by using amine reactive NHS ester chemistry. We confirm the N terminal selectivity and specificity using mass spectral analyses and show near complete retention of the biological activity of our model prote...
+      - 'link "Malaysia 16:02:51 COCAINE AND PREGNANCY: MATERNAL AND INFANT OUTCOME Pediatr Res, 1987 The number of infants born to women who abuse cocaine is rapidly increasing. Subjects of this study, conducted within a drug treatment program providing pre and postnatal services to drug dependent women(DDW), included 237 pregnant women: 91 cocaine using DDW, 83 non-cocaine using DDW, and 63 non-DDW. The groups were similar for maternal age, socioeconomic status, nicotine use and parity, but differed in race. Abruptio placentae occurred in 8% of the cocaine DDW, 4% of the non-cocaine DDW and in 2% of the non-DDW. Spontaneous abortions, emergency C-sections and meconium staining occurred more often in the cocaine DDW than in either of the other 2 groups. Birth weight and length, head circumference, gestational age, and 1 min. Apgar scores were significantly ..." [ref=e521] [cursor=pointer]':
+        - /url: /meta/10.1203/00006450-198704010-00424
+        - generic [ref=e522]:
+          - img "Malaysia" [ref=e524]
+          - generic [ref=e525]: 16:02:51
+        - generic [ref=e526]: "COCAINE AND PREGNANCY: MATERNAL AND INFANT OUTCOME"
+        - generic [ref=e527]: Pediatr Res, 1987
+        - generic [ref=e528]: "The number of infants born to women who abuse cocaine is rapidly increasing. Subjects of this study, conducted within a drug treatment program providing pre and postnatal services to drug dependent women(DDW), included 237 pregnant women: 91 cocaine using DDW, 83 non-cocaine using DDW, and 63 non-DDW. The groups were similar for maternal age, socioeconomic status, nicotine use and parity, but differed in race. Abruptio placentae occurred in 8% of the cocaine DDW, 4% of the non-cocaine DDW and in 2% of the non-DDW. Spontaneous abortions, emergency C-sections and meconium staining occurred more often in the cocaine DDW than in either of the other 2 groups. Birth weight and length, head circumference, gestational age, and 1 min. Apgar scores were significantly ..."
+      - link "United States 16:02:51 Fluctuations of the Casimir pressure at finite temperature Phys. Rev. D, 1995 Using standard techniques of quantum field theory at finite temperature T we determine the correlation function for the photon field in the presence of two parallel conducting plates and apply it to investigate the fluctuations of the Casimir pressure. Theoretical estimates of these fluctuations are given. We study especially the cases of the low and the high temperature limits. In the high temperature limit we substitute the Planck distribution by the Rayleigh-Jeans distribution leading to a classical correlation function. This function allows a derivation of the Casimir pressure, but not of its fluctuations because these functions cannot be multiplied. Therefore, the fluctuation of the Casimir pressure in the high temperature limit has to be determined fro..." [ref=e529] [cursor=pointer]:
+        - /url: /meta/10.1103/PhysRevD.52.2341
+        - generic [ref=e530]:
+          - img "United States" [ref=e532]
+          - generic [ref=e533]: 16:02:51
+        - generic [ref=e534]: Fluctuations of the Casimir pressure at finite temperature
+        - generic [ref=e535]: Phys. Rev. D, 1995
+        - generic [ref=e536]: Using standard techniques of quantum field theory at finite temperature T we determine the correlation function for the photon field in the presence of two parallel conducting plates and apply it to investigate the fluctuations of the Casimir pressure. Theoretical estimates of these fluctuations are given. We study especially the cases of the low and the high temperature limits. In the high temperature limit we substitute the Planck distribution by the Rayleigh-Jeans distribution leading to a classical correlation function. This function allows a derivation of the Casimir pressure, but not of its fluctuations because these functions cannot be multiplied. Therefore, the fluctuation of the Casimir pressure in the high temperature limit has to be determined fro...
+      - link "China 16:02:51 Pneumonia Nat Rev Dis Primers, 2021 Pneumonia is a common acute respiratory infection that affects the alveoli and distal airways; it is a major health problem and associated with high morbidity and short-term and long-term mortality in all age groups worldwide. Pneumonia is broadly divided into community-acquired pneumonia or hospital-acquired pneumonia. A large variety of microorganisms can cause pneumonia, including bacteria, respiratory viruses and fungi, and there are great geographical variations in their prevalence. Pneumonia occurs more commonly in susceptible individuals, including children of" [ref=e537] [cursor=pointer]:
+        - /url: /meta/10.1038/s41572-021-00259-0
+        - generic [ref=e538]:
+          - img "China" [ref=e540]
+          - generic [ref=e541]: 16:02:51
+        - generic [ref=e542]: Pneumonia
+        - generic [ref=e543]: Nat Rev Dis Primers, 2021
+        - generic [ref=e544]: Pneumonia is a common acute respiratory infection that affects the alveoli and distal airways; it is a major health problem and associated with high morbidity and short-term and long-term mortality in all age groups worldwide. Pneumonia is broadly divided into community-acquired pneumonia or hospital-acquired pneumonia. A large variety of microorganisms can cause pneumonia, including bacteria, respiratory viruses and fungi, and there are great geographical variations in their prevalence. Pneumonia occurs more commonly in susceptible individuals, including children of
+      - link [ref=e545] [cursor=pointer]:
+        - /url: /meta/10.1016/j.petrol.2018.09.074
+        - generic [ref=e546]:
+          - img "Russian Federation" [ref=e548]
+          - generic [ref=e549]: 16:02:51
+        - generic [ref=e550]: Minimizing the HTHP filtration loss of oil-based drilling fluid with swellable polymer microspheres
+        - generic [ref=e551]: Journal of Petroleum Science and Engineering, 2019
+        - generic [ref=e552]: Abstract Filtration control of drilling fluid plays an important role in the process of wellbore construction and ensures the success of drilling operation. A swellable polymer microsphere (SPM) of methylmethacrylate (MMA), butyl acrylate (BA), and lauryl methacrylate (LMA) was synthesized with suspension polymerization. Its swelling property was characterized by oil adsorption capacity measurement. First, the effect of SPM on the filtration and rheological properties of virgin organic clay dispersion was investigated. Then the filtration and rheological properties of mineral oil-based drilling fluid in the presence of SPM were elucidated under the respective conditions of hot aging temperature, oil to water ratio and density. Furthermore, the filtration con...
+      - 'link "United States 16:02:51 Thermodynamics of the Hydration Shell. 1. Excess Energy of a Hydrophobic Solute J. Phys. Chem., 1994 ADVERTISEMENT RETURN TO ISSUEPREVArticleNEXTThermodynamics of the Hydration Shell. 1. Excess Energy of a Hydrophobic SoluteNobuyuki Matubayasi, Lynne H. Reed, and Ronald M. LevyCite this: J. Phys. Chem. 1994, 98, 41, 10640–10649Publication Date (Print):October 1, 1994Publication History Published online1 May 2002Published inissue 1 October 1994https://doi.org/10.1021/j100092a040RIGHTS & PERMISSIONSArticle Views408Altmetric-Citations103LEARN ABOUT THESE METRICSArticle Views are the COUNTER-compliant sum of full text article downloads since November 2008 (both PDF and HTML) across all institutions and individuals. These metrics are regularly updated to reflect usage leading up to the last few days.Citations are the number of other articles citing this articl..." [ref=e553] [cursor=pointer]':
+        - /url: /meta/10.1021/j100092a040
+        - generic [ref=e554]:
+          - img "United States" [ref=e556]
+          - generic [ref=e557]: 16:02:51
+        - generic [ref=e558]: Thermodynamics of the Hydration Shell. 1. Excess Energy of a Hydrophobic Solute
+        - generic [ref=e559]: J. Phys. Chem., 1994
+        - generic [ref=e560]: "ADVERTISEMENT RETURN TO ISSUEPREVArticleNEXTThermodynamics of the Hydration Shell. 1. Excess Energy of a Hydrophobic SoluteNobuyuki Matubayasi, Lynne H. Reed, and Ronald M. LevyCite this: J. Phys. Chem. 1994, 98, 41, 10640–10649Publication Date (Print):October 1, 1994Publication History Published online1 May 2002Published inissue 1 October 1994https://doi.org/10.1021/j100092a040RIGHTS & PERMISSIONSArticle Views408Altmetric-Citations103LEARN ABOUT THESE METRICSArticle Views are the COUNTER-compliant sum of full text article downloads since November 2008 (both PDF and HTML) across all institutions and individuals. These metrics are regularly updated to reflect usage leading up to the last few days.Citations are the number of other articles citing this articl..."
+      - link "India 16:02:51 New Robust Peacekeeping Proc. annu. meet., 2018 Peacekeeping, conceptually, was designed to be traditionally defensive in nature with a neutral, unarmed, multinational force maintaining or monitoring peace. The first major example of a United Nations peacekeeping force dates to the initial Arab-Israeli conflict with the UN Truce Supervision Organization (UNSTO), established in May 1948. The peacekeepers were there to observe and maintain the ceasefire and assist in any terms of the armistice agreements following the initial fighting with the partition of the British Mandate in Palestine and the later declaration of the State of Israel. The Security Council Resolution “ Instruct [ ed ] the United Nations Mediator in Palestine, in concert with the Truce Commission, to supervise the observance of the above..." [ref=e561] [cursor=pointer]:
+        - /url: /meta/10.1017/amp.2019.12
+        - generic [ref=e562]:
+          - img "India" [ref=e564]
+          - generic [ref=e565]: 16:02:51
+        - generic [ref=e566]: New Robust Peacekeeping
+        - generic [ref=e567]: Proc. annu. meet., 2018
+        - generic [ref=e568]: Peacekeeping, conceptually, was designed to be traditionally defensive in nature with a neutral, unarmed, multinational force maintaining or monitoring peace. The first major example of a United Nations peacekeeping force dates to the initial Arab-Israeli conflict with the UN Truce Supervision Organization (UNSTO), established in May 1948. The peacekeepers were there to observe and maintain the ceasefire and assist in any terms of the armistice agreements following the initial fighting with the partition of the British Mandate in Palestine and the later declaration of the State of Israel. The Security Council Resolution “ Instruct [ ed ] the United Nations Mediator in Palestine, in concert with the Truce Commission, to supervise the observance of the above...
+      - link [ref=e569] [cursor=pointer]:
+        - /url: /meta/10.1016/s1081-1206(10)60131-7
+        - generic [ref=e570]:
+          - img "Philippines" [ref=e572]
+          - generic [ref=e573]: 16:02:51
+        - generic [ref=e574]: "SERUM EOSINOPHIL-DERIVED NEUROTOXIN IN CHILDHOOD ATOPIC DERMATITIS: A USEFUL MARKER OF DISEASE ACTIVITY?"
+        - generic [ref=e575]: Annals of Allergy, Asthma & Immunology, 2009
+        - generic [ref=e576]: "Atopic dermatitis (AD) is a chronic and recurring allergic inflammatory skin disease frequently associated with peripheral eosinophilia. 1 Leiferman KM Eosinophils in atopic dermatitis. Allergy. 1989; 44: S20-S26 PubMed Google Scholar Eosinophils play a role in the airway inflammatory process of AD by which the activated cells release granule proteins such as eosinophil cationic protein (ECP) and eosinophil-derived neurotoxin (EDN). Although urinary EDN concentration is reportedly related to the severity of AD, 2 Goto T Morioka J Inamura H et al. Urinary eosinophil-derived neurotoxin concentrations in patients with atopic dermatitis: a useful clinical marker for disease activity. Allergol Int. 2007; 56: 433-438 Crossref PubMed Scopus (20) Google Scholar , 3 ..."
+      - link [ref=e577] [cursor=pointer]:
+        - /url: /meta/10.1016/j.jiec.2009.09.069
+        - generic [ref=e578]:
+          - img "Germany" [ref=e580]
+          - generic [ref=e581]: 16:02:51
+        - generic [ref=e582]: Utilization of rice-husk packed beds as fine dust collectors at heavy dust loadings
+        - generic [ref=e583]: Journal of Industrial and Engineering Chemistry, 2010
+        - generic [ref=e584]: Abstract Typical rice mills generally generate tonnes of biomass which is rice husks and a significant quantity of coarse and fine dusts from the paddy, resulting in public health concern. Instead of normal air cyclones which are not efficient for collecting fine soft-hair (detached pubescence) particles smaller than a few microns, a new system using packed beds of rice husks was developed for collection fine dusts. It was found that the rice-husk packed beds could exhibit an effective performance in capturing fine dusts at various dust loadings with collection efficiency higher than 85% by mass. The filtrating phenomenon could be observed as an integrated effect of cake and deep-bed filtrations due to the heavy dust loads, agglomeration of dusts, and cohesi...
+      - 'link "Jordan 16:02:51 Saving Natural Teeth: Intentional Replantation—Protocol and Case Series Journal of Endodontics, 2017 Introduction Intentional replantation is a reliable and predictable treatment for cases in which nonsurgical endodontic retreatment failed or is impractical and endodontic surgery is hampered because of anatomic limitations. Methods and Results This article presents a protocol for intentional replantation illustrated with some interesting cases. The cases presented here are from patients (average age, 61 years) with no contributing medical history. The cases are molars with previous failed endodontic treatment/retreatment and diagnosed with apical periodontitis. Treatment procedures included atraumatic extractions with minimal manipulations of the periodontal ligament, followed by root-end resection, root-end preparation with ultrasonic tips, root-end fill w..." [ref=e585] [cursor=pointer]':
+        - /url: /meta/10.1016/j.joen.2017.08.009
+        - generic [ref=e586]:
+          - img "Jordan" [ref=e588]
+          - generic [ref=e589]: 16:02:51
+        - generic [ref=e590]: "Saving Natural Teeth: Intentional Replantation—Protocol and Case Series"
+        - generic [ref=e591]: Journal of Endodontics, 2017
+        - generic [ref=e592]: Introduction Intentional replantation is a reliable and predictable treatment for cases in which nonsurgical endodontic retreatment failed or is impractical and endodontic surgery is hampered because of anatomic limitations. Methods and Results This article presents a protocol for intentional replantation illustrated with some interesting cases. The cases presented here are from patients (average age, 61 years) with no contributing medical history. The cases are molars with previous failed endodontic treatment/retreatment and diagnosed with apical periodontitis. Treatment procedures included atraumatic extractions with minimal manipulations of the periodontal ligament, followed by root-end resection, root-end preparation with ultrasonic tips, root-end fill w...
+      - link [ref=e593] [cursor=pointer]:
+        - /url: /meta/10.1016/j.ecosys.2019.100719
+        - generic [ref=e594]:
+          - img "Indonesia" [ref=e596]
+          - generic [ref=e597]: 16:02:51
+        - generic [ref=e598]: "Impact of an unexplained component of real exchange rate volatility on FDI: Evidence from transition countries"
+        - generic [ref=e599]: Economic Systems, 2019
+        - generic [ref=e600]: Abstract The aim of this paper is to examine the impact of an unexplained component of real exchange rate volatility on FDI in transition economies. We make an attempt to overcome some problems associated with previous studies; the aggregation problem, inadequate measures of volatility, short-run focus and the endogeneity problem. Using a GARCH specification, we focus on long-run volatility, while we control for the endogeneity problem by applying SYS-GMM estimation. The obtained results show that the impact of the unexplained component of real exchange rate volatility on FDI differs among economic activities since 2000. As part of the re-estimation exercise, we use two alternative measures of volatility to avoid arbitrariness. The obtained results are to a ...
+      - link [ref=e601] [cursor=pointer]:
+        - /url: /meta/10.1111/jpn.12757
+        - generic [ref=e602]:
+          - img "China" [ref=e604]
+          - generic [ref=e605]: 16:02:51
+        - generic [ref=e606]: Effects of dietary tryptophan levels on performance and biochemical variables of plasma and intestinal mucosa in yellow‐feathered broiler breeders
+        - generic [ref=e607]: Animal Physiology Nutrition, 2017
+        - generic [ref=e608]: The effects of dietary tryptophan (Trp) levels on performance and biochemical variables of plasma and intestinal mucosa in broiler breeder hens were investigated in this study. A total of 780 Lingnan yellow-feathered broiler breeder hens were randomly assigned in one of five dietary treatments with six replicates per treatment (26 birds per replicate). The breeder hens were fed either the basal diet (0.11% Trp) or the basal diet supplemented to 0.15%, 0.19%, 0.23% and 0.27% Trp, from 197 to 259 days of age. Graded levels of Trp from 0.11% to 0.27% in the diet produced quadratic (p < .05) responses in laying rate, average daily egg production, and feed conversion ratio, and quadratic (p < .01) responses in total large follicle weight and average large follicl...
+      - link [ref=e609] [cursor=pointer]:
+        - /url: /meta/10.1371/journal.ppat.1006403
+        - generic [ref=e610]:
+          - img "Myanmar" [ref=e612]
+          - generic [ref=e613]: 16:02:51
+        - generic [ref=e614]: Adaptation of Candida albicans to environmental pH induces cell wall remodelling and enhances innate immune recognition
+        - generic [ref=e615]: PLoS Pathog, 2017
+        - generic [ref=e616]: Candida albicans is able to proliferate in environments that vary dramatically in ambient pH, a trait required for colonising niches such as the stomach, vaginal mucosal and the GI tract. Here we show that growth in acidic environments involves cell wall remodelling which results in enhanced chitin and β-glucan exposure at the cell wall periphery. Unmasking of the underlying immuno-stimulatory β-glucan in acidic environments enhanced innate immune recognition of C. albicans by macrophages and neutrophils, and induced a stronger proinflammatory cytokine response, driven through the C-type lectin-like receptor, Dectin-1. This enhanced inflammatory response resulted in significant recruitment of neutrophils in an intraperitoneal model of infection, a hallmark...
+      - link [ref=e617] [cursor=pointer]:
+        - /url: /meta/10.1017/s0022112002002549
+        - generic [ref=e618]:
+          - img "Egypt, Arab Rep." [ref=e620]
+          - generic [ref=e621]: 16:02:50
+        - generic [ref=e622]: Micro-structure and Lagrangian statistics of the scalar field with a mean gradient in isotropic turbulence
+        - generic [ref=e623]: J. Fluid Mech., 2003
+        - generic [ref=e624]: This paper presents an analysis and numerical study of the relations between the small-scale velocity and scalar fields in fully developed isotropic turbulence with random forcing of the large scales and with an imposed constant mean scalar gradient. Simulations have been performed for a range of Reynolds numbers from Re λ = 22 to 130 and Schmidt numbers from Sc = 1/25 to 144. The simulations show that for all values of Sc [ges ] 0.1 steep scalar gradients are concentrated in intermittently distributed sheet-like structures with a thickness approximately equal to the Batchelor length scale η/ Sc ½ with η the Kolmogorov length scale. We observe that these sheets or cliffs are preferentially aligned perpendicular to the direction of the mean scalar gradien...
+      - link [ref=e625] [cursor=pointer]:
+        - /url: /meta/10.1016/j.semcdb.2009.12.006
+        - generic [ref=e626]:
+          - img "United States" [ref=e628]
+          - generic [ref=e629]: 16:02:50
+        - generic [ref=e630]: Energetic requirements and bioenergetic modulation of mitochondrial morphology and dynamics
+        - generic [ref=e631]: Seminars in Cell & Developmental Biology, 2010
+        - generic [ref=e632]: Mitochondria are the site where oxidative phosphorylations (OXPHOSs) take place. Fusion and fission reactions allow them to change their overall morphology, which ranges from networks of elongated and branched filaments to collections of small individual organelles. It is assumed that mitochondrial bioenergetics and dynamics are linked and that mitochondrial morphology reflects their functional status. This review shows that the links between mitochondrial dynamics and bioenergetics are complex and that mitochondrial deficiencies are not systematically associated to fragmentation. In mammals, mitochondrial fragmentation is observed upon inhibition of OXPHOS with drugs, but not in most cellular models with OXPHOS deficits of genetic origin. In yeast, mitochon...
+      - link [ref=e633] [cursor=pointer]:
+        - /url: /meta/10.1016/j.trd.2010.02.005
+        - generic [ref=e634]:
+          - img "United States" [ref=e636]
+          - generic [ref=e637]: 16:02:50
+        - generic [ref=e638]: "Environmental equity in participation of the Clean Air School Bus Program: The case of New York State"
+        - generic [ref=e639]: "Transportation Research Part D: Transport and Environment, 2010"
+        - generic [ref=e640]: The vast majority of American children rely on school buses for their daily trips to and from school, and almost all of these school buses operate on diesel fuel. Research has found that during their daily commute, children are exposed to unhealthy levels of diesel exhaust. We assess equity among school districts that chose to apply to the New York State Clean Air School Bus Program and those that did not. Binary logistic regression was employed to reveal the effects of demographics and other social economical factors on the choice of applying when controlling for other factors that are likely to affect a school district's decision process. It was found that economic variables had a significant impact on the likelihood of a school district applying to the pr...
+      - link "United States 16:02:50 Der Verdichtungsstoß bei der stationären Umströmung flacher Profile Z Angew Math Mech, 1949 Abstract Der Verdichtungsstoß an flachen Profilen verursacht Entropieanstiege, welche für die Wirbelbildung im allgemeinen bedeutungslos sind, die aber dennoch Widerstand bedeuten. Damit hängen eine Anzahl von Fragen zusammen, welche nicht immer richtig behandelt wurden und die hier nun geklärt werden. Abschließend wird eine Abschätzungsformel für den Ort des Verdichtungsstoßes im lokalen Überschallgebiet gegeben. L'onde de choc sur des profils plats augmente l'entropie. En général cette augmentation de l'entropie ne donne pratiquement pas naissance à des tourbillons. Cependant elle représente une certaine résistance. Beaucoup d'autres questions sont fonction de ce phénomène. Ces questions qui n'ont pas été traitées d'une façon correcte j..." [ref=e641] [cursor=pointer]:
+        - /url: /meta/10.1002/ZAMM.19490290501
+        - generic [ref=e642]:
+          - img "United States" [ref=e644]
+          - generic [ref=e645]: 16:02:50
+        - generic [ref=e646]: Der Verdichtungsstoß bei der stationären Umströmung flacher Profile
+        - generic [ref=e647]: Z Angew Math Mech, 1949
+        - generic [ref=e648]: Abstract Der Verdichtungsstoß an flachen Profilen verursacht Entropieanstiege, welche für die Wirbelbildung im allgemeinen bedeutungslos sind, die aber dennoch Widerstand bedeuten. Damit hängen eine Anzahl von Fragen zusammen, welche nicht immer richtig behandelt wurden und die hier nun geklärt werden. Abschließend wird eine Abschätzungsformel für den Ort des Verdichtungsstoßes im lokalen Überschallgebiet gegeben. L'onde de choc sur des profils plats augmente l'entropie. En général cette augmentation de l'entropie ne donne pratiquement pas naissance à des tourbillons. Cependant elle représente une certaine résistance. Beaucoup d'autres questions sont fonction de ce phénomène. Ces questions qui n'ont pas été traitées d'une façon correcte j...
+      - link "United States 16:02:50 Theoretical insights into selective electrochemical conversion of carbon dioxide Nano Convergence, 2019 Electrochemical conversion of CO2 and water to valuable chemicals and fuels is one of the promising alternatives to replace fossil fuel-based processes in realizing a carbon–neutral cycle. For practical application of such technologies, suppressing hydrogen evolution reaction and facilitating the activation of stable CO2 molecules still remain major challenges. Furthermore, high production selectivity toward high-value chemicals such as ethylene, ethanol, and even n-propanol is also not easy task to achieve. To settle these challenges, deeper understanding on underlying basis of reactions such as how intermediate binding affinities can be engineered at catalyst surfaces need to be discussed. In this review, we briefly outline recent strategies to modulate ..." [ref=e649] [cursor=pointer]:
+        - /url: /meta/10.1186/s40580-019-0177-2
+        - generic [ref=e650]:
+          - img "United States" [ref=e652]
+          - generic [ref=e653]: 16:02:50
+        - generic [ref=e654]: Theoretical insights into selective electrochemical conversion of carbon dioxide
+        - generic [ref=e655]: Nano Convergence, 2019
+        - generic [ref=e656]: Electrochemical conversion of CO2 and water to valuable chemicals and fuels is one of the promising alternatives to replace fossil fuel-based processes in realizing a carbon–neutral cycle. For practical application of such technologies, suppressing hydrogen evolution reaction and facilitating the activation of stable CO2 molecules still remain major challenges. Furthermore, high production selectivity toward high-value chemicals such as ethylene, ethanol, and even n-propanol is also not easy task to achieve. To settle these challenges, deeper understanding on underlying basis of reactions such as how intermediate binding affinities can be engineered at catalyst surfaces need to be discussed. In this review, we briefly outline recent strategies to modulate ...
+      - 'link "United States 16:02:50 On the Adsorption of Counterions at the Surface of Detergent Micelles1 J. Phys. Chem., 1964 ADVERTISEMENT RETURN TO ISSUEPREVArticleNEXTOn the Adsorption of Counterions at the Surface of Detergent Micelles1D. StigterCite this: J. Phys. Chem. 1964, 68, 12, 3603–3611Publication Date (Print):December 1, 1964Publication History Published online1 May 2002Published inissue 1 December 1964https://pubs.acs.org/doi/10.1021/j100794a028https://doi.org/10.1021/j100794a028research-articleACS PublicationsRequest reuse permissionsArticle Views210Altmetric-Citations122LEARN ABOUT THESE METRICSArticle Views are the COUNTER-compliant sum of full text article downloads since November 2008 (both PDF and HTML) across all institutions and individuals. These metrics are regularly updated to reflect usage leading up to the last few days.Citations are the number of other..." [ref=e657] [cursor=pointer]':
+        - /url: /meta/10.1021/j100794a028
+        - generic [ref=e658]:
+          - img "United States" [ref=e660]
+          - generic [ref=e661]: 16:02:50
+        - generic [ref=e662]:
+          - text: On the Adsorption of Counterions at the Surface of Detergent Micelles
+          - superscript [ref=e663]: "1"
+        - generic [ref=e664]: J. Phys. Chem., 1964
+        - generic [ref=e665]: "ADVERTISEMENT RETURN TO ISSUEPREVArticleNEXTOn the Adsorption of Counterions at the Surface of Detergent Micelles1D. StigterCite this: J. Phys. Chem. 1964, 68, 12, 3603–3611Publication Date (Print):December 1, 1964Publication History Published online1 May 2002Published inissue 1 December 1964https://pubs.acs.org/doi/10.1021/j100794a028https://doi.org/10.1021/j100794a028research-articleACS PublicationsRequest reuse permissionsArticle Views210Altmetric-Citations122LEARN ABOUT THESE METRICSArticle Views are the COUNTER-compliant sum of full text article downloads since November 2008 (both PDF and HTML) across all institutions and individuals. These metrics are regularly updated to reflect usage leading up to the last few days.Citations are the number of other..."
+      - link [ref=e666] [cursor=pointer]:
+        - /url: /meta/10.1051/matecconf/201815606007
+        - generic [ref=e667]:
+          - img "United States" [ref=e669]
+          - generic [ref=e670]: 16:02:50
+        - generic [ref=e671]: A Review of Bio-lubricant Production from Vegetable Oils Using Esterification Transesterification Process
+        - generic [ref=e672]: MATEC Web Conf., 2018
+        - generic [ref=e673]: Since long time ago, petroleum oil has been used as a lubricant in motor vehicles. But, the uses of lubricants petroleum can pollute the environment and disrupt marine ecosystems and terrestrial. On the other hand, the use of lubricants in the world in 2008 reached 46 million kiloliters/year and increased by 2% every year. The future prospect the uses of lubricant petroleum on the vehicle’s engine is predicted to have a bad prospect. Thus began research to identify suitable materials to replace petroleum based lubricants. It can produce from vegetable oils and animals oils by chemical modification. But, bio-lubricant properties are easily damaged so we need more research to improve the shelf life of the bio-lubricant. The research must be done to improve t...
+      - link [ref=e674] [cursor=pointer]:
+        - /url: /meta/10.1016/j.petrol.2019.04.070
+        - generic [ref=e675]:
+          - img "Iraq" [ref=e677]
+          - generic [ref=e678]: 16:02:50
+        - generic [ref=e679]: Enhanced CO2 foam based on amide and amine surfactants and synergistically coupled with sodium dodecyl sulfate at high temperature and high pressure
+        - generic [ref=e680]: Journal of Petroleum Science and Engineering, 2019
+        - generic [ref=e681]: CO2 foam can be used for mobility control and blocking gas breakthrough channels during CO2 injection for enhanced oil recovery, and specially designed and formulated foam agents are needed to enhance the stability of the foams especially under reservoir conditions. In this study, the performance of CO2 foams with various surfactants has been investigated, including amide based surfactants (e.g. coconut monoethanol amide (CMEA), lauryl diethanol amide (LDEA)), amine based surfactants (cocoacyl propyl dimethylamine (UC11AMPM)), sodium dodecyl sulfate (SDS) and its mixtures with the amides and amines. A visualized high pressure and high temperature foam meter and a sand-pack flooding setup were used to assess the foam's performance, along with the surface tens...
+      - link [ref=e682] [cursor=pointer]:
+        - /url: /meta/10.1021/acs.chemrev.7b00459
+        - generic [ref=e683]:
+          - img "United States" [ref=e685]
+          - generic [ref=e686]: 16:02:50
+        - generic [ref=e687]: Homogeneously Catalyzed Electroreduction of Carbon Dioxide—Methods, Mechanisms, and Catalysts
+        - generic [ref=e688]: Chem. Rev., 2018
+        - generic [ref=e689]: The utilization of CO2 via electrochemical reduction constitutes a promising approach toward production of value-added chemicals or fuels using intermittent renewable energy sources. For this purpose, molecular electrocatalysts are frequently studied and the recent progress both in tuning of the catalytic properties and in mechanistic understanding is truly remarkable. While in earlier years research efforts were focused on complexes with rare metal centers such as Re, Ru, and Pd, the focus has recently shifted toward earth-abundant transition metals such as Mn, Fe, Co, and Ni. By application of appropriate ligands, these metals have been rendered more than competitive for CO2 reduction compared to the heavier homologues. In addition, the important roles of ...
+      - link "Portugal 16:02:50 An IFS-based method for modelling horns, seashells and other natural forms Computers & Graphics, 2009 This paper presents a new method of modelling natural forms such as horns, seashells and beaks by means of iterated function systems (IFSs). The characteristic feature of these forms is that one can divide them into parts (called modules) similar to each other in the geometric sense. Starting from a description of the growth process, appropriate transformations are defined, which make it possible to generate sequences of three-dimensional sets. Consequently, a model consisting of modules is obtained. Using accurate transformations results in a precise arrangement of modules in space. It is possible to apply a similarity transformation to a single module or to whole groups, which simplifies and speeds up the modelling process. The way the modules are defined ..." [ref=e690] [cursor=pointer]:
+        - /url: /meta/10.1016/j.cag.2009.02.003
+        - generic [ref=e691]:
+          - img "Portugal" [ref=e693]
+          - generic [ref=e694]: 16:02:50
+        - generic [ref=e695]: An IFS-based method for modelling horns, seashells and other natural forms
+        - generic [ref=e696]: Computers & Graphics, 2009
+        - generic [ref=e697]: This paper presents a new method of modelling natural forms such as horns, seashells and beaks by means of iterated function systems (IFSs). The characteristic feature of these forms is that one can divide them into parts (called modules) similar to each other in the geometric sense. Starting from a description of the growth process, appropriate transformations are defined, which make it possible to generate sequences of three-dimensional sets. Consequently, a model consisting of modules is obtained. Using accurate transformations results in a precise arrangement of modules in space. It is possible to apply a similarity transformation to a single module or to whole groups, which simplifies and speeds up the modelling process. The way the modules are defined ...
+      - link [ref=e698] [cursor=pointer]:
+        - /url: /meta/10.1002/2014ja020977
+        - generic [ref=e699]:
+          - img "Bangladesh" [ref=e701]
+          - generic [ref=e702]: 16:02:50
+        - generic [ref=e703]: Further evidence for a connection between auroral kilometric radiation and ground‐level signals measured in Antarctica
+        - generic [ref=e704]: JGR Space Physics, 2015
+        - generic [ref=e705]: "Inspired by recent observations of three cases of coincident ground-level auroral kilometric radiation (AKR)-like signals and outgoing AKR measured with the Geotail satellite, investigation of 2008 data from four Antarctic observatories yields >30 additional examples. The occurrence rate peaks near 22 MLT similar to that of AKR. Polarization measurements of one event show it to be right-hand polarized. Correlation analysis of ground-level and satellite data suggests an imperfect correlation with 2–3 sigma significance, although occasionally much better. (Perfect correlation is not expected, for at least two reasons: distant satellites detect AKR from many sources over a significant part of the oval, and many effects can hinder transmission of AKR from thos..."
+      - link "China 16:02:50 Effect of cell compression on the performance of a non–hot‐pressed MEA for PEMFC Int J Energy Res, 2019 In this study, the effect of cell compression on the performance of a non–hot-pressed membrane electrode assembly (MEA) for a polymer electrolyte membrane fuel cell (PEMFC) is presented. The MEA is made without hot pressing, by carefully placing the gas diffusion electrodes (GDEs) and a membrane in a fuel cell fixture. Cell performance is assessed at five different compression ratios between 3.6% and 47.8%. It has been shown that ohmic resistance of the cell, mass transport resistance of reactants, charge transfer resistance at electrode, and overall cell performance are strongly dependent on the cell compression. On increasing the cell compression gradually, cell performance improves initially, reaches the best, and then deteriorates. The cell performance..." [ref=e706] [cursor=pointer]:
+        - /url: /meta/10.1002/er.4933
+        - generic [ref=e707]:
+          - img "China" [ref=e709]
+          - generic [ref=e710]: 16:02:50
+        - generic [ref=e711]: Effect of cell compression on the performance of a non–hot‐pressed MEA for PEMFC
+        - generic [ref=e712]: Int J Energy Res, 2019
+        - generic [ref=e713]: In this study, the effect of cell compression on the performance of a non–hot-pressed membrane electrode assembly (MEA) for a polymer electrolyte membrane fuel cell (PEMFC) is presented. The MEA is made without hot pressing, by carefully placing the gas diffusion electrodes (GDEs) and a membrane in a fuel cell fixture. Cell performance is assessed at five different compression ratios between 3.6% and 47.8%. It has been shown that ohmic resistance of the cell, mass transport resistance of reactants, charge transfer resistance at electrode, and overall cell performance are strongly dependent on the cell compression. On increasing the cell compression gradually, cell performance improves initially, reaches the best, and then deteriorates. The cell performance...
+      - link "India 16:02:50 Quasilinear Viscoelastic Behavior of Bovine Extraocular Muscle Tissue Invest. Ophthalmol. Vis. Sci., 2009 purpose. Until now, there has been no comprehensive mathematical model of the nonlinear viscoelastic stress-strain behavior of extraocular muscles (EOMs). The present study describes, with the use of a quasilinear viscoelastic (QLV) model, the nonlinear, history-dependent viscoelastic properties and elastic stress-strain relationship of EOMs. methods. Six oculorotary EOMs were obtained fresh from a local abattoir. Longitudinally oriented specimens were taken from different regions of the EOMs and subjected to uniaxial tensile, relaxation, and cyclic loading testing with the use of an automated load cell under temperature and humidity control. Twelve samples were subjected to uniaxial tensile loading with 1.7%/s strain rate until failure. Sixteen specimens we..." [ref=e714] [cursor=pointer]:
+        - /url: /meta/10.1167/iovs.08-3245
+        - generic [ref=e715]:
+          - img "India" [ref=e717]
+          - generic [ref=e718]: 16:02:50
+        - generic [ref=e719]: Quasilinear Viscoelastic Behavior of Bovine Extraocular Muscle Tissue
+        - generic [ref=e720]: Invest. Ophthalmol. Vis. Sci., 2009
+        - generic [ref=e721]: purpose. Until now, there has been no comprehensive mathematical model of the nonlinear viscoelastic stress-strain behavior of extraocular muscles (EOMs). The present study describes, with the use of a quasilinear viscoelastic (QLV) model, the nonlinear, history-dependent viscoelastic properties and elastic stress-strain relationship of EOMs. methods. Six oculorotary EOMs were obtained fresh from a local abattoir. Longitudinally oriented specimens were taken from different regions of the EOMs and subjected to uniaxial tensile, relaxation, and cyclic loading testing with the use of an automated load cell under temperature and humidity control. Twelve samples were subjected to uniaxial tensile loading with 1.7%/s strain rate until failure. Sixteen specimens we...
+      - link [ref=e722] [cursor=pointer]:
+        - /url: /meta/10.1016/s8756-3282(96)00228-1
+        - generic [ref=e723]:
+          - img "Jordan" [ref=e725]
+          - generic [ref=e726]: 16:02:50
+        - generic [ref=e727]: Bone mineral density and bone markers in relation to vitamin D receptor gene polymorphisms in chinese men and women
+        - generic [ref=e728]: Bone, 1996
+        - generic [ref=e729]: Whether vitamin D receptor gene (VDRG) polymorphism can be used as a predictor for bone turnover rate or bone mass remains controversial. Its role within various ethnic populations are also unsettled. We examined VDRG polymorphism using restrictive enzymes Bsm-I, Apa-I, and Taq-I in 155 men aged 22–88 and 113 premenopausal women aged 40–53. The bone mineral density (BMD) of the vertebrae (L2–4), proximal femur, and total body bone mineral content (tb-BMC) (women only), as well as urinary N-terminal crosslinked fragment of type I collagen (NTX), serum osteocalcin, bone isozyme of alkaline phosphatase, and caboxyterminal propeptide of type I procollagen levels were measured. Chinese men and women exhibited a low prevalence for B (absence of Bsm-I restric...
+      - 'link "VPN 16:02:50 Metal Nanoparticles: a Promising Treatment for Viral and Arboviral Infections Biol Trace Elem Res, 2020 Globally, viral diseases continue to pose a significant threat to public health. Recent outbreaks, such as influenza, coronavirus, Ebola, and dengue, have emphasized the urgent need for new antiviral therapeutics. Considerable efforts have focused on developing metal nanoparticles for the treatment of several pathogenic viruses. As a result of these efforts, metal nanoparticles are demonstrating promising antiviral activity against pathogenic surrogates and clinical isolates. This review summarizes the application of metal nanoparticles for the treatment of viral infections. It provides information on synthesis methods, size-related properties, nano-bio-interaction, and immunological effects of metal nanoparticles. This article also addresses critical criter..." [ref=e730] [cursor=pointer]':
+        - /url: /meta/10.1007/s12011-020-02414-2
+        - generic [ref=e731]:
+          - img "VPN" [ref=e733]
+          - generic [ref=e734]: 16:02:50
+        - generic [ref=e735]: "Metal Nanoparticles: a Promising Treatment for Viral and Arboviral Infections"
+        - generic [ref=e736]: Biol Trace Elem Res, 2020
+        - generic [ref=e737]: Globally, viral diseases continue to pose a significant threat to public health. Recent outbreaks, such as influenza, coronavirus, Ebola, and dengue, have emphasized the urgent need for new antiviral therapeutics. Considerable efforts have focused on developing metal nanoparticles for the treatment of several pathogenic viruses. As a result of these efforts, metal nanoparticles are demonstrating promising antiviral activity against pathogenic surrogates and clinical isolates. This review summarizes the application of metal nanoparticles for the treatment of viral infections. It provides information on synthesis methods, size-related properties, nano-bio-interaction, and immunological effects of metal nanoparticles. This article also addresses critical criter...
+      - link "China 16:02:50 Synthesis and characterization of hematite nanopowders Mater. Res. Express, 2016 A facile solution approach was employed to synthesize hematite (α-Fe2O3) nanoparticles by using starting precursor iron (III) chloride (FeCl3) and sodium hydroxide (NaOH) as reducing agent without templates at low temperature. The growth and solubility of iron oxide particle was controlled by adjusting the pH of the solution using ammonium hydroxide. As-prepared powders were subsequently calcined in air for 3 h at three different temperatures ranging from 400 to 800 °C. The precursor and the synthesized particles were characterized using TGA-DTA thermal analysis to study the decomposition pattern. X-ray diffraction (XRD) technique confirmed the nanocrystal formation of α-Fe2O3 and Fourier transform infra-red (FTIR) spectral information identified the meta..." [ref=e738] [cursor=pointer]:
+        - /url: /meta/10.1088/2053-1591/3/10/105037
+        - generic [ref=e739]:
+          - img "China" [ref=e741]
+          - generic [ref=e742]: 16:02:50
+        - generic [ref=e743]: Synthesis and characterization of hematite nanopowders
+        - generic [ref=e744]: Mater. Res. Express, 2016
+        - generic [ref=e745]: A facile solution approach was employed to synthesize hematite (α-Fe2O3) nanoparticles by using starting precursor iron (III) chloride (FeCl3) and sodium hydroxide (NaOH) as reducing agent without templates at low temperature. The growth and solubility of iron oxide particle was controlled by adjusting the pH of the solution using ammonium hydroxide. As-prepared powders were subsequently calcined in air for 3 h at three different temperatures ranging from 400 to 800 °C. The precursor and the synthesized particles were characterized using TGA-DTA thermal analysis to study the decomposition pattern. X-ray diffraction (XRD) technique confirmed the nanocrystal formation of α-Fe2O3 and Fourier transform infra-red (FTIR) spectral information identified the meta...
+      - link [ref=e746] [cursor=pointer]:
+        - /url: /meta/10.1039/C0CP00895H
+        - generic [ref=e747]:
+          - img "VPN" [ref=e749]
+          - generic [ref=e750]: 16:02:50
+        - generic [ref=e751]: "Stochastic approach to laser-induced ultrafast dynamics: the desorption of H2/D2 from Ru(0001)"
+        - generic [ref=e752]: Phys. Chem. Chem. Phys., 2010
+        - generic [ref=e753]: The desorption of molecular hydrogen and deuterium induced by femtosecond-laser pulses is studied theoretically for the so-called DIMET (Desorption Induced by Multiple Electronic Transitions) process. These investigations are based on nonadiabatic classical Monte Carlo trajectory (CMCT) simulations on a ground and an excited state potential energy surface, including up to all six adsorbate degrees of freedom. The focus is on the hot-electron mediated energy transfer from the surface to the molecule and back, and the energy partitioning between the different degrees of freedom of the desorbing molecules. We first validate for a two-mode model comprising the desorption mode and the internal vibrational coordinate, the classical Monte Carlo trajectory method by...
+      - link [ref=e754] [cursor=pointer]:
+        - /url: /meta/10.1177/1073191121993223
+        - generic [ref=e755]:
+          - img "Israel" [ref=e757]
+          - generic [ref=e758]: 16:02:50
+        - generic [ref=e759]: Factor Structure, Measurement Invariance, and Concurrent Validity of the Penn State Worry Questionnaire Across Development, Psychopathology, and Culture
+        - generic [ref=e760]: Assessment, 2021
+        - generic [ref=e761]: "The Penn State Worry Questionnaire (PSWQ) is a widely used assessment of excessive worry. American undergraduate samples have predominately been used to evaluate its factor structure, which may not generalize to other developmental, cultural, and psychopathology populations. The present study tested the PSWQ's factor structure across three diverse samples: American undergraduate students (n = 3,243), Dutch high school students (n = 3,906), and American adults with psychopathology (n = 384). Exploratory, confirmatory, and multigroup confirmatory factor analyses were conducted. Measurement invariance and concurrent validity were also tested. Method-factor and two-factor models were largely equivalent and superior to a one-factor model. Invariance tests support..."

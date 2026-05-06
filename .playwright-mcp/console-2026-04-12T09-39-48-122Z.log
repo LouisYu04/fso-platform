@@ -1,0 +1,2 @@
+[     620ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.mdpi.com/2624-6120/3/4/39:0
+[     642ms] [ERROR] Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED @ https://www.googletagmanager.com/gtm.js?id=GTM-WPK7SW5:0

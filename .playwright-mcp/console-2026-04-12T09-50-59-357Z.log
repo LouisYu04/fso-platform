@@ -1,0 +1,13 @@
+[    1708ms] [ERROR] Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED @ https://www.googletagmanager.com/gtm.js?id=GTM-WPK7SW5:0
+[    1708ms] [ERROR] Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED @ https://s2.go-mpulse.net/boomerang/4MGA4-E5JH8-79LAG-STF7X-79Z92:0
+[    1857ms] [ERROR] Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED @ https://s2.go-mpulse.net/boomerang/4MGA4-E5JH8-79LAG-STF7X-79Z92:0
+[    3349ms] [ERROR] Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED @ https://pagead2.googlesyndication.com/tag/js/gpt.js:0
+[    3579ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: about:blank @ https://pub.mdpi-res.com/bundles/mathjax/jax/output/HTML-CSS/jax.js?V=2.7.1:18
+[    3582ms] [ERROR] Access to font at 'about:blank' from origin 'https://www.mdpi.com' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app. @ https://www.mdpi.com/1424-8220/24/24/8036:0
+[    3582ms] [ERROR] Failed to load resource: net::ERR_FAILED @ about:blank:0
+[    9748ms] [WARNING] The resource https://s2.go-mpulse.net/boomerang/4MGA4-E5JH8-79LAG-STF7X-79Z92 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.mdpi.com/1424-8220/24/24/8036:0
+[   15344ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://login.mdpi.com/fonts/fontawesome-webfont.woff2?v=4.7.0 @ https://login.mdpi.com/login?_target_path=https%3A%2F%2Fwww.mdpi.com%2Fuser%2Flogin%3FauthAll%3Dtrue:0
+[   15355ms] [ERROR] Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED @ https://s2.go-mpulse.net/boomerang/DYYSY-4PK44-NZ5AC-EYJD6-6BGCS:0
+[   15826ms] [ERROR] Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED @ https://www.googletagmanager.com/gtag/js?id=UA-154711731-1:0
+[   15827ms] [ERROR] Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED @ https://s2.go-mpulse.net/boomerang/DYYSY-4PK44-NZ5AC-EYJD6-6BGCS:0
+[   19976ms] [WARNING] The resource https://s2.go-mpulse.net/boomerang/DYYSY-4PK44-NZ5AC-EYJD6-6BGCS was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://login.mdpi.com/login?_target_path=https%3A%2F%2Fwww.mdpi.com%2Fuser%2Flogin%3FauthAll%3Dtrue:0

@@ -1,0 +1,8 @@
+[     794ms] [ERROR] Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED @ https://www.googletagmanager.com/gtm.js?id=GTM-WPK7SW5:0
+[     798ms] [ERROR] Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED @ https://s2.go-mpulse.net/boomerang/4MGA4-E5JH8-79LAG-STF7X-79Z92:0
+[     953ms] [ERROR] Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED @ https://s2.go-mpulse.net/boomerang/4MGA4-E5JH8-79LAG-STF7X-79Z92:0
+[    1391ms] [ERROR] Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED @ https://pagead2.googlesyndication.com/tag/js/gpt.js:0
+[    1706ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: about:blank @ https://pub.mdpi-res.com/bundles/mathjax/jax/output/HTML-CSS/jax.js?V=2.7.1:18
+[    1710ms] [ERROR] Access to font at 'about:blank' from origin 'https://www.mdpi.com' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app. @ https://www.mdpi.com/1424-8220/24/24/8036:0
+[    1710ms] [ERROR] Failed to load resource: net::ERR_FAILED @ about:blank:0
+[    7310ms] [WARNING] The resource https://s2.go-mpulse.net/boomerang/4MGA4-E5JH8-79LAG-STF7X-79Z92 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.mdpi.com/1424-8220/24/24/8036:0

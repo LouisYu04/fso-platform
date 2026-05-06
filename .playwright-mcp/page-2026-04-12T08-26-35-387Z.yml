@@ -1,0 +1,742 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - img [ref=e8]
+        - generic [ref=e10]:
+          - textbox "输入 URL 或 DOI" [ref=e11]
+          - button "打开" [ref=e12] [cursor=pointer]
+      - generic [ref=e13]: 将知识带给每个人
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - link "su" [ref=e17] [cursor=pointer]:
+            - /url: //sci-hub.su
+          - link "st" [ref=e18] [cursor=pointer]:
+            - /url: //sci-hub.st
+          - link "red" [ref=e19] [cursor=pointer]:
+            - /url: //sci-hub.red
+          - link "box" [ref=e20] [cursor=pointer]:
+            - /url: //sci-hub.box
+          - link "ru" [ref=e21] [cursor=pointer]:
+            - /url: //sci-hub.ru
+          - link "→" [ref=e22] [cursor=pointer]:
+            - /url: /mirrors
+        - img [ref=e23]
+        - generic [ref=e24]:
+          - img [ref=e26]
+          - generic [ref=e27]:
+            - generic [ref=e28]: 向 Sci-Hub 捐赠
+            - generic [ref=e29]: 通过支付宝捐赠，支持项目的进一步发展
+    - generic [ref=e30]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]: "06"
+            - generic [ref=e37]: 3月
+          - generic [ref=e38]:
+            - generic [ref=e39]: Sci-Bot - 基于研究文献回答问题
+            - generic [ref=e40]:
+              - paragraph [ref=e41]:
+                - text: 好消息：人工智能的最新进展使 Sci-Hub 得以推出一个
+                - link "机器人" [ref=e42] [cursor=pointer]:
+                  - /url: //sci-bot.ru/
+                - text: ，可以对问题给出有科学依据的回答。该机器人首先在 Sci-Hub 数据库中搜索相关文献，然后筛选并阅读最新的研究，并根据这些信息组织答案。答案包含所有参考文献，每篇引用的文章都可以在 Sci-Hub 上一键阅读。
+              - paragraph [ref=e43]: 与基于早期神经网络的问答机器人不同，Sci-Hub 机器人不会产生幻觉，不会编造科学事实，也不会引用不存在的来源。Sci-Bot 使用 Sci-Hub 数据库中的文章来支持其陈述。可以用任何语言提问，答案可以保存在服务器上并分享。
+              - paragraph [ref=e44]: Alpha 版本仅支持回答单个问题，支持对话模式的更高级版本即将推出。右侧栏显示了机器人已回答的示例问题——点击问题即可查看生成的答案。
+        - generic [ref=e45]:
+          - img [ref=e47]
+          - link "月相对人生活认知的影响" [ref=e50] [cursor=pointer]:
+            - /url: //sci-bot.ru/the-influence-of-moon-phases-9f62
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - generic [ref=e57]: "|"
+              - text: 智能文章推荐
+            - generic [ref=e59]: 新功能
+          - generic [ref=e60]:
+            - paragraph [ref=e62]: 人工智能已经来到 Sci-Hub：现在该服务能够根据用户的查询生成文章推荐列表。只需在输入框中输入任意查询并点击按钮，系统就会从数据库中展示最相关的文章合集。由于使用了 Google 的多语言模型，查询可以用任何语言进行。 注意：该服务独立于 Google 运行，所有数据库处理均在自有服务器上完成。
+            - generic [ref=e63]:
+              - paragraph [ref=e64]: 此外，人工智能还能生成相似文章的推荐列表：选择一篇文章，通过 Sci-Hub 打开它，在文章面板底部点击向上箭头，就会打开一个页面，显示数据库中主题相近的其他文章。这对于编写参考文献列表非常有用。
+              - paragraph [ref=e65]: 点击下方链接即可尝试 ↓
+              - paragraph [ref=e66]:
+                - 'link "Artificial Intelligence to Win the Nobel Prize and Beyond: Creating the Engine for Scientific Discovery" [ref=e67] [cursor=pointer]':
+                  - /url: /similar/10.1609/aimag.v37i1.2642
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - heading "如何获取最新文章？" [level=1] [ref=e71]
+            - paragraph [ref=e72]:
+              - text: Sci-Hub 对 2022 年之前在主要学术出版物上发表的所有论文的覆盖率超过 90%。较新的文章可以在新平台
+              - link "Sci-Net" [ref=e73] [cursor=pointer]:
+                - /url: //sci-net.xyz
+              - text: 上请求获取，这是一个研究人员互助社交网络：您可以发布请求，其他成员会帮助解决。全文通常在几分钟内就会被上传，除了一些特殊情况。一旦上传，论文将对所有人免费开放，无需注册。您也可以上传自己的论文，以确保它们永久开放获取。
+            - paragraph [ref=e74]: 该项目使用 Sci-Hub 知识代币来奖励积极帮助建设开放获取存储库的活跃成员。
+          - img [ref=e76]
+  - generic [ref=e77]:
+    - generic [ref=e78]: 正在阅读
+    - generic [ref=e79]:
+      - link [ref=e80] [cursor=pointer]:
+        - /url: /meta/10.3390/ijerph9114170
+        - generic [ref=e81]:
+          - img "China" [ref=e83]
+          - generic [ref=e84]: 16:26:34
+        - generic [ref=e85]: A Statistical Assessment of the Impact of Agricultural Land Use Intensity on Regional Surface Water Quality at Multiple Scales
+        - generic [ref=e86]: IJERPH, 2012
+        - generic [ref=e87]: Understanding the effects of intensive agricultural land use activities on water resources is essential for natural resource management and environmental improvement. In this paper, multi-scale nested watersheds were delineated and the relationships between two representative water quality indexes and agricultural land use intensity were assessed and quantified for the year 2000 using multi-scale regression analysis. The results show that the log-transformed nitrate-nitrogen (NO3-N) index exhibited a relationship with chemical fertilizer input intensity and several natural factors, including soil loss, rainfall and sunlight at the first order watershed scale, while permanganate index (CODMn) had a positive relationship with another two input intensities of p...
+      - link [ref=e88] [cursor=pointer]:
+        - /url: /meta/10.1504/ijipm.2020.108084
+        - generic [ref=e89]:
+          - img "United States" [ref=e91]
+          - generic [ref=e92]: 16:26:34
+        - generic [ref=e93]: The effect of open innovation strategies on business models. A multiple case study in the automotive sector
+        - generic [ref=e94]: IJIPM, 2020
+        - generic [ref=e95]: Open innovation allows information to be obtained by a company from outside in, and vice versa, in order to achieve improved relationships and better innovation performance in all parties involved in the business environment. This study explores how the adoption of an open innovation strategy changes the business model, specifically, in the case of small and medium enterprises (SMEs). Previous studies have mainly addressed this topic theoretically, and the original contribution of the approach in the present study stems from providing evidence from real cases. A multiple case study examines four cases in the automotive sector. A number of open innovation strategies are analysed, paying special attention to how they have shaped the company's business model an...
+      - link [ref=e96] [cursor=pointer]:
+        - /url: /meta/10.1021/jo00362a020
+        - generic [ref=e97]:
+          - img "VPN" [ref=e99]
+          - generic [ref=e100]: 16:26:34
+        - generic [ref=e101]: Chemical modification of polystyrene resins. Approaches to the binding of reactive functionalities to polystyrene resins through a two-carbon spacer
+        - generic [ref=e102]: J. Org. Chem., 1986
+        - generic [ref=e103]: "ADVERTISEMENT RETURN TO ISSUEPREVArticleNEXTChemical modification of polystyrene resins. Approaches to the binding of reactive functionalities to polystyrene resins through a two-carbon spacerGraham D. Darling and Jean M. J. FrechetCite this: J. Org. Chem. 1986, 51, 12, 2270–2276Publication Date (Print):June 1, 1986Publication History Published online1 May 2002Published inissue 1 June 1986https://doi.org/10.1021/jo00362a020RIGHTS & PERMISSIONSArticle Views348Altmetric-Citations35LEARN ABOUT THESE METRICSArticle Views are the COUNTER-compliant sum of full text article downloads since November 2008 (both PDF and HTML) across all institutions and individuals. These metrics are regularly updated to reflect usage leading up to the last few days.Citations are th..."
+      - 'link "Spain 16:26:34 Weyl Mott Insulator Sci Rep, 2016 Relativistic Weyl fermion (WF) often appears in the band structure of three dimensional magnetic materials and acts as a source or sink of the Berry curvature, i.e., the (anti-)monopole. It has been believed that the WFs are stable due to their topological indices except when two Weyl fermions of opposite chiralities annihilate pairwise. Here, we theoretically show for a model including the electron-electron interaction that the Mott gap opens for each WF without violating the topological stability, leading to a topological Mott insulator dubbed {\\it Weyl Mott insulator } (WMI). This WMI is characterized by several novel features such as (i) energy gaps in the angle-resolved photo-emission spectroscopy (ARPES) and the optical conductivity, (ii) the nonvanish..." [ref=e104] [cursor=pointer]':
+        - /url: /meta/10.1038/srep19853
+        - generic [ref=e105]:
+          - img "Spain" [ref=e107]
+          - generic [ref=e108]: 16:26:34
+        - generic [ref=e109]: Weyl Mott Insulator
+        - generic [ref=e110]: Sci Rep, 2016
+        - generic [ref=e111]: "Relativistic Weyl fermion (WF) often appears in the band structure of three dimensional magnetic materials and acts as a source or sink of the Berry curvature, i.e., the (anti-)monopole. It has been believed that the WFs are stable due to their topological indices except when two Weyl fermions of opposite chiralities annihilate pairwise. Here, we theoretically show for a model including the electron-electron interaction that the Mott gap opens for each WF without violating the topological stability, leading to a topological Mott insulator dubbed {\\it Weyl Mott insulator } (WMI). This WMI is characterized by several novel features such as (i) energy gaps in the angle-resolved photo-emission spectroscopy (ARPES) and the optical conductivity, (ii) the nonvanish..."
+      - link "Argentina 16:26:34 The paired-type homeobox gene Dmbx1 marks the midbrain and pretectum Mechanisms of Development, 2002 We have isolated a paired-type homeobox gene Dmbx1, previously known as Atx (Development 128 (2001) 4789), from chick and mouse. Sequence similarity reveals that this gene is highly related to the Otx genes. Expression of Dmbx1 commences during gastrulation, when transcripts are detected in a crescent around the anterior neural plate. As development progresses, Dmbx1 marks the prospective midbrain and pretectum. Dmbx1 shares its caudal border of expression with Otx2, while expression is sharply delimited rostrally by the synencephalic-parencephalic boundary, later becoming restricted to the posterior synencephalon. At later stages, Dmbx1 is expressed in dynamic domains of the hindbrain and spinal cord. Additional sites of expression comprise stomodeal ectode..." [ref=e112] [cursor=pointer]:
+        - /url: /meta/10.1016/s0925-4773(02)00067-9
+        - generic [ref=e113]:
+          - img "Argentina" [ref=e115]
+          - generic [ref=e116]: 16:26:34
+        - generic [ref=e117]: The paired-type homeobox gene Dmbx1 marks the midbrain and pretectum
+        - generic [ref=e118]: Mechanisms of Development, 2002
+        - generic [ref=e119]: We have isolated a paired-type homeobox gene Dmbx1, previously known as Atx (Development 128 (2001) 4789), from chick and mouse. Sequence similarity reveals that this gene is highly related to the Otx genes. Expression of Dmbx1 commences during gastrulation, when transcripts are detected in a crescent around the anterior neural plate. As development progresses, Dmbx1 marks the prospective midbrain and pretectum. Dmbx1 shares its caudal border of expression with Otx2, while expression is sharply delimited rostrally by the synencephalic-parencephalic boundary, later becoming restricted to the posterior synencephalon. At later stages, Dmbx1 is expressed in dynamic domains of the hindbrain and spinal cord. Additional sites of expression comprise stomodeal ectode...
+      - link [ref=e120] [cursor=pointer]:
+        - /url: /meta/10.1016/j.jelechem.2020.114104
+        - generic [ref=e121]:
+          - img "United States" [ref=e123]
+          - generic [ref=e124]: 16:26:34
+        - generic [ref=e125]: Nanoporous carbon-fiber microelectrodes for sensitive detection of H2O2 and dopamine
+        - generic [ref=e126]: Journal of Electroanalytical Chemistry, 2020
+        - generic [ref=e127]: In this study, sensitive electrochemical detection of H2O2 and dopamine (DA) was demonstrated using a nanoporous carbon fiber electrode (CFE). SEM images confirmed the surface modification and elemental composition analysis demonstrated an increase in the C/O ratio favoring higher conductivity and electron-transfer rate. Nanoporous CFEs were first used for electrochemical oxidation and reduction of H2O2 and results were compared with those of unmodified CFEs. Oxidation current drastically increased with heat treatment and unlike unmodified CFEs, nanoporous CFEs demonstrated a concentration-dependent current change for the reduction of H2O2. Next, the performance of nanoporous CFEs was assessed for DA detection in comparison to unmodified CFEs and they showed...
+      - link [ref=e128] [cursor=pointer]:
+        - /url: /meta/10.1007/s43465-021-00356-y
+        - generic [ref=e129]:
+          - img "United States" [ref=e131]
+          - generic [ref=e132]: 16:26:34
+        - generic [ref=e133]: "Longer Term Outcomes Following High Tibial Osteotomy for Osteoarthritis: A Prospective, Multi-Centre Observational Study Comparing Tomofix and OPTY-LINE Devices"
+        - generic [ref=e134]: IJOO, 2021
+        - generic [ref=e135]: Assessing surgical accuracy and patient-recorded outcome measures for patients fitted with either the OPTY-LINE intramedullary realignment system or the Tomofix plate for medial opening wedge high tibial osteotomy (HTO).Two matched case series of patients with symptomatic medial compartment osteoarthritis without other significant knee pathology. One group comprised of 19 patients receiving the Tomofix plate, whereas another comprised of 12 patients receiving the OPTY-LINE intramedullary nail. Patella-centred long leg alignment radiographs were assessed to calculate surgical accuracy in all cases. Patients completed knee injury osteoarthritis outcome scores (KOOS) and osteotomy surgery patient satisfaction questionnaires pre-operatively and at 24 months post...
+      - link [ref=e136] [cursor=pointer]:
+        - /url: /meta/10.1371/journal.pone.0068369
+        - generic [ref=e137]:
+          - img "United States" [ref=e139]
+          - generic [ref=e140]: 16:26:34
+        - generic [ref=e141]: A Magnetic Bead-Based Method for Concentrating DNA from Human Urine for Downstream Detection
+        - generic [ref=e142]: PLoS ONE, 2013
+        - generic [ref=e143]: Due to the presence of PCR inhibitors, PCR cannot be used directly on most clinical samples, including human urine, without pre-treatment. A magnetic bead-based strategy is one potential method to collect biomarkers from urine samples and separate the biomarkers from PCR inhibitors. In this report, a 1 mL urine sample was mixed within the bulb of a transfer pipette containing lyophilized nucleic acid-silica adsorption buffer and silica-coated magnetic beads. After mixing, the sample was transferred from the pipette bulb to a small diameter tube, and captured biomarkers were concentrated using magnetic entrainment of beads through pre-arrayed wash solutions separated by small air gaps. Feasibility was tested using synthetic segments of the 140 bp tuberculosis...
+      - link [ref=e144] [cursor=pointer]:
+        - /url: /meta/10.1016/j.mtcomm.2019.100746
+        - generic [ref=e145]:
+          - img "VPN" [ref=e147]
+          - generic [ref=e148]: 16:26:33
+        - generic [ref=e149]: Synthesis of magnetite nanoparticles anchored cellulose and lignin-based carbon nanotube composites for rapid oil spill cleanup
+        - generic [ref=e150]: Materials Today Communications, 2020
+        - generic [ref=e151]: Natural raw wood consists of cellulose and lignin, which have become more important in industrial and biological applications especially in sorption studies. In this study, cellulose and lignin were chemically modified by carbon nanotube (CNT) under different reaction conditions using CNT-COCl in the presence of sodium hydroxide. The structure of modified cellulose and lignin was confirmed using SEM, XRD, TEM, DLS, XPS, and TGA. Further, the material can be immobilized with iron oxide, which renders easier separation. The hydrophobicity of the modified material increased after modification with water contact angles in the range of 130‒135°. In addition, the modified materials absorbed oils and organic solvents, but only a very little water, due to the hyd...
+      - link [ref=e152] [cursor=pointer]:
+        - /url: /meta/10.1080/15623599.2016.1192248
+        - generic [ref=e153]:
+          - img "United States" [ref=e155]
+          - generic [ref=e156]: 16:26:33
+        - generic [ref=e157]: "Overcoming barriers to the reuse of construction waste material in Australia: a review of the literature"
+        - generic [ref=e158]: International Journal of Construction Management, 2016
+        - generic [ref=e159]: Although much has been written on how to improve the management of construction waste and increase the use of recycled materials, little progress has been made to address the reuse of construction waste. Yet there is a consensus in the literature that waste reuse practices have a decisive role to play in improving reduction of waste, and that institutional barriers are the most problematic obstacles to implementing identified reuse strategies. This paper examines the literature from the last 10 years on the issues facing different stakeholders around reuse of construction waste in Australia, and the causes and effects of the institutional barriers encountered. Key texts from before this period are also referenced. The findings reveal that institutional imped...
+      - link [ref=e160] [cursor=pointer]:
+        - /url: /meta/10.1021/jacs.5b04845
+        - generic [ref=e161]:
+          - img "VPN" [ref=e163]
+          - generic [ref=e164]: 16:26:33
+        - generic [ref=e165]: Ultraviolet Absorption Spectrum of Malonaldehyde in Water Is Dominated by Solvent-Stabilized Conformations
+        - generic [ref=e166]: J. Am. Chem. Soc., 2015
+        - generic [ref=e167]: Free energy calculations for eight enol isomers of malonaldehyde (MA) and simulation of the ultraviolet (UV) absorption spectrum in both the gas phase and water (pH = 3, where the molecule exists in neutral undeprotonated form) show that in water the two s-trans nonchelated enol conformers of MA become thermodynamically more stable than the internally hydrogen-bonded (“chelated enol”) conformer (CE). The pure CE conformer in water has a slightly red-shifted UV spectrum with respect to that in the gas phase, but the blue-shifted spectrum observed in water at pH 3 is dominated by solvent-stabilized conformations that have negligible populations in the gas phase. Density functional calculations with the solvation model based on density (SMD) and an ensemble...
+      - link [ref=e168] [cursor=pointer]:
+        - /url: /meta/10.1111/evj.12370
+        - generic [ref=e169]:
+          - img "Vietnam" [ref=e171]
+          - generic [ref=e172]: 16:26:33
+        - generic [ref=e173]: "Detection of early osteoarthritis in the centrodistal joints of I celandic horses: Evaluation of radiography and low‐field magnetic resonance imaging"
+        - generic [ref=e174]: Equine Veterinary Journal, 2015
+        - generic [ref=e175]: Validated noninvasive detection methods for early osteoarthritis (OA) are required for OA prevention and early intervention treatment strategies.To evaluate radiography and low-field magnetic resonance imaging (MRI) for the detection of early stage OA osteochondral lesions in equine centrodistal joints using microscopy as the reference standard.Prospective imaging of live horses and imaging and microscopy of cadaver tarsal joints.Centrodistal (distal intertarsal) joints of 38 Icelandic research horses aged 27-29 months were radiographed. Horses were subjected to euthanasia approximately 2 months later and cadaver joints examined with low-field MRI. Osteochondral joint specimens were classified as negative or positive for OA using light microscopy histology o...
+      - link [ref=e176] [cursor=pointer]:
+        - /url: /meta/10.1038/s41598-021-87472-9
+        - generic [ref=e177]:
+          - img "Venezuela, RB" [ref=e179]
+          - generic [ref=e180]: 16:26:33
+        - generic [ref=e181]: Maternal lipidomic signatures in relation to spontaneous preterm birth and large-for-gestational age neonates
+        - generic [ref=e182]: Sci Rep, 2021
+        - generic [ref=e183]: Lipidome-wide metabolites may be useful biomarkers of pregnancy outcomes. We sought to characterize maternal lipidomic signatures associated with preterm birth and neonatal anthropometric parameters. Plasma samples were collected 24-28 weeks gestation, and lipidomic profiling was quantified using high-performance liquid chromatography tandem mass spectrometry. Lipid metabolites were analyzed individually and as whole lipid classes and subgroups based on degree of hydrocarbon chain saturation. Associations were estimated using linear and logistic regression. After false discovery adjustment (q < 0.15), four plasmenyl-phosphatidylethanolamines and three free fatty acids associated with increased risk for spontaneous preterm birth. Five phosphatidylinositols, t...
+      - link [ref=e184] [cursor=pointer]:
+        - /url: /meta/10.1002/app.47335
+        - generic [ref=e185]:
+          - img "United States" [ref=e187]
+          - generic [ref=e188]: 16:26:33
+        - generic [ref=e189]: Molecular dynamics simulation study on the structure and properties of polyimide/silica hybrid materials
+        - generic [ref=e190]: J of Applied Polymer Sci, 2018
+        - generic [ref=e191]: A type of polyimide/silica (PI/SiO2) copolymer model was established through the dehydration of tetraethyl orthosilicate molecules (TEOS) and bonding to a silane coupling agent. The content of SiO2 was controlled by adjusting the number of molecules which bound to the TEOS. Finally, the silica was formed into a hybrid model (hybrid PI/SiO2) with a small molecule embedded in the PI. The model was optimized by geometric and molecular dynamics and the changes in the model structure, Young's modulus, shear modulus, and glass-transition temperature (T g) were analyzed. The results showed that the density and cohesive energy density of the composites could be improved by doping SiO2 in PI. Young's modulus and shear modulus of PI/SiO2 hybrid materials were higher t...
+      - link "Jordan 16:26:33 Design of a Low-Power 1.65 GBPS Data Channel for HDMI Transmitter VLSICS, 2015 This paper presents a design of low power data channel for application in High Definition Multimedia Interface (HDMI) Transmitter circuit. The input is 10 bit parallel data and output is serial data at 1.65 Gbps. This circuit uses only a single frequency of serial clock input. All other timing signals are derived within the circuit from the serial clock. This design has dedicated lines to disable and enable all its channels within two pixel-clock periods only. A pair of disable and enable functions performed immediately after power-on of the circuit serves as the reset function. The presented design is immune to data-dependent switching spikes in supply current and pushes them in the range of serial frequency and its multiples. Thus filtering requirements ar..." [ref=e192] [cursor=pointer]:
+        - /url: /meta/10.5121/vlsic.2015.6603
+        - generic [ref=e193]:
+          - img "Jordan" [ref=e195]
+          - generic [ref=e196]: 16:26:33
+        - generic [ref=e197]: Design of a Low-Power 1.65 GBPS Data Channel for HDMI Transmitter
+        - generic [ref=e198]: VLSICS, 2015
+        - generic [ref=e199]: This paper presents a design of low power data channel for application in High Definition Multimedia Interface (HDMI) Transmitter circuit. The input is 10 bit parallel data and output is serial data at 1.65 Gbps. This circuit uses only a single frequency of serial clock input. All other timing signals are derived within the circuit from the serial clock. This design has dedicated lines to disable and enable all its channels within two pixel-clock periods only. A pair of disable and enable functions performed immediately after power-on of the circuit serves as the reset function. The presented design is immune to data-dependent switching spikes in supply current and pushes them in the range of serial frequency and its multiples. Thus filtering requirements ar...
+      - link "Vietnam 16:26:33 Cryogelation of Human Hair Keratins Macromol. Rapid Commun., 2020 Human hair keratins (HHK) are known for their biocompatibility and potential to regulate cell response, possibly due to the presence of the leucine-aspartic-valine cell adhesion and signaling motifs. Together with the abundance of cysteine residues in HHK, 3D HHK scaffolds are fabricated through cryogelation based on spontaneous disulfide crosslinks and noncovalent interactions. Herein, the molecular mechanism of HHK self-assembly during cryogelation is interrogated and the influence of cryogelation parameters on the properties of the resultant scaffolds is studied. With successive freeze–thaw cycles, the storage modulus (G′) of HHK cryogels substantially improves from 116.4 Pa at freeze–thaw cycle 3 (FT3) to 1908.7 Pa at freeze–thaw cycle 10 (FT10)...." [ref=e200] [cursor=pointer]:
+        - /url: /meta/10.1002/marc.202000254
+        - generic [ref=e201]:
+          - img "Vietnam" [ref=e203]
+          - generic [ref=e204]: 16:26:33
+        - generic [ref=e205]: Cryogelation of Human Hair Keratins
+        - generic [ref=e206]: Macromol. Rapid Commun., 2020
+        - generic [ref=e207]: Human hair keratins (HHK) are known for their biocompatibility and potential to regulate cell response, possibly due to the presence of the leucine-aspartic-valine cell adhesion and signaling motifs. Together with the abundance of cysteine residues in HHK, 3D HHK scaffolds are fabricated through cryogelation based on spontaneous disulfide crosslinks and noncovalent interactions. Herein, the molecular mechanism of HHK self-assembly during cryogelation is interrogated and the influence of cryogelation parameters on the properties of the resultant scaffolds is studied. With successive freeze–thaw cycles, the storage modulus (G′) of HHK cryogels substantially improves from 116.4 Pa at freeze–thaw cycle 3 (FT3) to 1908.7 Pa at freeze–thaw cycle 10 (FT10)....
+      - link [ref=e208] [cursor=pointer]:
+        - /url: /meta/10.1016/j.ces.2020.116317
+        - generic [ref=e209]:
+          - img "India" [ref=e211]
+          - generic [ref=e212]: 16:26:33
+        - generic [ref=e213]: Mathematical model of the spontaneous imbibition of water into oil-saturated fractured porous media with gravity
+        - generic [ref=e214]: Chemical Engineering Science, 2021
+        - generic [ref=e215]: Studying the mechanism of spontaneous imbibition into oil-saturated fractures is of great significance for unconventional oil reservoir development. Both theory and experimental observations indicate that SI in fractures is significantly different from that in tight matrix. In this work, the implicit analytical solution of the spontaneous water imbibition into a single oil-saturated fracture with gravity is first proposed. The results show that the difference in imbibition velocity with and without gravity increases with the increase in fracture aperture. There is a critical fracture length for SI in the single oil-saturated fracture. Based on the fractal/normal distribution of fracture apertures, the core-scale mathematical model of spontaneous imbibition i...
+      - link [ref=e216] [cursor=pointer]:
+        - /url: /meta/10.1080/09585192.2020.1837201
+        - generic [ref=e217]:
+          - img "Bangladesh" [ref=e219]
+          - generic [ref=e220]: 16:26:33
+        - generic [ref=e221]: "Serving the customer, serving the family, and serving the employee: toward a comprehensive understanding of the effects of service-oriented high-performance work systems"
+        - generic [ref=e222]: The International Journal of Human Resource Management, 2020
+        - generic [ref=e223]: Accompanying the rise of the service economy, service-oriented high-performance work systems (SHPWS) have received increasing attention in HR research. However, existing research has predominately focused on the “bright side” of this system by highlighting its benefits to customer service outcomes as organizations hope and expect, while paying less attention to its potential costs to service employees. Using a “triple-service” perspective, this study examines how SHPWS is related to employees’ customer service as well as their service to their families and to themselves. Drawing on the job demands-resources model, we propose an integrated model in which SHPWS has both beneficial and detrimental effects on service outcomes through two opposing pathw...
+      - link [ref=e224] [cursor=pointer]:
+        - /url: /meta/10.1016/S0926-860X(02)00224-7
+        - generic [ref=e225]:
+          - img "VPN" [ref=e227]
+          - generic [ref=e228]: 16:26:33
+        - generic [ref=e229]: An easy and efficient use of TiO2 supported HZSM-5 and TiO2+HZSM-5 zeolite combinate in the photodegradation of aqueous phenol and p-chlorophenol
+        - generic [ref=e230]: "Applied Catalysis A: General, 2002"
+        - generic [ref=e231]: Titanium(IV) oxide of 2, 5, 10, and 15 wt.% was supported on HZSM-5 zeolite using solid state dispersion (SSD) method. These catalysts were characterized by BET surface area, XRD, UV–VIS–DR-spectra and SEM–EDAX. Characterization of TiO2/HZSM-5 (SSD) catalysts clearly shows that TiO2 dispersed in solid state is free of interaction with the zeolite. The photocatalytic activity of these systems in the degradation of aqueous phenol and p-chlorophenol indicates that TiO2/HZSM-5 (SSD) is an active photocatalyst; the optimum photodegradation activity is seen at 10–15 wt.% TiO2/HZSM-5. The same activity is also achieved by simply suspending TiO2+HZSM-5 combinate (mechanical mixture) in aqueous phenol and p-chlorophenol. Based on these results, a model highli...
+      - link "Uzbekistan 16:26:33 Role of comorbid conditions in asthma hospitalizations in the south of France Allergy, 2013 Reasons for asthma hospitalizations are dynamic and complex. Comorbid conditions are important contributors to most chronic diseases today. We aim to characterize and describe risk factors associated with hospitalizations due to asthma in the Languedoc-Roussillon region (France) in 2009.Programme de Médicalisation des Systèmes d'Information (PMSI) data records from 2009 were sorted using selected International Classification of Diseases (ICD10) codes eliciting three groups of asthma hospitalizations according to acute severity. All available data including demographics, comorbid conditions, past hospitalizations either related or unrelated to asthma, seasonality and distance to medical facilities were used to compare the subjects within the three groups.On..." [ref=e232] [cursor=pointer]:
+        - /url: /meta/10.1111/all.12137
+        - generic [ref=e233]:
+          - img "Uzbekistan" [ref=e235]
+          - generic [ref=e236]: 16:26:33
+        - generic [ref=e237]: Role of comorbid conditions in asthma hospitalizations in the south of France
+        - generic [ref=e238]: Allergy, 2013
+        - generic [ref=e239]: Reasons for asthma hospitalizations are dynamic and complex. Comorbid conditions are important contributors to most chronic diseases today. We aim to characterize and describe risk factors associated with hospitalizations due to asthma in the Languedoc-Roussillon region (France) in 2009.Programme de Médicalisation des Systèmes d'Information (PMSI) data records from 2009 were sorted using selected International Classification of Diseases (ICD10) codes eliciting three groups of asthma hospitalizations according to acute severity. All available data including demographics, comorbid conditions, past hospitalizations either related or unrelated to asthma, seasonality and distance to medical facilities were used to compare the subjects within the three groups.On...
+      - link "Colombia 16:26:33 Monosynaptic inputs to new neurons in the dentate gyrus Nat Commun, 2012 Adult hippocampal neurogenesis is considered important for cognition. The integration of newborn dentate gyrus granule cells into the existing network is regulated by afferent neuronal activity of unspecified origin. Here we combine rabies virus-mediated retrograde tracing with retroviral labelling of new granule cells (21, 30, 60, 90 days after injection) to selectively identify and quantify their monosynaptic inputs in vivo. Our results show that newborn granule cells receive afferents from intra-hippocampal cells (interneurons, mossy cells, area CA3 and transiently, mature granule cells) and septal cholinergic cells. Input from distal cortex (perirhinal (PRH) and lateral entorhinal cortex (LEC)) is sparse 21 days after injection and increases over time. P..." [ref=e240] [cursor=pointer]:
+        - /url: /meta/10.1038/ncomms2101
+        - generic [ref=e241]:
+          - img "Colombia" [ref=e243]
+          - generic [ref=e244]: 16:26:33
+        - generic [ref=e245]: Monosynaptic inputs to new neurons in the dentate gyrus
+        - generic [ref=e246]: Nat Commun, 2012
+        - generic [ref=e247]: Adult hippocampal neurogenesis is considered important for cognition. The integration of newborn dentate gyrus granule cells into the existing network is regulated by afferent neuronal activity of unspecified origin. Here we combine rabies virus-mediated retrograde tracing with retroviral labelling of new granule cells (21, 30, 60, 90 days after injection) to selectively identify and quantify their monosynaptic inputs in vivo. Our results show that newborn granule cells receive afferents from intra-hippocampal cells (interneurons, mossy cells, area CA3 and transiently, mature granule cells) and septal cholinergic cells. Input from distal cortex (perirhinal (PRH) and lateral entorhinal cortex (LEC)) is sparse 21 days after injection and increases over time. P...
+      - link [ref=e248] [cursor=pointer]:
+        - /url: /meta/10.1021/jp107679n
+        - generic [ref=e249]:
+          - img "United States" [ref=e251]
+          - generic [ref=e252]: 16:26:33
+        - generic [ref=e253]: "Impact of Molecular Conformation on Barriers to Internal Methyl Rotation: The Rotational Spectrum of m-Methylbenzaldehyde"
+        - generic [ref=e254]: J. Phys. Chem. A, 2010
+        - generic [ref=e255]: The ground state spectrum of m-methylbenzaldehyde (m-MBA) was measured with a chirped-pulse Fourier transform microwave (CP-FTMW) spectrometer. The methyl rotor on m-MBA introduces an internal rotation barrier, which leads to splitting of the torsional energy level degeneracy into A and E states. Ab initio calculations predict a low torsional barrier for both the O-cis and O-trans conformers, resulting in a large doublet splitting up to several gigahertz in the frequency spectrum. The rotational constants, distortion terms, and V(3) values for both species have been determined from the ground state rotational spectrum using the BELGI-C(s) fitting program. There are significant differences in the torsional potential for the O-cis and O-trans m-MBA conformers....
+      - 'link "United States 16:26:33 Skeleton Sports Biomechanics, 2005 The aim of this study was to characterize sprint ability, anthropometry, and lower extremity power in the US National Team Skeleton athletes. Fourteen athletes (male n = 7; mean +/- SD: height 1.794 +/- 0.063 m, body mass 81.2 +/- 3.7 kg, age 26.9 +/- 4.1 years; female n = 7; 1.642 +/- 0.055 m, 60.1 +/- 5.9 kg, 27.3 +/- 6.9 years) volunteered to participate. Sprinting ability was measured over multiple intervals using custom infrared timing gates in both an upright and a crouched sprint. The crouched sprint was performed while pushing a wheeled-simulated skeleton sled on rails on an outdoor skeleton and bobsleigh start track. Crouched skeleton sprint starts were able to achieve about 70% to 85% of the upright sprint times. The mean somatotype ratings for fem..." [ref=e256] [cursor=pointer]':
+        - /url: /meta/10.1080/14763140508522863
+        - generic [ref=e257]:
+          - img "United States" [ref=e259]
+          - generic [ref=e260]: 16:26:33
+        - generic [ref=e261]: Skeleton
+        - generic [ref=e262]: Sports Biomechanics, 2005
+        - generic [ref=e263]: "The aim of this study was to characterize sprint ability, anthropometry, and lower extremity power in the US National Team Skeleton athletes. Fourteen athletes (male n = 7; mean +/- SD: height 1.794 +/- 0.063 m, body mass 81.2 +/- 3.7 kg, age 26.9 +/- 4.1 years; female n = 7; 1.642 +/- 0.055 m, 60.1 +/- 5.9 kg, 27.3 +/- 6.9 years) volunteered to participate. Sprinting ability was measured over multiple intervals using custom infrared timing gates in both an upright and a crouched sprint. The crouched sprint was performed while pushing a wheeled-simulated skeleton sled on rails on an outdoor skeleton and bobsleigh start track. Crouched skeleton sprint starts were able to achieve about 70% to 85% of the upright sprint times. The mean somatotype ratings for fem..."
+      - link [ref=e264] [cursor=pointer]:
+        - /url: /meta/10.1016/j.orgel.2019.02.007
+        - generic [ref=e265]:
+          - img "China" [ref=e267]
+          - generic [ref=e268]: 16:26:33
+        - generic [ref=e269]: Room-temperature synthesized formamidinium lead halide perovskite quantum dots with bright luminescence and color-tunability for efficient light emitting
+        - generic [ref=e270]: Organic Electronics, 2019
+        - generic [ref=e271]: Although organometal halide perovskites have garnered enormous interest as solution-processed absorbing layers in solar cells with power conversion efficiencies breaking 20%, nonetheless seldom effort has been made to light emitting devices fabricated from formamidinium lead halide perovskite quantum dots (QDs). Herein we demonstrate a facile and low-cost room-temperature synthesis of highly luminescent and color-tunable formamidinium lead halide perovskite QDs (FAPbX3, X = Cl, Br, and I or mixed halide systems Cl/Br and Br/I) using inexpensive commercial precursors. Through compositional engineering, the photoluminescence emission spectra are readily tunable in the range of 430–690 nm, covering most of the visible spectral region. The photoluminescence (P...
+      - link "Bangladesh 16:26:33 Individuelle Wahl der Mittel - Regeln der medikamentösen perioperativen Schmerztherapie Klinikarzt, 2005 Starke Schmerzen nach einem Eingriff führen aufgrund der erschwerten Mobilisierung zu einer verlangsamten Rekonvaleszenz des Patienten und machen eine längere intensivmedizinische Behandlung notwendig. Eine unzureichende Akutschmerztherapie steht oft auch am Beginn einer späteren Chronifizierung operativer Schmerzen. Ein wichtiger Teil der perioperativen Schmerztherapie sind die medikamentöse Therapie mit Basisanalgetika und die Auswahl eines geeigneten Narkoseverfahrens. Welches Analgetikum (in welcher Dosierung) und welches Verfahren im individuellen Fall eingesetzt werden sollte, hängt von verschiedenen Faktoren ab. Oft überschätzt wird dabei die Bedeutung des Alters der Patienten, wichtigere Faktoren sind Komorbiditäten oder auch die Art des Schm..." [ref=e272] [cursor=pointer]:
+        - /url: /meta/10.1055/s-2005-871780
+        - generic [ref=e273]:
+          - img "Bangladesh" [ref=e275]
+          - generic [ref=e276]: 16:26:33
+        - generic [ref=e277]: Individuelle Wahl der Mittel - Regeln der medikamentösen perioperativen Schmerztherapie
+        - generic [ref=e278]: Klinikarzt, 2005
+        - generic [ref=e279]: Starke Schmerzen nach einem Eingriff führen aufgrund der erschwerten Mobilisierung zu einer verlangsamten Rekonvaleszenz des Patienten und machen eine längere intensivmedizinische Behandlung notwendig. Eine unzureichende Akutschmerztherapie steht oft auch am Beginn einer späteren Chronifizierung operativer Schmerzen. Ein wichtiger Teil der perioperativen Schmerztherapie sind die medikamentöse Therapie mit Basisanalgetika und die Auswahl eines geeigneten Narkoseverfahrens. Welches Analgetikum (in welcher Dosierung) und welches Verfahren im individuellen Fall eingesetzt werden sollte, hängt von verschiedenen Faktoren ab. Oft überschätzt wird dabei die Bedeutung des Alters der Patienten, wichtigere Faktoren sind Komorbiditäten oder auch die Art des Schm...
+      - link [ref=e280] [cursor=pointer]:
+        - /url: /meta/10.1016/j.jes.2018.04.007
+        - generic [ref=e281]:
+          - img "Iraq" [ref=e283]
+          - generic [ref=e284]: 16:26:33
+        - generic [ref=e285]: "Insight into the distribution of metallic elements in membrane bioreactor: Influence of operational temperature and role of extracellular polymeric substances"
+        - generic [ref=e286]: Journal of Environmental Sciences, 2019
+        - generic [ref=e287]: The distribution of metallic elements in a submerged membrane bioreactor (MBR) was revealed at different temperatures using inductively coupled plasma-optical emission spectrometry (ICP-OES), and the role of extracellular polymeric substances (EPS) was probed by integrating scanning electron microscopy (SEM) with confocal laser scanning microscopy (CLSM) over long-term operation. More metallic elements in the influent were captured by suspended sludge and built up in the fouling layer at lower temperature. The concentration of metallic elements in the effluent was 5.60mg/L at 10°C operational temperature, far lower than that in the influent (51.35mg/L). The total contents of metallic elements in suspended sludge and the membrane fouling layer increased to 4...
+      - link [ref=e288] [cursor=pointer]:
+        - /url: /meta/10.1073/pnas.1313657110
+        - generic [ref=e289]:
+          - img "United States" [ref=e291]
+          - generic [ref=e292]: 16:26:33
+        - generic [ref=e293]: Distortional binding of transition state analogs to human purine nucleoside phosphorylase probed by magic angle spinning solid-state NMR
+        - generic [ref=e294]: Proc. Natl. Acad. Sci. U.S.A., 2013
+        - generic [ref=e295]: Significance Enzymes are efficient at bringing reactants to the transition state. Transition state analogs mimic the transition state but are chemically stable. What forces do enzymes apply to transition state analogs? Solid-state NMR is used to answer this question for human purine nucleoside phosphorylase. When imperfect and near-perfect transition state analogs are analysed on and off the enzyme, greater distortions are observed for the imperfect transition state analog. The distortion is energetically large and is toward the transition state geometry. In contrast, the near-perfect analog experiences almost no distortion, stabilizing the enzyme in a favored conformation near the transition state. Both inhibitors bind with picomolar dissociation constants,...
+      - link [ref=e296] [cursor=pointer]:
+        - /url: /meta/10.1016/0167-2584(85)90352-4
+        - generic [ref=e297]:
+          - img "Kyrgyz Republic" [ref=e299]
+          - generic [ref=e300]: 16:26:33
+        - generic [ref=e301]: On the deexcitation mechanism in Auger electron appearance potential spectroscopy
+        - generic [ref=e302]: Surface Science Letters, 1985
+        - generic [ref=e303]: Abstract Contributions of electrons with different energies to the Auger Electron Appearance Potential Spectroscopy signal were measured for Ti, Cr, Mn and Fe by means of a method using a 3-grid retarding field system. This system permits to register a signal formed by electrons of energies either from zero to a given energy E G or from that energy to the primary energy E p . The importance of slow electrons was found in all cases. Numbers of slow electrons emitted at the disappearance of one elastically reflected electron at threshold potentials were calculated. They extend from 2.7 to about 3.7 for L 2,3 shells and are higher, namely 7–11, for L 1 shells. This results, as well as the fact that the Disappearance Potential Spectroscopy signal overcompensat...
+      - link [ref=e304] [cursor=pointer]:
+        - /url: /meta/10.3390/geosciences11060263
+        - generic [ref=e305]:
+          - img "United States" [ref=e307]
+          - generic [ref=e308]: 16:26:33
+        - generic [ref=e309]: Hydrochemistry and Evolution of Water Quality in a Context of Aridity and Increasing Agriculture in Three River Sub-Basins of Santiago Island (Cape Verde)
+        - generic [ref=e310]: Geosciences, 2021
+        - generic [ref=e311]: In regions under development and facing recurrent droughts, increasing the area of irrigated agriculture may create additional disruption in water resources management. The present study was focused on three river sub-basins with the highest agricultural intensity (S. Miguel, Ribeira Seca and S. Domingos) in Santiago Island (Cape Verde). Sets of wells were selected to evaluate the influence of salinization and agriculture practices on the hydrochemistry. This assessment was performed by using data from the bibliography (2003) and a recent campaign (2016). The water chemistry indicates lower mineralization in the S. Miguel sub-basin. Nitrates and nitrites, typically associated with diffuse pollution, are present in all sub-basins, but with varying patterns. A...
+      - link [ref=e312] [cursor=pointer]:
+        - /url: /meta/10.1111/j.1399-302x.1993.tb00657.x
+        - generic [ref=e313]:
+          - img "United States" [ref=e315]
+          - generic [ref=e316]: 16:26:33
+        - generic [ref=e317]: Significance of serum antibody against surface antigens of Actinobacillus actinomycetemcomitans in patients with adult periodontitis
+        - generic [ref=e318]: Oral Microbiology and Immunology, 1993
+        - generic [ref=e319]: This study was undertaken to examine the prevalence of Actinobacillus actinomycetemcomitans, its serotype distribution and the serum immune responses against its surface antigens in 41 Japanese patients with adult periodontitis. The dominant A. actinomycetemcomitans serotype isolated was serotype c. Immunoblot analysis of 3 serotypes of A. actinomycetemcomitans-sonicated antigens and the patient sera revealed that the reactivities with serotype c were the most frequent and that heat-stable surface serotype-specific antigen appeared to be immunodominant. Elevated serum immunoglobulin G titers to extracted lipopolysaccharide and fimbriae antigen of A. actinomycetemcomitans were noted for the patient sera by enzyme-linked immunosorbent assay. High serum immunog...
+      - link [ref=e320] [cursor=pointer]:
+        - /url: /meta/10.1016/j.micpro.2005.12.005
+        - generic [ref=e321]:
+          - img "Bangladesh" [ref=e323]
+          - generic [ref=e324]: 16:26:33
+        - generic [ref=e325]: The hardware-based implementation of the colour palette generation stage of a colour image quantization algorithm
+        - generic [ref=e326]: Microprocessors and Microsystems, 2006
+        - generic [ref=e327]: Many techniques have been proposed to quantize a digital colour image in order to reduce the representative number of colours to be suitable for presenting on different type of display screens. Most of the techniques are targeted for implementation on a general purpose multitasking computer with low restriction on resource utilization. The drawback of these techniques relies on the fact that they cannot fulfil the requirement of some applications with real-time constraint and limited resources. In this paper, the most suitable algorithm for hardware implementation is reviewed and the details of its implementation and experimentation which is focused on the colour palette generation stage are presented. The implementation given in this paper is for use in con...
+      - link [ref=e328] [cursor=pointer]:
+        - /url: /meta/10.1186/s40712-020-0116-3
+        - generic [ref=e329]:
+          - img "Colombia" [ref=e331]
+          - generic [ref=e332]: 16:26:33
+        - generic [ref=e333]: Experimentation and numerical modeling on the response of woven glass/epoxy composite plate under blast impact loading
+        - generic [ref=e334]: Int J Mech Mater Eng, 2020
+        - generic [ref=e335]: Abstract Background Composite material is being used in vehicles for protective structures against blast loading. Limited data is available which compare experimental works and numerical analysis in the open field environment. More data is needed in this area in order to be able to predict and use composite materials safely. Methods In this work, the response of woven glass/epoxy composite plates under blast loading was investigated, both experimentally and numerically. The plate was manufactured using glass/epoxy woven Cytec 120 °C curing system. The explosive material was Tri-Nitro-Toluen (TNT) with different masses, which are 60, 80, and 100 g. The stand-off distance was also varied, ranging from 300 up to 1000 mm. In the experimental work, a sewing need...
+      - link [ref=e336] [cursor=pointer]:
+        - /url: /meta/10.1177/1359105315595120
+        - generic [ref=e337]:
+          - img "Spain" [ref=e339]
+          - generic [ref=e340]: 16:26:33
+        - generic [ref=e341]: "When healthcare professionals cannot do the right thing: A systematic review of moral distress and its correlates"
+        - generic [ref=e342]: J Health Psychol, 2016
+        - generic [ref=e343]: Moral distress occurs when professionals cannot carry out what they believe to be ethically appropriate actions. This review describes the publication trend on moral distress and explores its relationships with other constructs. A bibliometric analysis revealed that since 1984, 239 articles were published, with an increase after 2011. Most of them (71%) focused on nursing. Of the 239 articles, 17 empirical studies were systematically analyzed. Moral distress correlated with organizational environment (poor ethical climate and collaboration), professional attitudes (low work satisfaction and engagement), and psychological characteristics (low psychological empowerment and autonomy). Findings revealed that moral distress negatively affects clinicians' wellbein...
+      - link "Philippines 16:26:33 Recognising and Responding to Victims of Rural Racism International Review of Victimology, 2006 In recent decades policy-makers and academics have afforded increasing levels of recognition to the needs of victims of crime. However, much of this ‘new’ focus has centred upon urban environments, with only limited attention given to rural crime and victimisation. Significantly, even within the small body of rural-based work, the concerns of victims of racist harassment have been largely neglected. This article seeks to redress this situation by examining and contextualising issues of racist victimisation in the rural arena. Drawing from the authors’ own research conducted across different rural locales in the UK over a four-year period, it is argued here that this victimisation is an ongoing process rather than a collection of distinct, one-off event..." [ref=e344] [cursor=pointer]:
+        - /url: /meta/10.1177/026975800601300103
+        - generic [ref=e345]:
+          - img "Philippines" [ref=e347]
+          - generic [ref=e348]: 16:26:33
+        - generic [ref=e349]: Recognising and Responding to Victims of Rural Racism
+        - generic [ref=e350]: International Review of Victimology, 2006
+        - generic [ref=e351]: In recent decades policy-makers and academics have afforded increasing levels of recognition to the needs of victims of crime. However, much of this ‘new’ focus has centred upon urban environments, with only limited attention given to rural crime and victimisation. Significantly, even within the small body of rural-based work, the concerns of victims of racist harassment have been largely neglected. This article seeks to redress this situation by examining and contextualising issues of racist victimisation in the rural arena. Drawing from the authors’ own research conducted across different rural locales in the UK over a four-year period, it is argued here that this victimisation is an ongoing process rather than a collection of distinct, one-off event...
+      - link [ref=e352] [cursor=pointer]:
+        - /url: /meta/10.1016/j.tpb.2009.09.001
+        - generic [ref=e353]:
+          - img "Bangladesh" [ref=e355]
+          - generic [ref=e356]: 16:26:33
+        - generic [ref=e357]: "Investigating the role of enemies in temporal dynamics: Differential sensitivity, competition and stable coexistence"
+        - generic [ref=e358]: Theoretical Population Biology, 2009
+        - generic [ref=e359]: The impact of herbivores and other pests on plants varies greatly from year to year. Here we develop an analytical model of a temporal niche dynamic as a tool to examine how natural fluctuations in pest (enemy) levels may determine coexistence in competing annual plant species when one but not the other is affected by the pest. We show that the probability and speed with which the resistant drives out the sensitive species, coexists with it, or is driven out by its sensitive competitor depends on the cost of pest-resistance to the unaffected species, the frequency of high pest levels in the habitat and the competitive advantage of the sensitive species when the pest is not actively present. The interaction is regulated primarily by pest impact on relative se...
+      - link [ref=e360] [cursor=pointer]:
+        - /url: /meta/10.1111/j.1749-6632.2011.06400.x
+        - generic [ref=e361]:
+          - img "China" [ref=e363]
+          - generic [ref=e364]: 16:26:33
+        - generic [ref=e365]: The impacts of nature experience on human cognitive function and mental health
+        - generic [ref=e366]: Annals of the New York Academy of Sciences, 2012
+        - generic [ref=e367]: Scholars spanning a variety of disciplines have studied the ways in which contact with natural environments may impact human well-being. We review the effects of such nature experience on human cognitive function and mental health, synthesizing work from environmental psychology, urban planning, the medical literature, and landscape aesthetics. We provide an overview of the prevailing explanatory theories of these effects, the ways in which exposure to nature has been considered, and the role that individuals' preferences for nature may play in the impact of the environment on psychological functioning. Drawing from the highly productive but disparate programs of research in this area, we conclude by proposing a system of categorization for different types o...
+      - link [ref=e368] [cursor=pointer]:
+        - /url: /meta/10.1021/ma202618r
+        - generic [ref=e369]:
+          - img "China" [ref=e371]
+          - generic [ref=e372]: 16:26:32
+        - generic [ref=e373]: Involvement of Supramolecular Complexes in the Capture and Release of Protonic Acids During the Cationic Ring-Opening Polymerization of Epoxides
+        - generic [ref=e374]: Macromolecules, 2012
+        - generic [ref=e375]: The kinetics of the cationic ring-opening polymerizations of epoxide monomers were controlled through the use of supramolecular proton complexes. α,ω-Diglycidyl oligoethylene oxides bearing multiple ethyleneoxy spacer groups form metastable supramolecular proton complexes with strong Bronsted acids generated either by the photolysis of onium salts or by their redox reactions with reducing agents. Trapping of the Bronsted acids by in situ complex formation results in a delay of the onset of cationic ring-opening. However, once polymerization begins, the epoxide groups of the monomer are very rapidly consumed resulting in characteristically highly exothermic autoaccelerated polymerization reactions. Crown ethers can also form supramolecular complexes with hy...
+      - link "Bhutan 16:26:32 Transformer Insulation Life Assessment IEEE Trans. Power Delivery, 2006 This paper presents novel techniques for life assessment of the insulation of the generator stepup units in power plants. Load and ambient temperatures are two important factors that influence the life of insulation in transformers. Hourly load and ambient temperatures obtained through condition monitoring are used to assess the operating profile of the equipment. Modeling techniques for estimating load factors and the ambient temperatures using the operating history are discussed in this paper. The estimated load factors and ambient temperatures are input to the IEEE life consumption models to assess the consumed life of insulation. A full simulation approach and a renewal process approach have been presented to evaluate the time to failure of the insulatio..." [ref=e376] [cursor=pointer]:
+        - /url: /meta/10.1109/tpwrd.2005.855474
+        - generic [ref=e377]:
+          - img "Bhutan" [ref=e379]
+          - generic [ref=e380]: 16:26:32
+        - generic [ref=e381]: Transformer Insulation Life Assessment
+        - generic [ref=e382]: IEEE Trans. Power Delivery, 2006
+        - generic [ref=e383]: This paper presents novel techniques for life assessment of the insulation of the generator stepup units in power plants. Load and ambient temperatures are two important factors that influence the life of insulation in transformers. Hourly load and ambient temperatures obtained through condition monitoring are used to assess the operating profile of the equipment. Modeling techniques for estimating load factors and the ambient temperatures using the operating history are discussed in this paper. The estimated load factors and ambient temperatures are input to the IEEE life consumption models to assess the consumed life of insulation. A full simulation approach and a renewal process approach have been presented to evaluate the time to failure of the insulatio...
+      - link [ref=e384] [cursor=pointer]:
+        - /url: /meta/10.1161/hypertensionaha.108.114280
+        - generic [ref=e385]:
+          - img "United States" [ref=e387]
+          - generic [ref=e388]: 16:26:32
+        - generic [ref=e389]: Molecular Mechanisms Involved in the Angiotensin-(1-7)/Mas Signaling Pathway in Cardiomyocytes
+        - generic [ref=e390]: Hypertension, 2008
+        - generic [ref=e391]: Recently there has been growing evidence suggesting that beneficial effects of angiotensin-(1-7) [Ang-(1-7)] in the heart are mediated by its receptor Mas. However, the signaling pathways involved in these effects in cardiomyocytes are unknown. Here, we investigated the involvement of the Ang-(1-7)/Mas axis in NO generation and Ca 2+ handling in adult ventricular myocytes using a combination of molecular biology, intracellular Ca 2+ imaging, and confocal microscopy. Acute Ang-(1-7) treatment (10 nmol/L) leads to NO production and activates endothelial NO synthase and Akt in cardiomyocytes. Ang-(1-7)–dependent NO raise was abolished by pretreatment with A-779 (1 μmol/L). To confirm that Ang-(1-7) action is mediated by Mas, we used cardiomyocytes isolated f...
+      - link [ref=e392] [cursor=pointer]:
+        - /url: /meta/10.1086/707059
+        - generic [ref=e393]:
+          - img "United States" [ref=e395]
+          - generic [ref=e396]: 16:26:32
+        - generic [ref=e397]: Do Nonpartisan Programmatic Policies Have Partisan Electoral Effects? Evidence from Two Large-Scale Experiments
+        - generic [ref=e398]: The Journal of Politics, 2020
+        - generic [ref=e399]: A vast literature demonstrates that voters around the world who benefit from government discretionary spending increase their electoral support for the incumbent party. But, contrary to theories of political accountability, some suggest that voters also reward incumbent parties for “programmatic” spending, over which incumbents have no discretion, even when passed with support from all major parties. Why voters would attribute responsibility when none exists is unclear, as is why minority parties would support legislation that costs them votes. We study two prominent programmatic policies. For the first, we design and implement one of the largest randomized social experiments ever. For the second, we reanalyze studies that came to opposite conclusions, u...
+      - link [ref=e400] [cursor=pointer]:
+        - /url: /meta/10.1093/carcin/bgr020
+        - generic [ref=e401]:
+          - img "United States" [ref=e403]
+          - generic [ref=e404]: 16:26:32
+        - generic [ref=e405]: Promoter methylation of Wnt antagonistsDKK1andSFRP1is associated with opposing tumor subtypes in two large populations of colorectal cancer patients
+        - generic [ref=e406]: CARCIN, 2011
+        - generic [ref=e407]: Aberrant activation of canonical Wnt signaling is a hallmark event in colorectal carcinogenesis. The Dickkopf-1 (DKK1) and Secreted Frizzled Related Protein 1 (SFRP1) genes encode extracellular inhibitors of Wnt signaling that are frequently silenced by promoter hypermethylation in colorectal cancer (CRC). These methylation events have been identified as prognostic markers of patient outcome and tumor subtype in several cancers but similar roles in CRC have not been comprehensively examined. In CRC, the microsatellite instability (MSI) subtype associates with favorable disease outcome but the molecular events that are responsible remain poorly understood. Consequently, we quantified promoter methylation status of the Wnt antagonist genes DKK1 and SFRP1 in a ...
+      - link "United States 16:26:32 A framework for plasticity implementation on the SpiNNaker neural architecture Front. Neurosci., 2015 Many of the precise biological mechanisms of synaptic plasticity remain elusive, but simulations of neural networks have greatly enhanced our understanding of how specific global functions arise from the massively parallel computation of neurons and local Hebbian or spike-timing dependent plasticity rules. For simulating large portions of neural tissue, this has created an increasingly strong need for large scale simulations of plastic neural networks on special purpose hardware platforms, because synaptic transmissions and updates are badly matched to computing style supported by current architectures. Because of the great diversity of biological plasticity phenomena and the corresponding diversity of models, there is a great need for testing various hypoth..." [ref=e408] [cursor=pointer]:
+        - /url: /meta/10.3389/fnins.2014.00429
+        - generic [ref=e409]:
+          - img "United States" [ref=e411]
+          - generic [ref=e412]: 16:26:32
+        - generic [ref=e413]: A framework for plasticity implementation on the SpiNNaker neural architecture
+        - generic [ref=e414]: Front. Neurosci., 2015
+        - generic [ref=e415]: Many of the precise biological mechanisms of synaptic plasticity remain elusive, but simulations of neural networks have greatly enhanced our understanding of how specific global functions arise from the massively parallel computation of neurons and local Hebbian or spike-timing dependent plasticity rules. For simulating large portions of neural tissue, this has created an increasingly strong need for large scale simulations of plastic neural networks on special purpose hardware platforms, because synaptic transmissions and updates are badly matched to computing style supported by current architectures. Because of the great diversity of biological plasticity phenomena and the corresponding diversity of models, there is a great need for testing various hypoth...
+      - link [ref=e416] [cursor=pointer]:
+        - /url: /meta/10.3390/ijms20205015
+        - generic [ref=e417]:
+          - img "United States" [ref=e419]
+          - generic [ref=e420]: 16:26:32
+        - generic [ref=e421]: Comparing the Osteogenic Potentials and Bone Regeneration Capacities of Bone Marrow and Dental Pulp Mesenchymal Stem Cells in a Rabbit Calvarial Bone Defect Model
+        - generic [ref=e422]: IJMS, 2019
+        - generic [ref=e423]: The bone regeneration efficiency of bone marrow mesenchymal stem cells (BMSCs) and dental pulp mesenchymal stem cells (DPSCs) combined with xenografts in the craniofacial region remains unclear. Accordingly, this study commenced by comparing the cell morphology, cell proliferation, trilineage differentiation, mineral synthesis, and osteogenic gene expression of BMSCs and DPSCs in vitro. Four experimental groups (empty control, Bio-Oss only, Bio-Oss+BMSCs, and Bio-Oss+DPSCs) were then designed and implanted in rabbit calvarial defects. The BMSCs and DPSCs showed a similar morphology, proliferative ability, surface marker profile, and trilineage-differentiation potential in vitro. However, the BMSCs exhibited a higher mineral deposition and expression levels o...
+      - 'link "Bolivia 16:26:32 Identification of differences in gender for adolescents in crisis residence Journal of Mental Health, 2005 Background: This study explored the nature of client gender relative to counseling adolescents in acute care psychiatric programs.Aims: A goal attainment model, emphasizing problem identification and commitment to follow-up, was utilized to predict client stabilization for adolescents based on clients'' gender.Method: Data were collected from adolescent clients admitted to psychiatric acute care programs. Licensed master''s level clinicians completed the Clinician Problem Scale Revised and Goal Attainment Scale of Stabilization on their adolescent clients. Multiple regression analysis was used to address whether or not differences in gender affected the extent to which goal attainment accounted for scores on the Clinician Problem Scale Revised.Results:�..." [ref=e424] [cursor=pointer]':
+        - /url: /meta/10.1080/09638230500347707
+        - generic [ref=e425]:
+          - img "Bolivia" [ref=e427]
+          - generic [ref=e428]: 16:26:32
+        - generic [ref=e429]: Identification of differences in gender for adolescents in crisis residence
+        - generic [ref=e430]: Journal of Mental Health, 2005
+        - generic [ref=e431]: "Background: This study explored the nature of client gender relative to counseling adolescents in acute care psychiatric programs.Aims: A goal attainment model, emphasizing problem identification and commitment to follow-up, was utilized to predict client stabilization for adolescents based on clients' gender.Method: Data were collected from adolescent clients admitted to psychiatric acute care programs. Licensed master's level clinicians completed the Clinician Problem Scale Revised and Goal Attainment Scale of Stabilization on their adolescent clients. Multiple regression analysis was used to address whether or not differences in gender affected the extent to which goal attainment accounted for scores on the Clinician Problem Scale Revised.Results:�..."
+      - link [ref=e432] [cursor=pointer]:
+        - /url: /meta/10.1039/c3lc00043e
+        - generic [ref=e433]:
+          - img "United States" [ref=e435]
+          - generic [ref=e436]: 16:26:32
+        - generic [ref=e437]: "Optoacoustic tweezers: a programmable, localized cell concentrator based on opto-thermally generated, acoustically activated, surface bubbles"
+        - generic [ref=e438]: Lab Chip, 2013
+        - generic [ref=e439]: We present a programmable, biocompatible technique for dynamically concentrating and patterning particles and cells in a microfluidic device. Since our technique utilizes opto-thermally generated, acoustically activated, surface bubbles, we name it "optoacoustic tweezers". The optoacoustic tweezers are capable of concentrating particles/cells at any prescribed locations in a microfluidic chamber without the use of permanent structures, rendering it particularly useful for the formation of flexible, complex cell patterns. Additionally, this technique has demonstrated excellent biocompatibility and can be conveniently integrated with other microfluidic units. In our experiments, micro-bubbles were generated by focusing a 405 nm diode laser onto a gold-coated g...
+      - link [ref=e440] [cursor=pointer]:
+        - /url: /meta/10.1017/s2475262200006687
+        - generic [ref=e441]:
+          - img "United States" [ref=e443]
+          - generic [ref=e444]: 16:26:32
+        - generic [ref=e445]: The isotopic record of Miocene-Recent environmental changes in shallow marine habitats on either side of the Panamanian isthmus
+        - generic [ref=e446]: Spec. publ. (Paleontol. Soc.), 1992
+        - generic [ref=e447]: The Pliocene uplift of the Panamanian isthmus isolated previously contiguous Caribbean and eastern Pacific marine faunas, and initiated the development of different selective regimes on opposing sides of the barrier. Contrasting environmental conditions provided the context for different rates and kinds of evolutionary change on either side of the isthmus. The goal of our study is to characterize the rates and types of these paleoenvironmental changes; we employ stable isotopic profiles of venerid bivalve shells from the Miocene-Recent deposits of Panama and Costa Rica. We analyzed geographic and depth variation in Recent shells as a means of calibrating the fossil analyses. Results from Recent venerids highlight the differences between the Caribbean and eas...
+      - link [ref=e448] [cursor=pointer]:
+        - /url: /meta/10.1016/j.ajog.2005.10.341
+        - generic [ref=e449]:
+          - img "Costa Rica" [ref=e451]
+          - generic [ref=e452]: 16:26:32
+        - generic [ref=e453]: The relationship between oligohydramnios and perinatal outcomes
+        - generic [ref=e454]: American Journal of Obstetrics and Gynecology, 2005
+        - generic [ref=e455]: The purpose of this study was to determine whether oligohydramnios (AFI ≤ 5cm regardless of gestational age) predicts poor perinatal outcomes. We identified all women who visited our institution from January 2004 to June 2005 in whom oligohydramnios was diagnosed without rupture of membrane by antenatal ultrasound. 117 women had been diagnosed as oligohydramnios without rupture of membrane. All women with oligohydramnios were admitted to the hospital for labor induction in spite of reactive NST findings. Each of the women was compared with patients with AFI > 5cm. Case patients were matched with control patients for maternal age, parity, and gestational age. Statistical analysis was performed using a chi-sqaure test, Fisher´s exact test, or a Student t-te...
+      - link [ref=e456] [cursor=pointer]:
+        - /url: /meta/10.1016/j.jes.2016.12.007
+        - generic [ref=e457]:
+          - img "Pakistan" [ref=e459]
+          - generic [ref=e460]: 16:26:32
+        - generic [ref=e461]: "Source apportionment of perfluoroalkyl substances in surface sediments from lakes in Jiangsu Province, China: Comparison of three receptor models"
+        - generic [ref=e462]: Journal of Environmental Sciences, 2017
+        - generic [ref=e463]: Receptor models have been proved as useful tools to identify source categories and quantitatively calculate the contributions of extracted sources. In this study, sixty surface sediment samples were collected from fourteen lakes in Jiangsu Province, China. The total concentrations of C4-C14-perfluoroalkyl carboxylic acids and perfluorooctane sulfonic acid (∑12PFASs) in sediments ranged from 0.264 to 4.44ng/gdw (dry weight), with an average of 1.76ng/gdw. Three commonly-applied receptor models, namely principal component analysis-multiple linear regression (PCA-MLR), positive matrix factorization (PMF) and Unmix models, were employed to apportion PFAS sources in sediments. Overall, these three models all could well track the ∑12PFASs concentrations as wel...
+      - link [ref=e464] [cursor=pointer]:
+        - /url: /meta/10.1021/j100346a022
+        - generic [ref=e465]:
+          - img "United States" [ref=e467]
+          - generic [ref=e468]: 16:26:32
+        - generic [ref=e469]: "Conformational study of jet-cooled styrene derivatives: demonstration of the planarity of nonsterically hindered styrenes"
+        - generic [ref=e470]: J. Phys. Chem., 1989
+        - generic [ref=e471]: "ADVERTISEMENT RETURN TO ISSUEPREVArticleNEXTConformational study of jet-cooled styrene derivatives: demonstration of the planarity of nonsterically hindered styrenesV. H. Grassian, E. R. Bernstein, Henry V. Secor, and Jeffrey I. SeemanCite this: J. Phys. Chem. 1989, 93, 9, 3470–3474Publication Date (Print):May 1, 1989Publication History Published online1 May 2002Published inissue 1 May 1989https://doi.org/10.1021/j100346a022RIGHTS & PERMISSIONSArticle Views117Altmetric-Citations31LEARN ABOUT THESE METRICSArticle Views are the COUNTER-compliant sum of full text article downloads since November 2008 (both PDF and HTML) across all institutions and individuals. These metrics are regularly updated to reflect usage leading up to the last few days.Citations are t..."
+      - link [ref=e472] [cursor=pointer]:
+        - /url: /meta/10.1016/j.cirp.2018.04.014
+        - generic [ref=e473]:
+          - img "VPN" [ref=e475]
+          - generic [ref=e476]: 16:26:32
+        - generic [ref=e477]: Process design and modelling methods for automated handling and draping strategies for composite components
+        - generic [ref=e478]: CIRP Annals, 2018
+        - generic [ref=e479]: Abstract Fibre-reinforced-thermoplastics (FRT) have excellent weight-specific properties compared to conventional engineering materials. However, a wider dissemination of this technology into existing plant technologies is restrained by the low degree of automation. Complex FRT component geometries pose special challenges to gripper design and handling strategies in automated preform processes regarding limp material behaviour and fast cooling time. The preform quality is influenced by the component geometry, reinforcing fabric, and preform process. This paper presents the development of an automated handling and draping strategy, which is validated by finite-element-analysis and experimental testing to meet the requirements of large-scale preforming process...
+      - 'link "United States 16:26:32 High-throughput microfluidics: improved sample treatment and washing over standard wells Lab Chip, 2007 Fluid flow in microchannels is used to treat or wash samples and can be incorporated into high-throughput applications such as drug screening, which currently use standard microtiter wells for performing assays. This paper provides theoretical and experimental data comparing microchannels and standard wells on the metrics of sample washing and experimental error in treatment concentrations. It is shown numerically and experimentally that microchannel concentration can be approximated with an inverse linear relationship to input volume. The experimentally supported mathematical approximation and error propagation methods are used to compare the accuracy and precision of treatments in microchannels vs. standard wells. Mathematical results suggest microchannels..." [ref=e480] [cursor=pointer]':
+        - /url: /meta/10.1039/b613350a
+        - generic [ref=e481]:
+          - img "United States" [ref=e483]
+          - generic [ref=e484]: 16:26:32
+        - generic [ref=e485]: "High-throughput microfluidics: improved sample treatment and washing over standard wells"
+        - generic [ref=e486]: Lab Chip, 2007
+        - generic [ref=e487]: Fluid flow in microchannels is used to treat or wash samples and can be incorporated into high-throughput applications such as drug screening, which currently use standard microtiter wells for performing assays. This paper provides theoretical and experimental data comparing microchannels and standard wells on the metrics of sample washing and experimental error in treatment concentrations. It is shown numerically and experimentally that microchannel concentration can be approximated with an inverse linear relationship to input volume. The experimentally supported mathematical approximation and error propagation methods are used to compare the accuracy and precision of treatments in microchannels vs. standard wells. Mathematical results suggest microchannels...
+      - link [ref=e488] [cursor=pointer]:
+        - /url: /meta/10.1109/47.925512
+        - generic [ref=e489]:
+          - img "United States" [ref=e491]
+          - generic [ref=e492]: 16:26:32
+        - generic [ref=e493]: "The local and the global: an exploration into the Finnish and English Websites of a Finnish company"
+        - generic [ref=e494]: IEEE Trans. Profess. Commun., 2001
+        - generic [ref=e495]: This paper compares the Finnish and English Web sites of a Finnish company to find out what culturally geared strategies emerge and what constitutes the genre of company information on the Internet. Drawing on genre theory and cultural studies, the paper further explores the relationship between linear texts and nonlinear hypertext genre. The paper shows how the Web sites aimed at the English-speaking readers are different from the sites targeted to the Finnish readers. It further illustrates the company strategies employed to establish the Web site in Finnish and English. These are endorsed by a company representative who was interviewed for the paper. The Finnish Web site meant for local Finnish readers contained detailed and itemized information and portr...
+      - link [ref=e496] [cursor=pointer]:
+        - /url: /meta/10.1021/acs.jpca.7b01470
+        - generic [ref=e497]:
+          - img "United States" [ref=e499]
+          - generic [ref=e500]: 16:26:32
+        - generic [ref=e501]:
+          - text: Fourier Transform Microwave Spectrum of Propene-3-d
+          - subscript [ref=e502]: "1"
+          - text: (CH
+          - subscript [ref=e503]: "2"
+          - text: ═CHCH
+          - subscript [ref=e504]: "2"
+          - text: D), Quadrupole Coupling Constants of Deuterium, and a Semiexperimental Equilibrium Structure of Propene
+        - generic [ref=e505]: J. Phys. Chem. A, 2017
+        - generic [ref=e506]: The ground-state rotational spectrum of propene-3-d1, CH2═CHCH2D, was measured by Fourier transform microwave spectroscopy. Transitions were assigned for the two conformers, one with the D atom in the symmetry plane (S) and the other with the D atom out of the plane (A). The energy difference between the two conformers was calculated to be 6.5 cm-1, the S conformer having lower energy. The quadrupole hyperfine structure due to deuterium was resolved and analyzed for both conformers. The experimental quadrupole coupling and the centrifugal distortion constants compared favorably to their ab initio counterparts. Ground-state rotational constants for the S conformer are 40582.157(9), 9067.024(1), and 7766.0165(12) MHz. Ground-state rotational constants for th...
+      - link [ref=e507] [cursor=pointer]:
+        - /url: /meta/10.1021/acs.energyfuels.9b03746
+        - generic [ref=e508]:
+          - img "Indonesia" [ref=e510]
+          - generic [ref=e511]: 16:26:32
+        - generic [ref=e512]: "Adsorption of Methane on Shale: Statistical Physics Model and Site Energy Distribution Studies"
+        - generic [ref=e513]: Energy Fuels, 2019
+        - generic [ref=e514]: Adsorption behaviors of methane on four Sichuan Basin shales at different temperatures (318, 338, and 358 K) were experimentally investigated. The adsorption equilibrium data were best fitted by using the modified Hill-monolayer model, in which statistical physics theory was used. Four physicochemical parameters of the number of CH4 molecules per site (n), the density of receptors (Nm), total adsorbed quantity (Qa), and energetic parameter (ΔE) were estimated. The thermodynamic potential functions, including entropy (Sa), internal energy of adsorption (Eint), and Gibbs free energy (Ga), were derived. The results showed multianchorage manner occurs during the adsorption process of CH4 on shale, and the interactions between CH4 molecule and shales are Van der...
+      - link [ref=e515] [cursor=pointer]:
+        - /url: /meta/10.1002/pc.23276
+        - generic [ref=e516]:
+          - img "United States" [ref=e518]
+          - generic [ref=e519]: 16:26:32
+        - generic [ref=e520]: Preparation, characterization, and antibacterial properties of silver nanoparticles embedded into cellulose aerogels
+        - generic [ref=e521]: Polymer Composites, 2014
+        - generic [ref=e522]: In this article, highly loaded silver (Ag) nanoparticles with mean diameter of about 7.83 nm were synthesized by reducing Ag ions by NaBH4 with strong reducibility, and homogeneously embedded into cellulose aerogels without obvious reunion. The as-prepared nano-Ag/cellulose (NAC) aerogels maintained nanoporous and multiscale morphology similar to the pure cellulose aerogels, and showed strong antibacterial activities for both Escherichia coli (Gram negative) and Staphylococcus aureus (Gram positive). Meanwhile, after the incorporation of Ag nanoparticles, NAC aerogels also displayed more superior thermal stability. Thus, the novel NAC aerogels might be expected to be used as various biomedical applications, especially green heat-resistant high-performance an...
+      - link [ref=e523] [cursor=pointer]:
+        - /url: /meta/10.1016/0167-4838(92)90316-6
+        - generic [ref=e524]:
+          - img "United States" [ref=e526]
+          - generic [ref=e527]: 16:26:32
+        - generic [ref=e528]: Lipases from different sources vary widely in dependence of catalytic activity on water activity
+        - generic [ref=e529]: Biochimica et Biophysica Acta (BBA) - Protein Structure and Molecular Enzymology, 1992
+        - generic [ref=e530]: We have measured the rates of esterification in hexane catalysed by suspended immobilised lipases (triacylglycerol acylhydrolase, EC 3.1.1.3), with pre-equilibration to known thermodynamic water activity (a(w)). There were important differences between the enzymes from five different microbes in their retention of activity at low a(w). That from Rhizomucor miehei showed over 40% maximal activity at an a(w) of 0.12, and that from Rhizopus niveus was also fairly active at low a(w). Lipases from other sources required higher a(w) values to show good activity, increasing in the sequence Humicola sp., Candida rugosa and Pseudomonas cepacia. The behaviour was generally similar to two very different support materials, anion-exchange resin and macroporous polypropyl...
+      - link [ref=e531] [cursor=pointer]:
+        - /url: /meta/10.1080/09593330.2017.1323961
+        - generic [ref=e532]:
+          - img "United States" [ref=e534]
+          - generic [ref=e535]: 16:26:32
+        - generic [ref=e536]: A mathematical model of aerobic methane oxidation coupled to denitrification
+        - generic [ref=e537]: Environmental Technology, 2017
+        - generic [ref=e538]: "Aerobic methanotrophic bacteria use methane as their only source of energy and carbon. They release organic compounds that can serve as electron donors for co-existing denitrifiers. This interaction between methanotrophs and denitrifiers is known to contribute to nitrogen losses in natural environments and has also been exploited by researchers for denitrification of nitrate-contaminated wastewater. The purpose of this study was to develop a mathematical model describing aerobic methane oxidation coupled to denitrification in suspended-growth reactors. The model considered the activities of three microbial groups: aerobic methanotrophs, facultative methylotrophs, and facultative heterotrophs. The model was tested against data from the scientific literature a..."
+      - 'link "China 16:26:31 Exploring the key drivers behind the adoption of mobile banking services J Market Anal, 2017 This research examines the main drivers behind the adoption of mobile banking, a concept that has revolutionized the day-to-day activities of humans. A review of relevant literature on the topic, leads us toward testing the following key hypotheses: consumers are adopting mobile banking due to the perceived usefulness and benefits associated with the concept; and consumers are adopting mobile banking due to technological advances meaning increased access to the mobile phone devices. We published an online questionnaire on Amazon Mechanical Turk to obtain responses from Internet users. A dominating proportion of participants highlighted how mobile banking is a concept that they adopted between three and 5 years ago, showing just how recently mobile banking to..." [ref=e539] [cursor=pointer]':
+        - /url: /meta/10.1057/s41270-017-0023-5
+        - generic [ref=e540]:
+          - img "China" [ref=e542]
+          - generic [ref=e543]: 16:26:31
+        - generic [ref=e544]: Exploring the key drivers behind the adoption of mobile banking services
+        - generic [ref=e545]: J Market Anal, 2017
+        - generic [ref=e546]: "This research examines the main drivers behind the adoption of mobile banking, a concept that has revolutionized the day-to-day activities of humans. A review of relevant literature on the topic, leads us toward testing the following key hypotheses: consumers are adopting mobile banking due to the perceived usefulness and benefits associated with the concept; and consumers are adopting mobile banking due to technological advances meaning increased access to the mobile phone devices. We published an online questionnaire on Amazon Mechanical Turk to obtain responses from Internet users. A dominating proportion of participants highlighted how mobile banking is a concept that they adopted between three and 5 years ago, showing just how recently mobile banking to..."
+      - link [ref=e547] [cursor=pointer]:
+        - /url: /meta/10.1016/j.syapm.2020.126123
+        - generic [ref=e548]:
+          - img "Netherlands" [ref=e550]
+          - generic [ref=e551]: 16:26:31
+        - generic [ref=e552]: High diversity of Vibrio spp. associated with different ecological niches in a marine aquaria system and description of Vibrio aquimaris sp. nov
+        - generic [ref=e553]: Systematic and Applied Microbiology, 2020
+        - generic [ref=e554]: The aim of the study was to characterise the diversity and niche-specific colonization of Vibrio spp. in a marine aquaria system by a cultivation-dependent approach. A total of 53 Vibrio spp. isolates were cultured from different ecological niches in a marine aquarium including microplastic (MP) and sandy sediment particles (12 weeks after added sterile to the system), detritus, and the surrounding aquarium water. Based on the 16S rRNA gene sequence phylogeny and multilocus sequence analysis (MLSA) the isolates were assigned to seven different phylotypes. Six phylotypes were identified by high probability to the species level. The highest phylotype diversity was cultured from detritus and water (six out of seven phylotypes), while only two phylotypes were cu...
+      - link [ref=e555] [cursor=pointer]:
+        - /url: /meta/10.1061/(asce)em.1943-7889.0000021
+        - generic [ref=e556]:
+          - img "China" [ref=e558]
+          - generic [ref=e559]: 16:26:31
+        - generic [ref=e560]: Probabilistic Capacity Models for Corroding Posttensioning Strands Calibrated Using Laboratory Results
+        - generic [ref=e561]: J. Eng. Mech., 2009
+        - generic [ref=e562]: The presence of air voids, moisture, and chlorides inside tendons or ducts was cited as a reason for the early age strand corrosion and failure in the Mid-bay, Sunshine Skyway, and Niles Channel posttensioned (PT) bridges in Florida, United States. Although rare, these incidents call for frequent inspection and structural reliability assessment of PT bridges exposed to moisture and chlorides. This paper develops and presents probabilistic strand capacity models that are needed to assess the structural reliability of such PT bridges and recommends a time frequency of inspection. A total of 384 strand test specimens were exposed to various void, moisture, and chloride concentration conditions for 12 and 21 months; the remaining tension capacities were then det...
+      - 'link "Japan 16:26:31 Evolutionary game on a stochastic growth network Physica A: Statistical Mechanics and its Applications, 2012 Abstract In some real complex systems the structures are difficult to map or changing over time. To explore the evolution of strategies on these complex systems, it is not realistic enough to specify their structures or topological properties in advance. In this paper, we address the evolutionary game on a stochastic growth network adopting the prisoner’s dilemma game. We introduce a growing rate q to control the ratio of network growth to strategy evolution. A large q denotes that the network grows faster than strategy evolution. Simulation results show that a fast growing rate is helpful to promote the average payoffs of both cooperators and defectors. Moreover, this parameter also significantly influences the cooperation frequency on the resulting netwo..." [ref=e563] [cursor=pointer]':
+        - /url: /meta/10.1016/j.physa.2012.07.057
+        - generic [ref=e564]:
+          - img "Japan" [ref=e566]
+          - generic [ref=e567]: 16:26:31
+        - generic [ref=e568]: Evolutionary game on a stochastic growth network
+        - generic [ref=e569]: "Physica A: Statistical Mechanics and its Applications, 2012"
+        - generic [ref=e570]: Abstract In some real complex systems the structures are difficult to map or changing over time. To explore the evolution of strategies on these complex systems, it is not realistic enough to specify their structures or topological properties in advance. In this paper, we address the evolutionary game on a stochastic growth network adopting the prisoner’s dilemma game. We introduce a growing rate q to control the ratio of network growth to strategy evolution. A large q denotes that the network grows faster than strategy evolution. Simulation results show that a fast growing rate is helpful to promote the average payoffs of both cooperators and defectors. Moreover, this parameter also significantly influences the cooperation frequency on the resulting netwo...
+      - link [ref=e571] [cursor=pointer]:
+        - /url: /meta/10.1016/j.fuel.2018.09.127
+        - generic [ref=e572]:
+          - img "Canada" [ref=e574]
+          - generic [ref=e575]: 16:26:31
+        - generic [ref=e576]: "Viscosity temperature properties from molecular dynamics simulation: The role of calcium oxide, sodium oxide and ferrous oxide"
+        - generic [ref=e577]: Fuel, 2019
+        - generic [ref=e578]: Abstract For the long-term stable operation of the entrained flow gasifier in the coal chemical industry, the flux agents are generally adopted to adjust the fusibility of coal ash. Therefore, it is necessary to understand the underlying mechanism for the impact of typical oxide flux agents on viscosity temperature properties of coal ash from structures and thermodynamics. In this work, the role of calcium oxide, sodium oxide and ferrous oxide on viscosity temperature properties is investigated by a combination of molecular dynamics simulations and thermodynamic calculations. The variations of viscosity and temperature of critical viscosity are obtained for different ternary coal ash systems by thermodynamic calculation. Ternary phase diagrams are applied to...
+      - 'link "Australia 16:26:31 Structural Adjustment and Gender Access to Education in Nigeria Gender and Education, 1997 ABSTRACT The article reports on relative gender access to secondary (grammar) school education from 1977 to 1990 in Imo State, Nigeria. To this end, time series data on secondary (grammar) school enrolment in Imo State from 1977/78 to 1989/90 were analysed. The findings are: (i) the existence of a gender imbalance in access to grammar school education in which the participation rate for girls was less than 40% up to 1980/81. This is discussed with reference to the prevalence of a gender-biased tradition which restricts girls'' access to education; (ii) the dramatic overturning of the gender enrolment imbalance, in favour of girls, from 1981/82 when girls'' participation rate in secondary education reached a peak of 56%. This is attributed to the nationwide imp..." [ref=e579] [cursor=pointer]':
+        - /url: /meta/10.1080/09540259721349
+        - generic [ref=e580]:
+          - img "Australia" [ref=e582]
+          - generic [ref=e583]: 16:26:31
+        - generic [ref=e584]: Structural Adjustment and Gender Access to Education in Nigeria
+        - generic [ref=e585]: Gender and Education, 1997
+        - generic [ref=e586]: "ABSTRACT The article reports on relative gender access to secondary (grammar) school education from 1977 to 1990 in Imo State, Nigeria. To this end, time series data on secondary (grammar) school enrolment in Imo State from 1977/78 to 1989/90 were analysed. The findings are: (i) the existence of a gender imbalance in access to grammar school education in which the participation rate for girls was less than 40% up to 1980/81. This is discussed with reference to the prevalence of a gender-biased tradition which restricts girls' access to education; (ii) the dramatic overturning of the gender enrolment imbalance, in favour of girls, from 1981/82 when girls' participation rate in secondary education reached a peak of 56%. This is attributed to the nationwide imp..."
+      - link [ref=e587] [cursor=pointer]:
+        - /url: /meta/10.1029/2006gl026081
+        - generic [ref=e588]:
+          - img "Netherlands" [ref=e590]
+          - generic [ref=e591]: 16:26:31
+        - generic [ref=e592]: Monthly distribution of cloud‐to‐ground lightning flashes as observed by lightning location systems
+        - generic [ref=e593]: Geophysical Research Letters, 2006
+        - generic [ref=e594]: "[1] This paper presents a comparison among the mean monthly distributions of the number of cloud-to-ground (CG) flashes, the percentage of positive CG flashes and the peak current of negative and positive CG flashes obtained in Brazil for the period from 1999 to 2004, with the same distributions observed by similar networks for long time periods in other countries. From a correlation analysis, it was found that the mean monthly distributions of the number of CG flashes are very similar, even though the period of larger lightning activity along the year in Brazil, a tropical country, is longer than in the other temperate countries. The mean monthly distributions of the percentage and the peak current of positive CG flashes are also very similar, while the mea..."
+      - link "VPN 16:26:31 Effect of Enhancers and Inhibitors on Photocatalytic Sunlight Treatment of Methylene Blue Water Air Soil Pollut, 2014 In view of the fatal illnesses caused by methylene blue (MB) which is contained in the dye wastewater, the present study focused on the use of natural sunlight in heterogeneous photocatalysis to decolorize and degrade MB. The present study also investigated the effects of enhancers (hydrogen peroxide and persulfate ion) and inhibitors (chloride and carbonate ions) on photodecolorization of MB. Pseudo-first-order rate constants for each studied effect were determined through Langmuir-Hinshelwood model. The recommended conditions to photodecolorize 60 ppm of MB under natural sunlight were 1.0 g/L of titanium dioxide nanopowder at initial pH 10.5 in order to achieve 85.3 % decolorization (rate constant of 10.8 × 10−3 min−1). The addition of 4,080 ppm of hy..." [ref=e595] [cursor=pointer]:
+        - /url: /meta/10.1007/s11270-014-1922-0
+        - generic [ref=e596]:
+          - img "VPN" [ref=e598]
+          - generic [ref=e599]: 16:26:31
+        - generic [ref=e600]: Effect of Enhancers and Inhibitors on Photocatalytic Sunlight Treatment of Methylene Blue
+        - generic [ref=e601]: Water Air Soil Pollut, 2014
+        - generic [ref=e602]: In view of the fatal illnesses caused by methylene blue (MB) which is contained in the dye wastewater, the present study focused on the use of natural sunlight in heterogeneous photocatalysis to decolorize and degrade MB. The present study also investigated the effects of enhancers (hydrogen peroxide and persulfate ion) and inhibitors (chloride and carbonate ions) on photodecolorization of MB. Pseudo-first-order rate constants for each studied effect were determined through Langmuir-Hinshelwood model. The recommended conditions to photodecolorize 60 ppm of MB under natural sunlight were 1.0 g/L of titanium dioxide nanopowder at initial pH 10.5 in order to achieve 85.3 % decolorization (rate constant of 10.8 × 10−3 min−1). The addition of 4,080 ppm of hy...
+      - link "United States 16:26:31 Towards a framework to design upgradable product service systems Procedia CIRP, 2018 Besides the inherent potential of being an environmentally sustainable solution, the Product-Service System (PSS) business model equips manufacturers to capture customer values, and realize profits dispersed throughout the whole product life cycle. PSS features such as upgradability can provide further opportunity to increase manufacturer’s revenue streams while satisfying consumers’ evolving preferences and thus be perceived as value-adding. Even though several PSS design methodologies were introduced in recent years, none of them focuses specifically on the upgradability aspect of PSS. The purpose of this paper is to identify key upgrade-enabling design features and provide a literature review on existing PSS design methodologies with a specific focus ..." [ref=e603] [cursor=pointer]:
+        - /url: /meta/10.1016/j.procir.2018.08.326
+        - generic [ref=e604]:
+          - img "United States" [ref=e606]
+          - generic [ref=e607]: 16:26:31
+        - generic [ref=e608]: Towards a framework to design upgradable product service systems
+        - generic [ref=e609]: Procedia CIRP, 2018
+        - generic [ref=e610]: Besides the inherent potential of being an environmentally sustainable solution, the Product-Service System (PSS) business model equips manufacturers to capture customer values, and realize profits dispersed throughout the whole product life cycle. PSS features such as upgradability can provide further opportunity to increase manufacturer’s revenue streams while satisfying consumers’ evolving preferences and thus be perceived as value-adding. Even though several PSS design methodologies were introduced in recent years, none of them focuses specifically on the upgradability aspect of PSS. The purpose of this paper is to identify key upgrade-enabling design features and provide a literature review on existing PSS design methodologies with a specific focus ...
+      - link [ref=e611] [cursor=pointer]:
+        - /url: /meta/10.1177/030437540903400403
+        - generic [ref=e612]:
+          - img "Brazil" [ref=e614]
+          - generic [ref=e615]: 16:26:31
+        - generic [ref=e616]: "Homo Sacer vs. Homo Soccer Mom: Reading Agamben and Foucault in the War on Terror"
+        - generic [ref=e617]: "Alternatives: Global, Local, Political, 2009"
+        - generic [ref=e618]: "In the past decade there have been efforts to understand the war on terror through the writings of Michel Foucault and Giorgio Agamben. Some analyses reify certain concepts employed by Foucault and Agamben. Others do not accurately represent the actual occurrence of violence at ground level. Without claiming to present a sovereign gaze on the literature and the reading of sovereign violence in places such as Guántanamo, this article argues that there are at least three central elements that philosophers and theorists might want to reconsider in connection with sovereignty, biopower, and subjectivity: that there is a Derridean logic at play between sovereignty and biopower; that there is a connection between sovereignty and subjectivity informed by a “dang..."
+      - link "China 16:26:31 Warfarin Dosing in Patients With CYP2C9*5 Variant Alleles Clin Pharma and Therapeutics, 2022 Pharmacogenetic dosing improves the accuracy of warfarin dosing, but current pharmacogenetic dosing algorithms are less accurate in populations of African ancestry. The cytochrome P450 2C9*5 (CYP2C9*5) allele is found almost exclusively in populations of African ancestry, and in vitro studies suggest CYP2C9*5 is associated with reduced clearance of warfarin. The clinical relevance of this single‐nucleotide variation (SNV) (formerly SNP) is uncertain. In this multicentered study of 2,298 patients (49% female, 35% Black) taking warfarin, we quantified the association between the CYP2C9*5 allele and warfarin requiremen..." [ref=e619] [cursor=pointer]:
+        - /url: /meta/10.1002/cpt.2549
+        - generic [ref=e620]:
+          - img "China" [ref=e622]
+          - generic [ref=e623]: 16:26:31
+        - generic [ref=e624]: Warfarin Dosing in Patients With CYP2C9*5 Variant Alleles
+        - generic [ref=e625]: Clin Pharma and Therapeutics, 2022
+        - generic [ref=e626]: Pharmacogenetic dosing improves the accuracy of warfarin dosing, but current pharmacogenetic dosing algorithms are less accurate in populations of African ancestry. The cytochrome P450 2C9*5 (CYP2C9*5) allele is found almost exclusively in populations of African ancestry, and in vitro studies suggest CYP2C9*5 is associated with reduced clearance of warfarin. The clinical relevance of this single‐nucleotide variation (SNV) (formerly SNP) is uncertain. In this multicentered study of 2,298 patients (49% female, 35% Black) taking warfarin, we quantified the association between the CYP2C9*5 allele and warfarin requiremen...
+      - link "China 16:26:31 FOXR2 contributes to cell proliferation and malignancy in human hepatocellular carcinoma Tumor Biol., 2016 Forkhead box R2 (FOXR2), a member of forkhead box (FOX) family, has been identified as an oncogene in medulloblastoma and breast cancer recently. However, the expression and function of FOXR2 in hepatocellular carcinoma cell (HCC) are still unclear. Here, we report that FOXR2 is frequently upregulated in 25/42 (59.5 %) of HCC specimens compared with neighboring non-cancerous tissues in messenger RNA (mRNA) level and further confirmed by immunohistochemistry analysis in protein level. Cellular function analyses revealed that FOXR2 promoted cell growth and colony formation, whereas knockdown of FOXR2 by RNA inference inhibited cell growth and decreased the growth ability of HCC cells in soft agar. Moreover, we also found FOXR2 overexpression facilitated the de..." [ref=e627] [cursor=pointer]:
+        - /url: /meta/10.1007/s13277-016-4923-3
+        - generic [ref=e628]:
+          - img "China" [ref=e630]
+          - generic [ref=e631]: 16:26:31
+        - generic [ref=e632]: FOXR2 contributes to cell proliferation and malignancy in human hepatocellular carcinoma
+        - generic [ref=e633]: Tumor Biol., 2016
+        - generic [ref=e634]: Forkhead box R2 (FOXR2), a member of forkhead box (FOX) family, has been identified as an oncogene in medulloblastoma and breast cancer recently. However, the expression and function of FOXR2 in hepatocellular carcinoma cell (HCC) are still unclear. Here, we report that FOXR2 is frequently upregulated in 25/42 (59.5 %) of HCC specimens compared with neighboring non-cancerous tissues in messenger RNA (mRNA) level and further confirmed by immunohistochemistry analysis in protein level. Cellular function analyses revealed that FOXR2 promoted cell growth and colony formation, whereas knockdown of FOXR2 by RNA inference inhibited cell growth and decreased the growth ability of HCC cells in soft agar. Moreover, we also found FOXR2 overexpression facilitated the de...
+      - link [ref=e635] [cursor=pointer]:
+        - /url: /meta/10.1016/j.cnsns.2018.11.011
+        - generic [ref=e636]:
+          - img "Russian Federation" [ref=e638]
+          - generic [ref=e639]: 16:26:31
+        - generic [ref=e640]: Distributed consensus tracking of unknown nonlinear chaotic delayed fractional-order multi-agent systems with external disturbances based on ABC algorithm
+        - generic [ref=e641]: Communications in Nonlinear Science and Numerical Simulation, 2019
+        - generic [ref=e642]: In this paper, the distributed consensus tracking of unknown nonlinear chaotic delayed fractional-order multi-agent systems (FOMASs) with external disturbances is investigated, where the fractional orders and system parameters are unknown. Firstly, in order to identify the unknown parameters of the delayed nonlinear FOMASs, an efficient artificial bee colony algorithm (ABC)-based parameters estimation approach is put forward. Secondly, based on the estimated parameters, by using fractional derivative inequality and comparison principle of linear fractional equation with delay, a discontinuous distributed control protocol is proposed to make the tracking errors converge to zero asymptotically. Thirdly, to overcome the undesirable chattering phenomenon caused ...
+      - link [ref=e643] [cursor=pointer]:
+        - /url: /meta/10.1016/j.biochi.2020.05.013
+        - generic [ref=e644]:
+          - img "United States" [ref=e646]
+          - generic [ref=e647]: 16:26:31
+        - generic [ref=e648]: The endosomal lipid bis(monoacylglycero) phosphate as a potential key player in the mechanism of action of chloroquine against SARS-COV-2 and other enveloped viruses hijacking the endocytic pathway
+        - generic [ref=e649]: Biochimie, 2020
+        - generic [ref=e650]: The anti-malarial drug Chloroquine (CQ) and its derivative hydroxychloroquine have shown antiviral activities in vitro against many viruses, including coronaviruses, dengue virus and the biosafety level 4 Nipah and Hendra paramyxoviruses. The in vivo efficacy of CQ in the treatment of COVID-19 is currently a matter of debate. CQ is a lysosomotrophic compound that accumulates in lysosomes, as well as in food vacuoles of Plasmodium falciparum. In the treatment of malaria, CQ impairs the digestion and growth of the parasite by increasing the pH of the food vacuole. Similarly, it is assumed that the antiviral effects of CQ results from the increase of lysosome pH and the inhibition of acidic proteases involved in the maturation of virus fusion protein. CQ has ho...
+      - link [ref=e651] [cursor=pointer]:
+        - /url: /meta/10.1088/2053-1591/3/10/106204
+        - generic [ref=e652]:
+          - img "China" [ref=e654]
+          - generic [ref=e655]: 16:26:31
+        - generic [ref=e656]:
+          - text: Analysis of the x-ray diffraction, etching, luminescence, photoconductivity, thermal and dielectric properties of an ADP crystal influenced by the bimetallic additive sodium metasilicate (Na
+          - subscript [ref=e657]: "2"
+          - text: SiO
+          - subscript [ref=e658]: "3"
+          - text: )
+        - generic [ref=e659]: Mater. Res. Express, 2016
+        - generic [ref=e660]: The present communication is focused on an investigation of the structural, optical, electrical and thermal properties of a sodium metasilicate (SMS)-doped ammonium dihydrogen phosphate (ADP) crystal. The slow evaporation solution technique has been adopted to grow the crystal with an optimum size of (10 × 6 × 4) mm3. The powder x-ray diffraction (PXRD) technique has been employed to confirm the crystalline nature, crystal structure and cell parameters of the crystal (a = b = 7.53 (±0.01) Ǻ, c = 7.59 (±0.03) Ǻ). The color-centered photoluminescence nature of the SMS-doped ADP crystal has been examined in the visible region of interest at an emission wavelength of 375 nm. Its frequency-dependent dielectric response has been investigated with reference t...
+      - link "United States 16:26:31 Cell‐Derived Vesicles for Single‐Molecule Imaging of Membrane Proteins Angew Chem Int Ed, 2014 A new approach is presented for the application of single-molecule imaging to membrane receptors through the use of vesicles derived from cells expressing fluorescently labeled receptors. During the isolation of vesicles, receptors remain embedded in the membrane of the resultant vesicles, thus allowing these vesicles to serve as nanocontainers for single-molecule measurements. Cell-derived vesicles maintain the structural integrity of transmembrane receptors by keeping them in their physiological membrane. It was demonstrated that receptors isolated in these vesicles can be studied with solution-based fluorescence correlation spectroscopy (FCS) and can be isolated on a solid substrate for single-molecule studies. This technique was applied to determine the ..." [ref=e661] [cursor=pointer]:
+        - /url: /meta/10.1002/anie.201408707
+        - generic [ref=e662]:
+          - img "United States" [ref=e664]
+          - generic [ref=e665]: 16:26:31
+        - generic [ref=e666]: Cell‐Derived Vesicles for Single‐Molecule Imaging of Membrane Proteins
+        - generic [ref=e667]: Angew Chem Int Ed, 2014
+        - generic [ref=e668]: A new approach is presented for the application of single-molecule imaging to membrane receptors through the use of vesicles derived from cells expressing fluorescently labeled receptors. During the isolation of vesicles, receptors remain embedded in the membrane of the resultant vesicles, thus allowing these vesicles to serve as nanocontainers for single-molecule measurements. Cell-derived vesicles maintain the structural integrity of transmembrane receptors by keeping them in their physiological membrane. It was demonstrated that receptors isolated in these vesicles can be studied with solution-based fluorescence correlation spectroscopy (FCS) and can be isolated on a solid substrate for single-molecule studies. This technique was applied to determine the ...
+      - link [ref=e669] [cursor=pointer]:
+        - /url: /meta/10.1088/2053-1591/3/11/115501
+        - generic [ref=e670]:
+          - img "China" [ref=e672]
+          - generic [ref=e673]: 16:26:31
+        - generic [ref=e674]:
+          - text: Tri-functional Fe
+          - subscript [ref=e675]: "2"
+          - text: O
+          - subscript [ref=e676]: "3"
+          - text: "-encased Ag-doped ZnO nanoframework: magnetically retrievable antimicrobial photocatalyst"
+        - generic [ref=e677]: Mater. Res. Express, 2016
+        - generic [ref=e678]: Fe2O3-encased ZnO nanoframework was obtained by hydrothermal method and was doped with Ag through photoreduction process. Energy dispersive x-ray spectroscopy, transmission electron microscopy (TEM), high resolution TEM, selected area electron diffractometry, x-ray diffractometry and Raman spectroscopy were employed for the structural characterization of the synthesized material. While the charge transfer resistance of the prepared nanomaterial is larger than those of Fe2O3 and ZnO the coercivity of the nanocomposite is less than that of hydrothermally obtained Fe2O3 nanostructures. Although Fe2O3/Ag–ZnO exhibits weak visible light absorption its band gap energy does not differ from that of ZnO. The photoluminescence of the fabricated nanoframework is simi...
+      - link "Lebanon 16:26:31 Geodetic Surveying with Quasar Radio Interferometry Australian Surveyor, 1983 Abstract From 20 April to 3 May, 1982, five Australian radio-telescopes were linked for the first time and operated in synchronism to form a single radio-telescope. The link-up was the culmination of two years of intensive effort and co-operation to co-ordinate telescope modifications and overcome the logistic problems of undertaking such an experiment. The five telescopes are sited at the NASA Deep Space tracking facility at Tidbinbilla near Canberra, the CSIRO Radio Astronomy Observatory at Parkes, the University of Tasmania's Radio Observatory near Hobart, the University of Sydney's Fleurs Observatory near Sydney, and the LANDSAT tracking station at Alice Springs. The simultaneous but independent operation of two or more widely separated telescopes is cal..." [ref=e679] [cursor=pointer]:
+        - /url: /meta/10.1080/00050326.1983.10435010
+        - generic [ref=e680]:
+          - img "Lebanon" [ref=e682]
+          - generic [ref=e683]: 16:26:31
+        - generic [ref=e684]: Geodetic Surveying with Quasar Radio Interferometry
+        - generic [ref=e685]: Australian Surveyor, 1983
+        - generic [ref=e686]: Abstract From 20 April to 3 May, 1982, five Australian radio-telescopes were linked for the first time and operated in synchronism to form a single radio-telescope. The link-up was the culmination of two years of intensive effort and co-operation to co-ordinate telescope modifications and overcome the logistic problems of undertaking such an experiment. The five telescopes are sited at the NASA Deep Space tracking facility at Tidbinbilla near Canberra, the CSIRO Radio Astronomy Observatory at Parkes, the University of Tasmania's Radio Observatory near Hobart, the University of Sydney's Fleurs Observatory near Sydney, and the LANDSAT tracking station at Alice Springs. The simultaneous but independent operation of two or more widely separated telescopes is cal...
+      - link [ref=e687] [cursor=pointer]:
+        - /url: /meta/10.1210/jcem-34-2-279
+        - generic [ref=e688]:
+          - img "VPN" [ref=e690]
+          - generic [ref=e691]: 16:26:31
+        - generic [ref=e692]: Alterations of Testicular Histology and Chromosomes in Patients with Constitutional Sexual Precocity Treated with Medroxyprogesterone Acetate
+        - generic [ref=e693]: The Journal of Clinical Endocrinology & Metabolism, 1972
+        - generic [ref=e694]: Alterations of testicular histology and meiotic chromosomes are presented from four patients with constitutional sexual precocity, who had received medroxyprogesterone acetate for 1 1/2 to 6 3/12 years. Biopsies were obtained on three patients while receiving the drug. On the fourth patient, who was treated for 6 3/12 years, it was obtained one year after discontinuing therapy. In those receiving medroxyprogesterone acetate, spermatogenesis was arrested near the end of first meiotic prophase and alterations in histology were similar. Chromosomes showed the common characteristics of stickiness and condensation associated with degeneration. Aneuploidy and polyploidy were present. Spermatogonial mitoses as well as meiotic spreads were affected. Changes in tissu...
+      - link [ref=e695] [cursor=pointer]:
+        - /url: /meta/10.1109/JIOT.2021.3051031
+        - generic [ref=e696]:
+          - img "United States" [ref=e698]
+          - generic [ref=e699]: 16:26:31
+        - generic [ref=e700]: AI-Driven Collaborative Resource Allocation for Task Execution in 6G-Enabled Massive IoT
+        - generic [ref=e701]: IEEE Internet Things J., 2021
+        - generic [ref=e702]: In the foreseeable future, the rapid growth of devices in the Internet of Things (IoT) will make it difficult for 5G networks to ensure sufficient network resources. 6G technology has attracted increasing attention, bringing new design concepts to the dynamic real-time resource allocation. The resource requirements of devices are usually variable, so a dynamic resource allocation method is needed to ensure the smooth execution of tasks. Therefore, this article first designs a 6G-enabled massive IoT architecture that supports dynamic resource allocation. Then, a dynamic nested neural network is constructed, which adjusts the nested learning model structure online to meet training requirements of dynamic resource allocation. An AI-driven collaborative dynamic ...
+      - link [ref=e703] [cursor=pointer]:
+        - /url: /meta/10.1016/j.brainres.2004.06.040
+        - generic [ref=e704]:
+          - img "United States" [ref=e706]
+          - generic [ref=e707]: 16:26:31
+        - generic [ref=e708]: Aging alters norepinephrine release in the medial preoptic area in response to steroid priming in ovariectomized rats
+        - generic [ref=e709]: Brain Research, 2004
+        - generic [ref=e710]: "Changes in luteinizing hormone (LH) secretion that are observed in aging animals have been attributed to a reduction in hypothalamic norepinephrine (NE). The reason for the reduction in NE levels with aging is unclear. We hypothesized that the responsiveness of noradrenergic neurons to ovarian steroids is altered during aging. To test this, regularly cycling female Sprague-Dawley rats (young: 4-5 months old and middle age: 8-11 months old) were implanted with a push-pull cannula in the medial preoptic area (MPA) and ovariectomized bilaterally. On the 8th day after ovariectomy, they were injected with estrogen (30 microg/100 microl corn oil, s.c.) at 1000 h and on the 9th day they were implanted with a jugular catheter. On the 10th day they were injected with..."
+      - link [ref=e711] [cursor=pointer]:
+        - /url: /meta/10.1021/acsami.0c20252
+        - generic [ref=e712]:
+          - img "United States" [ref=e714]
+          - generic [ref=e715]: 16:26:31
+        - generic [ref=e716]: High-Performance Thermoelectric Fabric Based on a Stitched Carbon Nanotube Fiber
+        - generic [ref=e717]: ACS Appl. Mater. Interfaces, 2021
+        - generic [ref=e718]: With the continuous development of flexible and wearable thermoelectric generators (TEGs), high-performance materials and their integration into convenient wearable devices have to be considered. Herein, we have demonstrated highly aligned wet-spun carbon nanotube (CNT) fibers by optimizing the liquid crystalline (LC) phase via hydrochloric acid purification. The liquid crystalline phase facilitates better alignment of CNTs during fiber extrusion, resulting in the high power factor of 2619 μW m-1 K-2, which surpasses those of the dry-spun CNT yarns. A flexible all-carbon TEG was fabricated by stitching a single CNT fiber and doping selected segments into n-type by simple injection doping. The flexible TEG shows the maximum output power densities of 1.9 mW g...
+      - link [ref=e719] [cursor=pointer]:
+        - /url: /meta/10.1016/0732-8893(96)00026-0
+        - generic [ref=e720]:
+          - img "China" [ref=e722]
+          - generic [ref=e723]: 16:26:31
+        - generic [ref=e724]: Comparison of five different susceptibility test methods for detecting antimicrobial agent resistance among Haemophilus influenzae isolates
+        - generic [ref=e725]: Diagnostic Microbiology and Infectious Disease, 1996
+        - generic [ref=e726]: "The detection of antimicrobial agent resistance among ninety-eight Haemophilus influenzae isolates was assessed by six different antibiotic test methods: agar dilution on Mueller-Hinton agar supplemented with 5% lysed horse blood (MH-LHB), E-test using both Haemophilus test medium (HTM) agar and chocolate Mueller-Hinton (CMH) agar plates, Vitek Haemophilus susceptibility cards, and three overnight microdilution systems that included two commercial systems, Micro-Media and MicroScan, and the reference broth microdilution method using HTM broth. Agents tested in the study included ampicillin, amoxicillin/clavulanic acid (A/C), cefaclor, cefuroxime, cefotaxime, ceftriaxone, chloramphenicol, and trimethoprim/sulfamethoxazole. Both the reference HTM microbroth di..."
+      - link [ref=e727] [cursor=pointer]:
+        - /url: /meta/10.1016/s0022-3115(97)00252-3
+        - generic [ref=e728]:
+          - img "United States" [ref=e730]
+          - generic [ref=e731]: 16:26:31
+        - generic [ref=e732]: Thermal compatibility studies of unirradiated UMo alloys dispersed in aluminum
+        - generic [ref=e733]: Journal of Nuclear Materials, 1997
+        - generic [ref=e734]: The thermal compatibility of centrifugally atomized UMo alloys with aluminium has been studied. The results of the investigations show that the U-2 wt% Mo/aluminum dispersions increase in volume by 26% at 400°C after 2000 h. This large volume change is mainly due to the formation of voids and cracks resulting from nearly complete interdiffusion of UMo and aluminum. No significant dimensional changes occur in the U-10 wt% Mo/aluminum dispersions. Interdiffusion between U-10 wt% Mo and aluminum is found to be minimal. The different diffusion behavior is primarily due to the fact that U-10 wt% Mo particles are much more supersaturated with substitutional molybdenum than U-2 wt% Mo particles. The aluminum diffuses into the U-2 wt% Mo particles relatively ...

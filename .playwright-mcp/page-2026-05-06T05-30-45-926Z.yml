@@ -1,0 +1,52 @@
+- generic [ref=e1]:
+  - link "跳到内容" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - main [ref=e4]:
+    - generic [ref=e22]:
+      - text: 
+      - generic [ref=e37]:
+        - img "MathWorks" [ref=e39]
+        - generic [ref=e40]:
+          - paragraph [ref=e41]:
+            - link "Back to email" [ref=e42] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e43]: 
+              - generic [ref=e44]: yangbowen@st.xatu.edu.cn
+          - text: 
+          - heading "输入密码" [level=1] [ref=e45]
+          - textbox [active] [ref=e49]:
+            - /placeholder: 输入密码
+            - text: Sjzhsczjm
+          - generic [ref=e51]:
+            - checkbox "保持登录状态" [checked] [ref=e52]
+            - generic [ref=e53]: 保持登录状态
+        - generic [ref=e55]:
+          - paragraph [ref=e56]:
+            - link "忘记密码？" [ref=e57] [cursor=pointer]:
+              - /url: https://www.mathworks.com/mwaccount/account/resetpassword?cid=mlhome&wid=&referrer=https%3A%2F%2Fmatlab.mathworks.com%2F&uri=https%3A%2F%2Fmatlab.mathworks.com%2F
+          - button "登录" [ref=e58] [cursor=pointer]
+      - text:   
+  - contentinfo [ref=e59]:
+    - generic [ref=e63]:
+      - navigation [ref=e64]:
+        - list [ref=e66]:
+          - listitem [ref=e67]:
+            - link "信任中心" [ref=e68] [cursor=pointer]:
+              - /url: https://www.mathworks.com/company/trust-center.html?s_tid=gf_tc
+          - listitem [ref=e69]:
+            - link "商标" [ref=e70] [cursor=pointer]:
+              - /url: https://www.mathworks.com/company/trust-center/trademarks.html?s_tid=gf_trd
+          - listitem [ref=e71]:
+            - link "隐私政策" [ref=e72] [cursor=pointer]:
+              - /url: https://www.mathworks.com/company/trust-center/privacy-policy.html?s_tid=gf_priv
+          - listitem [ref=e73]:
+            - link "防盗版" [ref=e74] [cursor=pointer]:
+              - /url: https://www.mathworks.com/company/trust-center/piracy.html?s_tid=gf_pir
+          - listitem [ref=e75]:
+            - link "应用程序状态" [ref=e76] [cursor=pointer]:
+              - /url: https://status.mathworks.com/?s_tid=gf_application
+          - listitem [ref=e77]:
+            - link "联系我们" [ref=e78] [cursor=pointer]:
+              - /url: https://www.mathworks.com/company/aboutus/contact_us.html?s_tid=gf_contact
+      - paragraph [ref=e79]: © 1994-2026 The MathWorks, Inc.
+  - text: 

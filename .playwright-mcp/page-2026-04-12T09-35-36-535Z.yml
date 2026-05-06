@@ -1,0 +1,42 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - button [ref=e4] [cursor=pointer]
+    - link "首页" [ref=e6] [cursor=pointer]:
+      - /url: /schhp?hl=zh-CN&as_sdt=0,5
+    - generic [ref=e9]:
+      - textbox "搜索" [ref=e11]: Alimi Monteiro Revolutionizing Free-Space Optics Survey Beyond 5G
+      - button "搜索" [ref=e12] [cursor=pointer]
+    - link "登录" [ref=e16] [cursor=pointer]:
+      - /url: https://accounts.google.com/Login?hl=zh-CN&continue=https://scholar.google.com/scholar%3Fhl%3Dzh-CN%26as_sdt%3D0%252C5%26q%3DAlimi%2BMonteiro%2BRevolutionizing%2BFree-Space%2BOptics%2BSurvey%2BBeyond%2B5G%26btnG%3D
+  - generic [ref=e17]:
+    - generic [ref=e21]: 文章
+    - generic [ref=e23]:
+      - link "我的个人学术档案" [ref=e24] [cursor=pointer]:
+        - /url: /citations?hl=zh-CN
+        - generic [ref=e26]: 我的个人学术档案
+      - link "我的图书馆" [ref=e27] [cursor=pointer]:
+        - /url: /scholar?scilib=1&scioq=Alimi+Monteiro+Revolutionizing+Free-Space+Optics+Survey+Beyond+5G&hl=zh-CN&as_sdt=0,5
+        - generic [ref=e29]: 我的图书馆
+  - generic [ref=e30]:
+    - navigation [ref=e31]
+    - main [ref=e32]:
+      - generic [ref=e34]:
+        - heading "请进行人机身份验证" [level=1] [ref=e35]
+        - iframe [ref=e39]:
+          - generic [ref=f1e2]:
+            - generic [ref=f1e3]:
+              - checkbox "进行人机身份验证" [ref=f1e7]
+              - generic [ref=f1e11]: 进行人机身份验证
+              - generic [ref=f1e13]:
+                - text: reCAPTCHA 的服务条款即将变更。您需要
+                - link "采取行动" [ref=f1e14] [cursor=pointer]:
+                  - /url: https://google.com/recaptcha/admin/migrate
+                - text: 。
+            - generic [ref=f1e18]: reCAPTCHA
+  - contentinfo [ref=e40]:
+    - generic [ref=e41]:
+      - link "隐私权" [ref=e42] [cursor=pointer]:
+        - /url: //www.google.com/intl/zh-CN/policies/privacy/
+      - link "条款" [ref=e43] [cursor=pointer]:
+        - /url: //www.google.com/intl/zh-CN/policies/terms/
+      - button "帮助" [ref=e44] [cursor=pointer]
