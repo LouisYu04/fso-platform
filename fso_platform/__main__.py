@@ -15,7 +15,7 @@ from PyQt5.QtCore import Qt
 
 from fso_platform.ui.main_window import MainWindow
 from fso_platform.ui import theme
-from fso_platform.utils.fonts import FONT_FAMILY
+from fso_platform.utils.fonts import FONT_FAMILY, FONT_SIZE_APP, FONT_SIZE_XS
 
 
 def main():
@@ -25,7 +25,7 @@ def main():
 
     app = QApplication(sys.argv)
 
-    font = QFont(FONT_FAMILY, 10)
+    font = QFont(FONT_FAMILY, FONT_SIZE_APP)
     app.setFont(font)
 
     app.setStyleSheet(f"""
@@ -39,7 +39,7 @@ def main():
             border-radius: 4px;
             padding: 4px 8px;
             font-family: "{FONT_FAMILY}";
-            font-size: 11px;
+            font-size: {FONT_SIZE_XS}px;
         }}
         QScrollBar:vertical {{
             width: 6px;

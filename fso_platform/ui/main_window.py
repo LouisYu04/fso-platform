@@ -34,7 +34,7 @@ from .theme import (
     TEXT_SECONDARY,
     FONT_FAMILY,
 )
-from fso_platform.utils.fonts import FONT_FAMILY as _FONT_FAMILY
+from fso_platform.utils.fonts import FONT_FAMILY as _FONT_FAMILY, FONT_SIZE_SM
 
 MAX_HISTORY = 50
 
@@ -67,7 +67,7 @@ class MainWindow(QMainWindow):
             f"""
             QMenuBar {{
                 font-family: "{_FONT_FAMILY}";
-                font-size: 12px;
+                font-size: {FONT_SIZE_SM}px;
                 background-color: #FFFFFF;
                 border-bottom: 1px solid {BORDER};
             }}
@@ -78,7 +78,7 @@ class MainWindow(QMainWindow):
             }}
             QMenu {{
                 font-family: "{_FONT_FAMILY}";
-                font-size: 12px;
+                font-size: {FONT_SIZE_SM}px;
                 background-color: #FFFFFF;
                 border: 1px solid {BORDER};
                 border-radius: 6px;

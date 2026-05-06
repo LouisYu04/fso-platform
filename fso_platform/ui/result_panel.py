@@ -28,7 +28,11 @@ from PyQt5 import uic
 import csv
 
 from fso_platform.ui import theme
-from fso_platform.utils.fonts import FONT_FAMILY, FONT_MONO
+from fso_platform.utils.fonts import (
+    FONT_FAMILY,
+    FONT_MONO,
+    FONT_SIZE_MD,
+)
 
 
 # ─── 小帮手：单行摘要条目 ───────────────────────────────────────────────────
@@ -43,14 +47,14 @@ class _SummaryRow(QWidget):
 
         self._lbl = QLabel(label)
         self._lbl.setStyleSheet(
-            f"font-family: '{FONT_FAMILY}'; font-size: 13px;"
+            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_MD}px;"
             f" color: {theme.TEXT_SECONDARY}; background: transparent; border: none;"
         )
         self._lbl.setFixedWidth(118)
 
         self._val = QLabel(value)
         self._val.setStyleSheet(
-            f"font-family: '{FONT_MONO}'; font-size: 13px;"
+            f"font-family: '{FONT_MONO}'; font-size: {FONT_SIZE_MD}px;"
             f" color: {theme.TEXT_PRIMARY}; background: transparent; border: none;"
         )
         self._val.setTextInteractionFlags(Qt.TextSelectableByMouse)
@@ -63,7 +67,7 @@ class _SummaryRow(QWidget):
 
     def set_highlight(self, color: str):
         self._val.setStyleSheet(
-            f"font-family: '{FONT_MONO}'; font-size: 13px; font-weight: bold;"
+            f"font-family: '{FONT_MONO}'; font-size: {FONT_SIZE_MD}px; font-weight: bold;"
             f" color: {color}; background: transparent; border: none;"
         )
 
@@ -87,7 +91,7 @@ class _SummarySection(QFrame):
         # 标题行
         title_lbl = QLabel(title)
         title_lbl.setStyleSheet(
-            f"font-family: '{FONT_FAMILY}'; font-size: 13px; font-weight: bold;"
+            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_MD}px; font-weight: bold;"
             f" color: {theme.TEXT_SECONDARY}; background: transparent; border: none;"
             f" padding-bottom: 4px;"
         )

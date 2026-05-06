@@ -48,7 +48,7 @@ from PyQt5.QtCore import Qt
 # FONT_FAMILY: 跨平台字体族名称（macOS 用 'PingFang SC'，Windows 用 'Microsoft YaHei' 等）
 from fso_platform.ui.main_window import MainWindow
 from fso_platform.ui import theme
-from fso_platform.utils.fonts import FONT_FAMILY
+from fso_platform.utils.fonts import FONT_FAMILY, FONT_SIZE_APP, FONT_SIZE_XS
 
 
 def main():
@@ -79,7 +79,7 @@ def main():
     #   Windows→ 'Microsoft YaHei'
     #   Linux  → 'Noto Sans CJK SC' / 'WenQuanYi Micro Hei'
     # 字号 10pt 为界面基准，各组件可通过 QSS 或 setFont 局部覆盖
-    font = QFont(FONT_FAMILY, 10)
+    font = QFont(FONT_FAMILY, FONT_SIZE_APP)
     app.setFont(font)
 
     # ── 全局 QSS 样式表 ─────────────────────────────────────────────────────
@@ -99,7 +99,7 @@ def main():
             border-radius: 4px;
             padding: 4px 8px;
             font-family: "{FONT_FAMILY}";
-            font-size: 11px;
+            font-size: {FONT_SIZE_XS}px;
         }}
 
         /* 垂直滚动条: 6px 宽，无上下箭头，圆角滑块 */

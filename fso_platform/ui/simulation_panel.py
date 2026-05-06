@@ -57,7 +57,11 @@ from .theme import (
     status_color,
     status_bg,
 )
-from fso_platform.utils.fonts import FONT_FAMILY, FONT_MONO
+from fso_platform.utils.fonts import (
+    FONT_FAMILY,
+    FONT_MONO,
+    FONT_SIZE_MD,
+)
 
 
 # ─── 指标卡片 ──────────────────────────────────────────────────────
@@ -80,7 +84,7 @@ class _MetricCard(QFrame):
         # 标题
         self._title_lbl = QLabel(title)
         self._title_lbl.setStyleSheet(
-            f"font-family: '{FONT_FAMILY}'; font-size: 13px; "
+            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_MD}px; "
             f"color: {TEXT_SECONDARY}; background: transparent; border: none;"
         )
         layout.addWidget(self._title_lbl)
@@ -99,7 +103,7 @@ class _MetricCard(QFrame):
 
         self._unit_lbl = QLabel(unit)
         self._unit_lbl.setStyleSheet(
-            f"font-family: '{FONT_FAMILY}'; font-size: 13px; "
+            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_MD}px; "
             f"color: {TEXT_SECONDARY}; background: transparent; border: none;"
         )
         self._unit_lbl.setAlignment(Qt.AlignBottom)
@@ -112,7 +116,7 @@ class _MetricCard(QFrame):
         # 状态标签
         self._status_lbl = QLabel("")
         self._status_lbl.setStyleSheet(
-            f"font-family: '{FONT_FAMILY}'; font-size: 13px; "
+            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_MD}px; "
             f"color: {TEXT_DIM}; background: transparent; border: none;"
         )
         layout.addWidget(self._status_lbl)
@@ -141,7 +145,7 @@ class _MetricCard(QFrame):
             dot = {"good": "●", "ok": "●", "warn": "●", "bad": "●"}.get(status, "○")
             self._status_lbl.setText(f"{dot}  {status_text}")
             self._status_lbl.setStyleSheet(
-                f"font-family: '{FONT_FAMILY}'; font-size: 13px; "
+                f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_MD}px; "
                 f"color: {color}; background: transparent; border: none;"
             )
         self._apply_card_style(status)
@@ -159,7 +163,7 @@ class _SecondaryMetric(QWidget):
 
         self._lbl = QLabel(title)
         self._lbl.setStyleSheet(
-            f"font-family: '{FONT_FAMILY}'; font-size: 13px; "
+            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_MD}px; "
             f"color: {TEXT_SECONDARY}; background: transparent; border: none;"
         )
         self._lbl.setFixedWidth(96)
@@ -167,7 +171,7 @@ class _SecondaryMetric(QWidget):
 
         self._val = QLabel("—")
         self._val.setStyleSheet(
-            f"font-family: '{FONT_MONO}'; font-size: 13px; font-weight: bold; "
+            f"font-family: '{FONT_MONO}'; font-size: {FONT_SIZE_MD}px; font-weight: bold; "
             f"color: {TEXT_PRIMARY}; background: transparent; border: none;"
         )
         layout.addWidget(self._val, 1)
@@ -175,7 +179,7 @@ class _SecondaryMetric(QWidget):
     def update(self, text: str, color: str = TEXT_PRIMARY):
         self._val.setText(text)
         self._val.setStyleSheet(
-            f"font-family: '{FONT_MONO}'; font-size: 13px; font-weight: bold; "
+            f"font-family: '{FONT_MONO}'; font-size: {FONT_SIZE_MD}px; font-weight: bold; "
             f"color: {color}; background: transparent; border: none;"
         )
 
@@ -269,7 +273,7 @@ class SimulationPanel(QWidget):
             col_title = QLabel(f"  {name}")
             col_title.setFixedHeight(22)
             col_title.setStyleSheet(
-                f"font-family: '{FONT_FAMILY}'; font-size: 13px; font-weight: bold; "
+                f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_MD}px; font-weight: bold; "
                 f"color: {TEXT_DIM}; background: transparent; border: none; "
                 f"border-top: 1px solid {BORDER_LIGHT};"
             )

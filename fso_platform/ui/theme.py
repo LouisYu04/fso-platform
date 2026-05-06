@@ -3,7 +3,16 @@ UI 主题常量
 集中管理配色方案、样式表片段，确保全局视觉一致性
 """
 
-from fso_platform.utils.fonts import FONT_FAMILY, FONT_MONO
+from fso_platform.utils.fonts import (
+    FONT_FAMILY,
+    FONT_MONO,
+    FONT_SIZE_XS,
+    FONT_SIZE_SM,
+    FONT_SIZE_MD,
+    FONT_SIZE_LG,
+    FONT_SIZE_XL,
+    FONT_SIZE_TITLE,
+)
 
 # ─── 主色调 ───────────────────────────────────────────────
 PRIMARY = "#1565C0"  # 深蓝 — 主交互色
@@ -79,7 +88,7 @@ SECTION_HEADER_STYLE = f"""
     QToolButton {{
         font-family: "{FONT_FAMILY}";
         font-weight: bold;
-        font-size: 13px;
+        font-size: {FONT_SIZE_MD}px;
         color: {TEXT_PRIMARY};
         background-color: {BG_SECTION};
         border: none;
@@ -99,7 +108,7 @@ RUN_BTN_STYLE = f"""
         color: {TEXT_WHITE};
         font-family: "{FONT_FAMILY}";
         font-weight: bold;
-        font-size: 14px;
+        font-size: {FONT_SIZE_LG}px;
         border: none;
         border-radius: 6px;
         padding: 8px 0;
@@ -122,7 +131,7 @@ RESET_BTN_STYLE = f"""
         background-color: transparent;
         color: {NEUTRAL};
         font-family: "{FONT_FAMILY}";
-        font-size: 13px;
+        font-size: {FONT_SIZE_MD}px;
         border: 1px solid {BORDER};
         border-radius: 6px;
         padding: 5px 0;
@@ -137,7 +146,7 @@ RESET_BTN_STYLE = f"""
 INPUT_STYLE = f"""
     QDoubleSpinBox, QSpinBox, QComboBox {{
         font-family: "{FONT_FAMILY}";
-        font-size: 12px;
+        font-size: {FONT_SIZE_SM}px;
         color: {TEXT_PRIMARY};
         background-color: {BG_CARD};
         border: 1px solid {BORDER};
@@ -157,7 +166,7 @@ INPUT_STYLE = f"""
 LABEL_STYLE = f"""
     QLabel {{
         font-family: "{FONT_FAMILY}";
-        font-size: 12px;
+        font-size: {FONT_SIZE_SM}px;
         color: {TEXT_SECONDARY};
         background: transparent;
         border: none;
@@ -186,7 +195,7 @@ TAB_STYLE = f"""
     }}
     QTabBar::tab {{
         font-family: "{FONT_FAMILY}";
-        font-size: 14px;
+        font-size: {FONT_SIZE_LG}px;
         color: {TEXT_SECONDARY};
         background-color: transparent;
         border: none;
@@ -216,7 +225,7 @@ INNER_TAB_STYLE = f"""
     }}
     QTabBar::tab {{
         font-family: "{FONT_FAMILY}";
-        font-size: 14px;
+        font-size: {FONT_SIZE_LG}px;
         color: {TEXT_SECONDARY};
         background-color: transparent;
         border: none;
@@ -259,7 +268,7 @@ SCROLLAREA_STYLE = f"""
 TABLE_STYLE = f"""
     QTableWidget {{
         font-family: "{FONT_MONO}";
-        font-size: 13px;
+        font-size: {FONT_SIZE_MD}px;
         color: {TEXT_PRIMARY};
         background-color: {BG_CARD};
         gridline-color: {BORDER_LIGHT};
@@ -273,7 +282,7 @@ TABLE_STYLE = f"""
     }}
     QHeaderView::section {{
         font-family: "{FONT_FAMILY}";
-        font-size: 13px;
+        font-size: {FONT_SIZE_MD}px;
         font-weight: bold;
         color: {TEXT_SECONDARY};
         background-color: {BG_SECTION};
@@ -286,7 +295,7 @@ TABLE_STYLE = f"""
 STATUSBAR_STYLE = f"""
     QStatusBar {{
         font-family: "{FONT_FAMILY}";
-        font-size: 12px;
+        font-size: {FONT_SIZE_SM}px;
         color: {TEXT_SECONDARY};
         background-color: {BG_SIDEBAR};
         border-top: 1px solid {BORDER};
@@ -296,7 +305,7 @@ STATUSBAR_STYLE = f"""
 LOG_STYLE = f"""
     QTextEdit {{
         font-family: "{FONT_MONO}";
-        font-size: 12px;
+        font-size: {FONT_SIZE_SM}px;
         color: {TEXT_PRIMARY};
         background-color: #FAFBFC;
         border: 1px solid {BORDER_LIGHT};

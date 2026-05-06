@@ -45,7 +45,13 @@ from .theme import (
     INPUT_STYLE,
     SCROLLAREA_STYLE,
 )
-from fso_platform.utils.fonts import FONT_FAMILY, FONT_MONO
+from fso_platform.utils.fonts import (
+    FONT_FAMILY,
+    FONT_MONO,
+    FONT_SIZE_XS,
+    FONT_SIZE_SM,
+    FONT_SIZE_MD,
+)
 
 
 # ─── 预设场景 ──────────────────────────────────────────────────────
@@ -138,7 +144,7 @@ class _CollapsibleSection(QWidget):
             f"""
             QToolButton {{
                 font-family: "{FONT_FAMILY}";
-                font-size: 13px;
+                font-size: {FONT_SIZE_MD}px;
                 font-weight: bold;
                 color: {TEXT_PRIMARY};
                 background-color: {BG_SECTION};
@@ -180,7 +186,7 @@ class _CollapsibleSection(QWidget):
     def add_row(self, row: int, label_text: str, widget: QWidget, range_hint: str = ""):
         lbl = QLabel(label_text)
         lbl.setStyleSheet(
-            f"font-family: '{FONT_FAMILY}'; font-size: 12px; "
+            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_SM}px; "
             f"color: {TEXT_SECONDARY}; background: transparent; border: none;"
         )
         lbl.setAlignment(Qt.AlignRight | Qt.AlignVCenter)
@@ -191,7 +197,7 @@ class _CollapsibleSection(QWidget):
         if range_hint:
             hint_lbl = QLabel(range_hint)
             hint_lbl.setStyleSheet(
-                f"font-family: '{FONT_FAMILY}'; font-size: 10px; "
+                f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_XS}px; "
                 f"color: {TEXT_SECONDARY}; background: transparent; border: none; "
                 f"padding-bottom: 2px;"
             )
@@ -343,7 +349,7 @@ class ParameterPanel(QWidget):
 
         x_lbl = QLabel("×10^")
         x_lbl.setStyleSheet(
-            f"font-size: 12px; color: {TEXT_SECONDARY}; background: transparent; border: none;"
+            f"font-size: {FONT_SIZE_SM}px; color: {TEXT_SECONDARY}; background: transparent; border: none;"
         )
         cn2_h.addWidget(x_lbl)
 
