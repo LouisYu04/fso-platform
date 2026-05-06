@@ -14,7 +14,6 @@ packaging==26.0
 pytest==8.4.2
 pillow==12.2.0
 PyQt5==5.15.11
-PyQt5_Qt5==5.15.18
 PyQt5_sip==12.18.0
 pyparsing==3.3.2
 python_dateutil==2.9.0.post0
