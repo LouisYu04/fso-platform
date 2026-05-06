@@ -1,13 +1,13 @@
 # -*- mode: python ; coding: utf-8 -*-
 """
-PyInstaller spec file for FSO Platform — Windows executable
+PyInstaller spec file for FSO Platform — Windows executable (onedir mode)
 
 Usage (run on Windows):
     pyinstaller fso_platform_windows.spec
 """
 
-import sys
 from pathlib import Path
+from PyInstaller.utils.hooks import collect_data_files, collect_submodules
 
 # Project root
 ROOT = Path(SPECPATH)
@@ -16,62 +16,63 @@ UI_DIR = ROOT / "fso_platform" / "ui"
 # Collect all .ui files as data files
 ui_files = [(str(f), "fso_platform/ui") for f in UI_DIR.glob("*.ui")]
 
-# Analysis configuration
+# Auto-collect data files for matplotlib and PyQt5
+datas = ui_files
+datas += collect_data_files("matplotlib", includes=["mpl-data/**"])
+datas += collect_data_files("PyQt5", includes=["Qt5/plugins/**"])
+
+# Auto-collect submodules
+hiddenimports = collect_submodules("fso_platform")
+hiddenimports += ["matplotlib.backends.backend_qt5agg"]
+
 a = Analysis(
     ["main.py"],
     pathex=[str(ROOT)],
     binaries=[],
-    datas=ui_files,
-    hiddenimports=[
-        # PyQt5 modules
-        "PyQt5.sip",
-        "PyQt5.QtCore",
-        "PyQt5.QtGui",
-        "PyQt5.QtWidgets",
-        # Matplotlib backends
-        "matplotlib.backends.backend_qt5agg",
-        "matplotlib.backends.backend_qt5",
-        # SciPy submodules
-        "scipy.special",
-        "scipy.integrate",
-        # Package submodules
-        "fso_platform.models",
-        "fso_platform.ui",
-        "fso_platform.utils",
-    ],
+    datas=datas,
+    hiddenimports=hiddenimports,
     hookspath=[],
-    hooksconfig={},
+    hooksconfig={"matplotlib": {"backends": ["Qt5Agg"]}},
     runtime_hooks=[],
-    excludes=[],
+    excludes=["PySide2", "PySide6", "PyQt6"],
     win_no_prefer_redirects=False,
     win_private_assemblies=False,
     cipher=None,
     noarchive=False,
 )
 
-# Remove duplicate libraries
 pyz = PYZ(a.pure, a.zipped_data, cipher=None)
 
-# Windows EXE configuration
+# Onedir EXE — only scripts, no binaries/datas
 exe = EXE(
     pyz,
     a.scripts,
-    a.binaries,
-    a.zipfiles,
-    a.datas,
     [],
+    exclude_binaries=True,
     name="FSOPlatform",
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
-    upx=True,
+    upx=False,  # UPX can corrupt Qt DLLs on Windows
     upx_exclude=[],
     runtime_tmpdir=None,
-    console=False,  # GUI app, no console window
+    console=False,
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
     icon=None,
+)
+
+# Collect binaries and data into directory
+coll = COLLECT(
+    exe,
+    a.binaries,
+    a.zipfiles,
+    a.datas,
+    strip=False,
+    upx=False,
+    upx_exclude=[],
+    name="FSOPlatform",
 )

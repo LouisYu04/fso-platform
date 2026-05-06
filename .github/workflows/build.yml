@@ -20,17 +20,21 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
+          python -m pip install --upgrade pip setuptools wheel
+          pip install PyQt5 PyQt5-Qt5 matplotlib numpy scipy pyinstaller
           pip install -r requirements.txt
-          pip install pyinstaller
 
       - name: Build Windows executable
         run: pyinstaller fso_platform_windows.spec --clean --noconfirm
 
+      - name: List dist contents
+        run: ls -la dist/
+        shell: bash
+
       - name: Package artifact
         run: |
           cd dist
-          7z a FSOPlatform-Windows.zip "FSOPlatform"
+          7z a FSOPlatform-Windows.zip FSOPlatform/
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
