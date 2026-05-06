@@ -1,10 +1,13 @@
-name: Build Windows Executable
+name: Build Executables
 
 on:
   push:
     tags:
       - 'v*'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build-windows:
@@ -72,3 +75,30 @@ jobs:
         with:
           name: FSOPlatform-macOS
           path: dist/FSOPlatform-macOS.zip
+
+  release:
+    needs: [build-windows, build-macos]
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    steps:
+      - name: Download Windows artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: FSOPlatform-Windows
+          path: artifacts/
+
+      - name: Download macOS artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: FSOPlatform-macOS
+          path: artifacts/
+
+      - name: Create GitHub Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "${{ github.ref_name }}" \
+            --title "FSO Platform ${{ github.ref_name }}" \
+            --generate-notes \
+            artifacts/FSOPlatform-Windows.zip \
+            artifacts/FSOPlatform-macOS.zip
