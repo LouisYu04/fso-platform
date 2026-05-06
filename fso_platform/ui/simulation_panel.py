@@ -61,6 +61,7 @@ from fso_platform.utils.fonts import (
     FONT_FAMILY,
     FONT_MONO,
     FONT_SIZE_MD,
+    FONT_SIZE_LG,
 )
 
 
@@ -213,6 +214,9 @@ class SimulationPanel(QWidget):
         # 加载 UI 文件
         ui_path = Path(__file__).parent / "simulation_panel.ui"
         uic.loadUi(ui_path, self)
+
+        # 覆盖 .ui 中硬编码的字体大小，与 tab 栏保持一致
+        self.logHeader.setFont(QFont(FONT_FAMILY, FONT_SIZE_LG, QFont.Bold))
 
         self._init_ui()
 
