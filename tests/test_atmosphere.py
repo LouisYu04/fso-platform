@@ -463,10 +463,11 @@ class TestNaboulsiFog:
         测试目的：
             验证极低能见度下平流雾的强衰减特性。
         预期行为：
-            衰减系数 alpha > 30 dB/km。
+            按文献式(4.5a)和 nm/m 单位，alpha ≈ 1.817 dB/km。
         """
         alpha = naboulsi_advection_fog(0.1, 1550)
-        assert alpha > 30
+        expected = (0.11478 * 1550 + 3.8367) / 100
+        assert alpha == pytest.approx(expected, rel=1e-10)
 
     def test_radiation_fog_dense(self):
         """
@@ -575,10 +576,10 @@ class TestRainAttenuation:
         测试目的：
             验证小雨条件下的典型衰减值。
         预期行为：
-            衰减在 1.0 到 3.0 dB/km 之间。
+            文献锚点为 25 mm/h 约 6 dB/km，线性插值得 0.6 dB/km。
         """
         alpha = rain_attenuation(2.5)
-        assert 1.0 < alpha < 3.0
+        assert alpha == pytest.approx(0.6)
 
     def test_moderate_rain(self):
         """
@@ -587,10 +588,10 @@ class TestRainAttenuation:
         测试目的：
             验证中雨条件下的典型衰减值。
         预期行为：
-            衰减在 3.0 到 10.0 dB/km 之间。
+            文献锚点为 25 mm/h 约 6 dB/km，线性插值得 2.4 dB/km。
         """
         alpha = rain_attenuation(10.0)
-        assert 3.0 < alpha < 10.0
+        assert alpha == pytest.approx(2.4)
 
     def test_heavy_rain(self):
         """
@@ -911,7 +912,7 @@ class TestTransmittance:
         预期行为：
             能见度 0.1 km、距离 5 km 时，透射率 < 0.01。
         """
-        tau = transmittance(0.1, 5.0, fog_model="naboulsi_advection")
+        tau = transmittance(0.1, 5.0, fog_model="naboulsi_radiation")
         assert tau < 0.01
 
     def test_monotonic_decreasing_with_distance(self):

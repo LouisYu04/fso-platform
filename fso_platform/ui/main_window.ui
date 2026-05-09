@@ -50,20 +50,20 @@
       <property name="styleSheet">
        <string notr="true">QSplitter::handle { background-color: #DFE3E8; }</string>
       </property>
-      <widget class="QWidget" name="leftPanel" native="true">
-       <property name="minimumSize">
-        <size>
-         <width>288</width>
-         <height>0</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>288</width>
-         <height>16777215</height>
-        </size>
-       </property>
-      </widget>
+       <widget class="QWidget" name="leftPanel" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>320</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>360</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
       <widget class="QWidget" name="rightPanel" native="true">
        <property name="styleSheet">
         <string notr="true">background-color: #F5F7FA;</string>

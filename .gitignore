@@ -48,6 +48,10 @@ Thumbs.db
 screenshots/
 *.heapsnapshot
 
+# MCP / IDE caches
+.playwright-mcp/
+.opencode/
+
 # PyInstaller
 *.spec.bak
 

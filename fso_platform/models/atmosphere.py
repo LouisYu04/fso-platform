@@ -186,10 +186,12 @@ def atmospheric_attenuation_db(sigma_naperian_per_km, distance_km):
 
 def naboulsi_advection_fog(visibility_km, wavelength_nm=1550):
     """
-    Naboulsi 平流雾衰减系数 (开题报告式2.14)
+    Naboulsi 平流雾衰减系数 (文献式4.5a)
     α_Advection = (0.11478·λ + 3.8367) / V   [dB/km]
 
-    其中 λ 为波长（μm），V 为能见度（km）。
+    严格按《近地无线光通信》式(4.5a)后的单位说明实现:
+    λ 为波长（nm），V 为能见度（m）。函数接口仍接收 km，
+    内部只在代入公式前转换为 m。
 
     平流雾的物理机制:
         平流雾由暖湿气流流经较冷下垫面（海面、湖面、河谷）时，
@@ -209,7 +211,7 @@ def naboulsi_advection_fog(visibility_km, wavelength_nm=1550):
         调用方使用时乘以距离 (km) 即得 dB，无需再乘以 4.343。
 
     参数:
-        visibility_km (float): 大气能见度 (km)，推荐用于 V < 1 km 的浓雾场景，必须 > 0
+        visibility_km (float): 大气能见度 (km)，推荐用于 0.05~1 km 的浓雾场景，必须 > 0
         wavelength_nm (float): 工作波长 (nm)，默认 1550 nm
     返回:
         alpha_db_per_km (float): 平流雾衰减系数 (dB/km)
@@ -219,17 +221,19 @@ def naboulsi_advection_fog(visibility_km, wavelength_nm=1550):
     V = float(visibility_km)
     if V <= 0:
         raise ValueError(f"visibility_km 必须 > 0，当前值: {V}")
-    lambda_um = wavelength_nm / 1000.0  # nm → μm（公式要求波长单位为 μm）
-    alpha = (0.11478 * lambda_um + 3.8367) / V
+    V_m = V * 1000.0
+    alpha = (0.11478 * wavelength_nm + 3.8367) / V_m
     return alpha
 
 
 def naboulsi_radiation_fog(visibility_km, wavelength_nm=1550):
     """
-    Naboulsi 辐射雾衰减系数 (开题报告式2.15)
+    Naboulsi 辐射雾衰减系数 (文献式4.5b)
     α_Radiation = (0.18126·λ² + 0.13709·λ + 3.7502) / V   [dB/km]
 
-    其中 λ 为波长（μm），V 为能见度（km）。
+    严格按《近地无线光通信》式(4.5b)后的单位说明实现:
+    λ 为波长（nm），V 为能见度（m）。函数接口仍接收 km，
+    内部只在代入公式前转换为 m。
 
     辐射雾的物理机制:
         辐射雾由夜间地面长波辐射冷却形成，当地面温度降至露点以下时，
@@ -259,16 +263,17 @@ def naboulsi_radiation_fog(visibility_km, wavelength_nm=1550):
     V = float(visibility_km)
     if V <= 0:
         raise ValueError(f"visibility_km 必须 > 0，当前值: {V}")
-    lambda_um = wavelength_nm / 1000.0  # nm → μm（公式要求波长单位为 μm）
-    # 二次多项式拟合，系数由实测辐射雾数据回归得到
-    alpha = (0.18126 * lambda_um**2 + 0.13709 * lambda_um + 3.7502) / V
+    V_m = V * 1000.0
+    alpha = (0.18126 * wavelength_nm**2 + 0.13709 * wavelength_nm + 3.7502) / V_m
     return alpha
 
 
 def rain_attenuation(rainfall_rate_mm_h, wavelength_nm=1550):
     """
-    雨天附加衰减系数（Carbonneau 经验模型）
-    α_rain ≈ 1.076 · R^0.67   (dB/km)
+    雨天附加衰减系数（文献式4.5后文字）
+    文献只给出锚点: 2.5 cm/h = 25 mm/h 降雨约 6 dB/km。
+    为了在 UI 连续输入降雨率时仍能计算，这里采用通过原点和该锚点的
+    线性插值: α_rain = 6 · R / 25。
 
     其中 R 为降雨量 (mm/h)。
 
@@ -280,14 +285,6 @@ def rain_attenuation(rainfall_rate_mm_h, wavelength_nm=1550):
         - FSO 雨衰比同频段微波雨衰更小，因为光波波长远小于雨滴（几何区），
           而微波波长与雨滴尺寸接近（共振区），散射截面更大
 
-    幂律公式说明:
-        Carbonneau 公式 α = a·R^b 是雨衰领域的标准形式（源于 ITU-R 微波雨衰公式），
-        其中经验参数：
-        - a = 1.076：比例系数，反映单位降雨量的基础衰减强度
-        - b = 0.67：指数，<1 表示衰减随降雨量的增加呈亚线性增长
-          （大雨时雨滴间距减小，多次散射效应使单位衰减率有所降低）
-        参数由 FSO 波段（0.8~1.55 μm）实测数据统计拟合。
-
     参数:
         rainfall_rate_mm_h (float): 降雨强度 (mm/h)，0 表示无雨
         wavelength_nm (float): 工作波长 (nm)，当前版本未使用（预留接口）
@@ -297,19 +294,17 @@ def rain_attenuation(rainfall_rate_mm_h, wavelength_nm=1550):
     # 无降雨时直接返回零，避免对 0 取幂的无意义计算
     if rainfall_rate_mm_h <= 0:
         return 0.0
-    # Carbonneau 幂律经验公式：α = 1.076 × R^0.67
-    return 1.076 * rainfall_rate_mm_h**0.67
+    return 6.0 * rainfall_rate_mm_h / 25.0
 
 
 def snow_attenuation(snowfall_rate_mm_h, snow_type="wet"):
     """
-    雪天附加衰减系数（经验模型）
+    雪天附加衰减系数（文献式4.5后文字）
 
-    公式:
-        干雪 (dry): α = 5.42×10⁻⁵ · S^1.38 + 5.50   (dB/km)
-        湿雪 (wet): α = 1.023×10⁻⁴ · S^3.79 + 0.23   (dB/km)
-
-    其中 S 为降雪量（水当量，mm/h）。
+    文献给出的约束是“小雪至暴雪可能造成 3~30 dB/km 的衰减”，
+    没有提供降雪率到衰减的闭式公式。为了严格围绕该区间建模，这里将
+    UI 输入的 0~100 mm/h 映射到 3~30 dB/km；湿雪因含水率高采用更陡
+    的斜率并在 30 dB/km 截断，干雪上限较低。
 
     干雪 vs 湿雪的物理差异:
         - **干雪**（气温 < -5°C）：雪晶为冰相，折射率接近冰（n≈1.31），
@@ -322,12 +317,6 @@ def snow_attenuation(snowfall_rate_mm_h, snow_type="wet"):
           常数项 0.23 较小，说明小降雪量时湿雪衰减并不严重，
           但大降雪量时远超干雪。
 
-    降雪量单位说明:
-        使用"水当量 mm/h"而非雪深（cm/h），原因是：
-        - 水当量反映雪的质量（与粒子数密度正相关），更直接决定散射强度
-        - 干雪密度约 0.05~0.2 g/cm³，湿雪约 0.2~0.5 g/cm³，
-          相同雪深对应的水当量差异悬殊，水当量更具一致性
-
     参数:
         snowfall_rate_mm_h (float): 降雪强度，水当量 (mm/h)，0 表示无雪
         snow_type (str): 雪的类型，'dry'（干雪）或 'wet'（湿雪），默认 'wet'
@@ -338,13 +327,10 @@ def snow_attenuation(snowfall_rate_mm_h, snow_type="wet"):
     if snowfall_rate_mm_h <= 0:
         return 0.0
 
-    S = snowfall_rate_mm_h
+    S = min(float(snowfall_rate_mm_h), 100.0)
     if snow_type == "dry":
-        # 干雪经验公式：低指数（1.38）+ 较大常数项（5.50），衰减随 S 增加较平缓
-        return 5.42e-5 * S**1.38 + 5.50
-    else:
-        # 湿雪经验公式：高指数（3.79），大降雪量时衰减急剧增大，远超干雪
-        return 1.023e-4 * S**3.79 + 0.23
+        return min(25.0, 3.0 + 0.5 * S)
+    return min(30.0, 3.0 + 0.7 * S)
 
 
 def total_channel_loss_db(

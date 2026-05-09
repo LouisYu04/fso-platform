@@ -60,6 +60,7 @@ from .theme import (
 from fso_platform.utils.fonts import (
     FONT_FAMILY,
     FONT_MONO,
+    FONT_SIZE_SM,
     FONT_SIZE_MD,
     FONT_SIZE_LG,
 )
@@ -74,13 +75,13 @@ class _MetricCard(QFrame):
         self._unit = unit
         self._title_text = title
         self.setMinimumWidth(140)
-        self.setMinimumHeight(82)
+        self.setMinimumHeight(88)
         self.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
         self._apply_card_style("neutral")
 
         layout = QVBoxLayout(self)
-        layout.setContentsMargins(12, 8, 12, 8)
-        layout.setSpacing(2)
+        layout.setContentsMargins(14, 10, 14, 10)
+        layout.setSpacing(4)
 
         # 标题
         self._title_lbl = QLabel(title)
@@ -92,22 +93,22 @@ class _MetricCard(QFrame):
 
         # 数值行（值 + 单位）
         val_row = QHBoxLayout()
-        val_row.setSpacing(4)
+        val_row.setSpacing(6)
         val_row.setContentsMargins(0, 0, 0, 0)
 
         self._val_lbl = QLabel("—")
         self._val_lbl.setStyleSheet(
-            f"font-family: '{FONT_MONO}'; font-size: 26px; font-weight: bold; "
+            f"font-family: '{FONT_MONO}'; font-size: 24px; font-weight: bold; "
             f"color: {TEXT_PRIMARY}; background: transparent; border: none;"
         )
         val_row.addWidget(self._val_lbl)
 
         self._unit_lbl = QLabel(unit)
         self._unit_lbl.setStyleSheet(
-            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_MD}px; "
-            f"color: {TEXT_SECONDARY}; background: transparent; border: none;"
+            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_SM}px; "
+            f"color: {TEXT_DIM}; background: transparent; border: none;"
         )
-        self._unit_lbl.setAlignment(Qt.AlignBottom)
+        self._unit_lbl.setAlignment(Qt.AlignBottom | Qt.AlignLeft)
         val_row.addWidget(self._unit_lbl)
         val_row.addStretch()
         layout.addLayout(val_row)
@@ -117,7 +118,7 @@ class _MetricCard(QFrame):
         # 状态标签
         self._status_lbl = QLabel("")
         self._status_lbl.setStyleSheet(
-            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_MD}px; "
+            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_SM}px; "
             f"color: {TEXT_DIM}; background: transparent; border: none;"
         )
         layout.addWidget(self._status_lbl)
@@ -139,14 +140,14 @@ class _MetricCard(QFrame):
         self._val_lbl.setText(text)
         color = status_color(status)
         self._val_lbl.setStyleSheet(
-            f"font-family: '{FONT_MONO}'; font-size: 26px; font-weight: bold; "
+            f"font-family: '{FONT_MONO}'; font-size: 24px; font-weight: bold; "
             f"color: {color}; background: transparent; border: none;"
         )
         if status_text:
             dot = {"good": "●", "ok": "●", "warn": "●", "bad": "●"}.get(status, "○")
             self._status_lbl.setText(f"{dot}  {status_text}")
             self._status_lbl.setStyleSheet(
-                f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_MD}px; "
+                f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_SM}px; "
                 f"color: {color}; background: transparent; border: none;"
             )
         self._apply_card_style(status)
@@ -159,15 +160,15 @@ class _SecondaryMetric(QWidget):
     def __init__(self, title: str, parent=None):
         super().__init__(parent)
         layout = QHBoxLayout(self)
-        layout.setContentsMargins(10, 4, 10, 4)
-        layout.setSpacing(6)
+        layout.setContentsMargins(12, 6, 12, 6)
+        layout.setSpacing(8)
 
         self._lbl = QLabel(title)
         self._lbl.setStyleSheet(
-            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_MD}px; "
+            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_SM}px; "
             f"color: {TEXT_SECONDARY}; background: transparent; border: none;"
         )
-        self._lbl.setFixedWidth(96)
+        self._lbl.setFixedWidth(100)
         layout.addWidget(self._lbl)
 
         self._val = QLabel("—")
@@ -215,8 +216,11 @@ class SimulationPanel(QWidget):
         ui_path = Path(__file__).parent / "simulation_panel.ui"
         uic.loadUi(ui_path, self)
 
-        # 覆盖 .ui 中硬编码的字体大小，与 tab 栏保持一致
-        self.logHeader.setFont(QFont(FONT_FAMILY, FONT_SIZE_LG, QFont.Bold))
+        self.logHeader.setFont(QFont(FONT_FAMILY, FONT_SIZE_MD, QFont.Bold))
+        self.logHeader.setStyleSheet(
+            f"color: {TEXT_SECONDARY}; background-color: {BG_SECTION}; "
+            f"border: none; border-radius: 8px 8px 0 0; padding: 0 12px;"
+        )
 
         self._init_ui()
 
@@ -226,6 +230,7 @@ class SimulationPanel(QWidget):
         """初始化动态控件和样式"""
         # 应用样式
         self.progressBar.setStyleSheet(PROGRESS_STYLE)
+        self._build_context_bar()
 
         # ② 四大指标卡片
         self._card_PR = _MetricCard("接收功率", "dBm")
@@ -238,10 +243,10 @@ class SimulationPanel(QWidget):
 
         # ③ 次要指标区（3 列网格）
         def _sep():
-            """垂直分隔线"""
             f = QFrame()
             f.setFrameShape(QFrame.VLine)
-            f.setStyleSheet(f"color: {BORDER_LIGHT};")
+            f.setStyleSheet(f"color: {BORDER_LIGHT}; background: {BORDER_LIGHT};")
+            f.setFixedWidth(1)
             return f
 
         self._sec = {}
@@ -272,21 +277,21 @@ class SimulationPanel(QWidget):
             col_wrap.setStyleSheet("background: transparent; border: none;")
             col_vbox = QVBoxLayout(col_wrap)
             col_vbox.setContentsMargins(0, 0, 0, 0)
-            col_vbox.setSpacing(0)
+            col_vbox.setSpacing(4)
 
             col_title = QLabel(f"  {name}")
-            col_title.setFixedHeight(22)
+            col_title.setFixedHeight(24)
             col_title.setStyleSheet(
-                f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_MD}px; font-weight: bold; "
+                f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_SM}px; font-weight: bold; "
                 f"color: {TEXT_DIM}; background: transparent; border: none; "
-                f"border-top: 1px solid {BORDER_LIGHT};"
+                f"border-top: 1px solid {BORDER_LIGHT}; padding-top: 4px;"
             )
             col_vbox.addWidget(col_title)
 
             col_te = QTextEdit()
             col_te.setReadOnly(True)
             col_te.setStyleSheet(LOG_STYLE)
-            col_te.document().setDocumentMargin(4)
+            col_te.document().setDocumentMargin(6)
             col_te.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
             col_vbox.addWidget(col_te)
             self._log_cols.append(col_te)
@@ -296,7 +301,8 @@ class SimulationPanel(QWidget):
             if i < 2:
                 vsep = QFrame()
                 vsep.setFrameShape(QFrame.VLine)
-                vsep.setStyleSheet(f"color: {BORDER_LIGHT};")
+                vsep.setStyleSheet(f"color: {BORDER_LIGHT}; background: {BORDER_LIGHT};")
+                vsep.setFixedWidth(1)
                 self.logColumnsLayout.addWidget(vsep)
 
         # 隐藏缓冲区：run_simulation() 直接调用 .clear()，子类会联动清空各列
@@ -321,10 +327,81 @@ class SimulationPanel(QWidget):
         self.result_labels["ber_ppm"] = (self._sec["ber_ppm"], "")
         self.result_labels["ber_sim"] = (self._sec["ber_sim"], "")
 
+    def _build_context_bar(self):
+        """构建仿真页顶部的本次参数上下文条。"""
+        self._context_frame = QFrame()
+        self._context_frame.setStyleSheet(
+            f"""
+            QFrame {{
+                background-color: {BG_CARD};
+                border: 1px solid {BORDER_LIGHT};
+                border-radius: 8px;
+            }}
+            """
+        )
+        row = QHBoxLayout(self._context_frame)
+        row.setContentsMargins(12, 8, 12, 8)
+        row.setSpacing(10)
+
+        self._context_title = QLabel("等待仿真")
+        self._context_title.setStyleSheet(
+            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_MD}px; font-weight: bold; "
+            f"color: {TEXT_PRIMARY}; background: transparent; border: none;"
+        )
+        row.addWidget(self._context_title)
+
+        self._context_detail = QLabel("左侧参数变化会同步到这里")
+        self._context_detail.setStyleSheet(
+            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_SM}px; "
+            f"color: {TEXT_SECONDARY}; background: transparent; border: none;"
+        )
+        self._context_detail.setWordWrap(False)
+        row.addWidget(self._context_detail, 1)
+
+        self._context_badge = QLabel("待运行")
+        self._context_badge.setAlignment(Qt.AlignCenter)
+        self._set_context_badge("neutral", "待运行")
+        row.addWidget(self._context_badge)
+
+        self.verticalLayout.insertWidget(0, self._context_frame)
+
+    def _set_context_badge(self, level: str, text: str):
+        """更新上下文条右侧状态胶囊。"""
+        color = status_color(level)
+        bg = status_bg(level)
+        self._context_badge.setText(text)
+        self._context_badge.setStyleSheet(
+            f"font-family: '{FONT_FAMILY}'; font-size: {FONT_SIZE_SM}px; font-weight: bold; "
+            f"color: {color}; background-color: {bg}; border: 1px solid {color}; "
+            f"border-radius: 8px; padding: 3px 10px;"
+        )
+
+    def _update_context(self, params: dict, badge_level: str = "neutral", badge_text: str = "待运行"):
+        """根据当前参数刷新上下文条。"""
+        if not params or not hasattr(self, "_context_detail"):
+            return
+        modulation = params.get("modulation", "OOK")
+        if modulation == "PPM":
+            modulation = f"{params.get('M_ppm', 4)}-PPM"
+        elif modulation == "SIM":
+            modulation = "SIM-BPSK"
+        fog_label = {
+            "kim": "Kim",
+            "naboulsi_advection": "Naboulsi 平流",
+            "naboulsi_radiation": "Naboulsi 辐射",
+        }.get(params.get("fog_model", "kim"), "Kim")
+        self._context_title.setText(f"{params.get('distance_km', 0):.2f} km 链路")
+        self._context_detail.setText(
+            f"{params.get('wavelength_nm', 0):.0f} nm · V={params.get('visibility_km', 0):.2f} km · "
+            f"{fog_label} · {modulation} · {params.get('detector_type', 'PIN')}"
+        )
+        self._set_context_badge(badge_level, badge_text)
+
     # ── 信号/数据接口 ─────────────────────────────────────────────
 
     def update_params(self, params: dict):
         self._params = params
+        self._update_context(params)
 
     def _log(self, msg: str):
         """按节号将 HTML 路由到对应列（col0: [1-2/6], col1: [3-4/6], col2: [5-6/6]+收尾）"""
@@ -449,6 +526,8 @@ class SimulationPanel(QWidget):
             # 确定状态
             status, status_text = self._infer_status(key, value)
             widget.update_value(display_text, status, status_text)
+            if key == "margin":
+                self._set_context_badge(status, "完成" if status in ("good", "ok") else status_text)
         elif isinstance(widget, _SecondaryMetric):
             color = TEXT_PRIMARY
             if key == "regime":
@@ -516,6 +595,7 @@ class SimulationPanel(QWidget):
         self._params = params
         self.log_text.clear()
         self.progressBar.setValue(0)
+        self._update_context(params, "ok", "运行中")
 
     def cancel_simulation(self):
         """取消当前仿真（由 MainWindow 调用）"""

@@ -5,12 +5,16 @@ import numpy as np
 from fso_platform.models.ber import (
     ber_ook,
     ber_ppm,
+    ppm_slot_duration,
+    ppm_photon_count,
+    ber_ppm_photon,
     ber_sim_bpsk,
     ber_ook_turbulence,
     ber_ppm_turbulence,
     ber_sim_turbulence,
     ber_vs_snr,
 )
+from fso_platform.utils.constants import H, C
 
 
 # ============================================================
@@ -19,8 +23,8 @@ from fso_platform.models.ber import (
 #           BER 计算公式的正确性及各边界条件下的行为。
 # 测试原理：OOK 是 FSO 中最简单的强度调制方式，用光脉冲的有无
 #           表示比特"1"和"0"。其 BER 理论公式为：
-#           BER_OOK = 0.5 * erfc(√(SNR/2))，其中 erfc 为
-#           补余误差函数，SNR 为信噪比（线性值）。
+    #           BER_OOK = Q(0.5√SNR)，其中 SNR 为文献中
+    #           (R·E[I])²/σ² 形式的归一化信噪比。
 #           该公式假设加性高斯白噪声（AWGN）信道。
 # 预期行为：BER 应随 SNR 增加单调递减，范围在 [0, 0.5] 内，
 #           SNR=0 时 BER=0.5（随机猜测），负 SNR 应返回 NaN。
@@ -33,10 +37,10 @@ class TestBerOOK:
     # 测试原理：当 SNR 足够高时，信号能量远大于噪声能量，
     #           误码概率应指数级下降。erfc(x) 在大 x 时
     #           以 e^(-x²) 速率衰减。
-    # 预期行为：SNR=100 时 BER < 1e-12，即基本无误码。
+    # 预期行为：SNR=100 时 BER 约为 Q(5)。
     # ----------------------------------------
     def test_high_snr_low_ber(self):
-        assert ber_ook(100) < 1e-12
+        assert ber_ook(100) == pytest.approx(2.8665157e-7, rel=1e-5)
 
     # ----------------------------------------
     # 测试目的：验证低信噪比下 BER 较高
@@ -100,11 +104,11 @@ class TestBerOOK:
     # 测试原理：SNR=36（约 15.6 dB）时，erfc 自变量约为
     #           √18 ≈ 4.24，erfc(4.24) 已非常小，
     #           对应 BER 应低于 10⁻⁸ 量级。
-    # 预期行为：SNR=36 时 BER < 1e-8。
+    # 预期行为：SNR=36 时 BER = Q(3)。
     # ----------------------------------------
     def test_very_high_snr_extremely_low_ber(self):
         ber = ber_ook(36.0)
-        assert ber < 1e-8
+        assert ber == pytest.approx(0.001349898, rel=1e-5)
 
     # ----------------------------------------
     # 测试目的：验证负 SNR 输入的处理
@@ -208,6 +212,24 @@ class TestBerPPM:
     def test_different_m_values(self, M):
         ber = ber_ppm(100, M=M)
         assert ber >= 0
+
+    def test_slot_duration_matches_literature_formula(self):
+        assert ppm_slot_duration(155e6, 4) == pytest.approx(2 / (4 * 155e6))
+
+    def test_photon_count_matches_literature_formula(self):
+        P_R = 1e-6
+        wavelength = 1550e-9
+        bit_rate = 155e6
+        M = 4
+        eta = 0.8
+        T_s = ppm_slot_duration(bit_rate, M)
+        expected = eta * wavelength * P_R * T_s / (H * C)
+        assert ppm_photon_count(P_R, wavelength, bit_rate, M, eta) == pytest.approx(expected)
+
+    def test_photon_ber_improves_with_received_power(self):
+        weak = ber_ppm_photon(1e-9, 0.0, 1550e-9, 155e6, M=4)
+        strong = ber_ppm_photon(1e-6, 0.0, 1550e-9, 155e6, M=4)
+        assert strong < weak
 
 
 # ============================================================

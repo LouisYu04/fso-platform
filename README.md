@@ -148,12 +148,12 @@ python -m build
 ```
 
 输出：
-- `dist/fso_platform-1.0.0.tar.gz` — 源码压缩包
-- `dist/fso_platform-1.0.0-py3-none-any.whl` — Python wheel（可直接 pip 安装）
+- `dist/fso_platform-1.0.3.tar.gz` — 源码压缩包
+- `dist/fso_platform-1.0.3-py3-none-any.whl` — Python wheel（可直接 pip 安装）
 
 安装 wheel：
 ```bash
-pip install dist/fso_platform-1.0.0-py3-none-any.whl
+pip install dist/fso_platform-1.0.3-py3-none-any.whl
 fso-platform  # 启动程序
 ```
 

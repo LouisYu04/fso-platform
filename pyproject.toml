@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fso-platform"
-version = "1.0.0"
+version = "1.0.3"
 description = "无线光通信系统链路特性可视化平台"
 readme = "README.md"
 requires-python = ">=3.9"

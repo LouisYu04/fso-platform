@@ -44,6 +44,18 @@ TEXT_SECONDARY = "#546E7A"
 TEXT_DIM = "#90A4AE"
 TEXT_WHITE = "#FFFFFF"
 
+# ─── 间距系统 (8px 基准网格) ─────────────────────────────
+SPACING_XS = 2
+SPACING_SM = 4
+SPACING_MD = 8
+SPACING_LG = 12
+SPACING_XL = 16
+SPACING_XXL = 24
+
+# ─── 阴影 /  elevation ────────────────────────────────────
+SHADOW_SM = "0 1px 2px rgba(0,0,0,0.04)"
+SHADOW_MD = "0 2px 4px rgba(0,0,0,0.06)"
+SHADOW_LG = "0 4px 8px rgba(0,0,0,0.08)"
 
 # ─── 卡片状态颜色映射 ─────────────────────────────────────
 def status_color(level: str) -> str:
@@ -110,8 +122,8 @@ RUN_BTN_STYLE = f"""
         font-weight: bold;
         font-size: {FONT_SIZE_LG}px;
         border: none;
-        border-radius: 6px;
-        padding: 8px 0;
+        border-radius: 8px;
+        padding: 9px 0;
     }}
     QPushButton:hover {{
         background-color: {PRIMARY_DARK};
@@ -133,7 +145,7 @@ RESET_BTN_STYLE = f"""
         font-family: "{FONT_FAMILY}";
         font-size: {FONT_SIZE_MD}px;
         border: 1px solid {BORDER};
-        border-radius: 6px;
+        border-radius: 8px;
         padding: 5px 0;
     }}
     QPushButton:hover {{
@@ -150,16 +162,29 @@ INPUT_STYLE = f"""
         color: {TEXT_PRIMARY};
         background-color: {BG_CARD};
         border: 1px solid {BORDER};
-        border-radius: 4px;
-        padding: 2px 5px;
-        min-height: 22px;
+        border-radius: 6px;
+        padding: 3px 6px;
+        min-height: 24px;
+    }}
+    QDoubleSpinBox:hover, QSpinBox:hover, QComboBox:hover {{
+        border-color: {PRIMARY};
+        background-color: {BG_CARD};
     }}
     QDoubleSpinBox:focus, QSpinBox:focus, QComboBox:focus {{
         border-color: {PRIMARY};
+        background-color: #FFFFFF;
     }}
     QComboBox::drop-down {{
         border: none;
         width: 20px;
+    }}
+    QComboBox QAbstractItemView {{
+        border: 1px solid {BORDER};
+        border-radius: 5px;
+        background-color: {BG_CARD};
+        selection-background-color: {PRIMARY_LIGHT};
+        selection-color: {PRIMARY};
+        padding: 4px;
     }}
 """
 
@@ -190,18 +215,19 @@ PROGRESS_STYLE = f"""
 TAB_STYLE = f"""
     QTabWidget::pane {{
         border: 1px solid {BORDER};
-        border-radius: 6px;
+        border-top: none;
+        border-radius: 0 0 8px 8px;
         background-color: {BG_CARD};
     }}
     QTabBar::tab {{
         font-family: "{FONT_FAMILY}";
-        font-size: {FONT_SIZE_LG}px;
+        font-size: {FONT_SIZE_MD}px;
         color: {TEXT_SECONDARY};
         background-color: transparent;
         border: none;
-        padding: 10px 16px;
-        min-width: 80px;
-        min-height: 36px;
+        padding: 8px 14px;
+        min-width: 72px;
+        min-height: 32px;
         margin-right: 2px;
     }}
     QTabBar::tab:selected {{
@@ -254,14 +280,34 @@ SCROLLAREA_STYLE = f"""
     QScrollBar:vertical {{
         width: 6px;
         background: transparent;
+        margin: 0px;
     }}
     QScrollBar::handle:vertical {{
         background: {BORDER};
         border-radius: 3px;
-        min-height: 30px;
+        min-height: 40px;
+    }}
+    QScrollBar::handle:vertical:hover {{
+        background: {TEXT_DIM};
     }}
     QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {{
         height: 0;
+    }}
+    QScrollBar:horizontal {{
+        height: 6px;
+        background: transparent;
+        margin: 0px;
+    }}
+    QScrollBar::handle:horizontal {{
+        background: {BORDER};
+        border-radius: 3px;
+        min-width: 40px;
+    }}
+    QScrollBar::handle:horizontal:hover {{
+        background: {TEXT_DIM};
+    }}
+    QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {{
+        width: 0;
     }}
 """
 
@@ -273,12 +319,18 @@ TABLE_STYLE = f"""
         background-color: {BG_CARD};
         gridline-color: {BORDER_LIGHT};
         border: 1px solid {BORDER};
-        border-radius: 6px;
+        border-radius: 8px;
         alternate-background-color: {BG_SECTION};
+        selection-background-color: {PRIMARY_LIGHT};
+        selection-color: {PRIMARY};
     }}
     QTableWidget::item {{
-        padding: 4px 8px;
+        padding: 5px 10px;
         border: none;
+    }}
+    QTableWidget::item:selected {{
+        background-color: {PRIMARY_LIGHT};
+        color: {PRIMARY};
     }}
     QHeaderView::section {{
         font-family: "{FONT_FAMILY}";
@@ -288,7 +340,14 @@ TABLE_STYLE = f"""
         background-color: {BG_SECTION};
         border: none;
         border-bottom: 1px solid {BORDER};
-        padding: 5px 8px;
+        border-radius: 0px;
+        padding: 6px 10px;
+    }}
+    QHeaderView::section:first {{
+        border-top-left-radius: 8px;
+    }}
+    QHeaderView::section:last {{
+        border-top-right-radius: 8px;
     }}
 """
 
@@ -299,6 +358,10 @@ STATUSBAR_STYLE = f"""
         color: {TEXT_SECONDARY};
         background-color: {BG_SIDEBAR};
         border-top: 1px solid {BORDER};
+        padding: 2px 12px;
+    }}
+    QStatusBar::item {{
+        border: none;
     }}
 """
 
@@ -309,7 +372,8 @@ LOG_STYLE = f"""
         color: {TEXT_PRIMARY};
         background-color: #FAFBFC;
         border: 1px solid {BORDER_LIGHT};
-        border-radius: 4px;
-        padding: 4px;
+        border-radius: 6px;
+        padding: 6px;
+        line-height: 1.5;
     }}
 """

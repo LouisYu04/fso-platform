@@ -6,7 +6,7 @@ visualization platform with atmospheric attenuation, turbulence,
 link budget, BER, and statistical distribution models.
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.3"
 __author__ = "FSO Team"
 
 from fso_platform import models

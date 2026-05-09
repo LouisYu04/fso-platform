@@ -105,18 +105,23 @@ class PlotPanel(QWidget):
     # ─────────────────────────────────────────────────────────────────────────
     def _init_ui(self):
         """初始化 Matplotlib 画布"""
-        # 应用按钮样式
         self.btnSaveAll.setStyleSheet(theme.RESET_BTN_STYLE)
+        self.btnSaveAll.setMinimumHeight(32)
         self.btnSaveAll.clicked.connect(self._save_all_plots)
 
-        # 应用 Tab 样式，并禁止文字省略（防止 CJK 字符被裁剪）
-        self.plotTabs.setStyleSheet(theme.TAB_STYLE)
+        self.titleLabel.setStyleSheet(
+            f"font-family: '{theme.FONT_FAMILY}'; font-size: {theme.FONT_SIZE_MD}px; font-weight: bold;"
+            f" color: {theme.TEXT_PRIMARY}; background: transparent; border: none;"
+        )
+        self.toolbarLayout.setSpacing(8)
+
+        self.plotTabs.setStyleSheet(theme.INNER_TAB_STYLE)
         self.plotTabs.tabBar().setElideMode(Qt.ElideNone)
 
         # ── Tab 1: 链路特性 (2x2 网格) ──────────────────────────────────────
         link_grid = QGridLayout(self.linkContainer)
-        link_grid.setContentsMargins(4, 4, 4, 4)
-        link_grid.setSpacing(4)
+        link_grid.setContentsMargins(6, 6, 6, 6)
+        link_grid.setSpacing(6)
 
         self.canvas_atm = MplCanvas(self.linkContainer, width=4, height=3, dpi=90)
         self.canvas_scint = MplCanvas(self.linkContainer, width=4, height=3, dpi=90)
@@ -130,8 +135,8 @@ class PlotPanel(QWidget):
 
         # ── Tab 2: 误码率分析 (1x2) ─────────────────────────────────────────
         ber_grid = QGridLayout(self.berContainer)
-        ber_grid.setContentsMargins(4, 4, 4, 4)
-        ber_grid.setSpacing(4)
+        ber_grid.setContentsMargins(6, 6, 6, 6)
+        ber_grid.setSpacing(6)
 
         self.canvas_ber = MplCanvas(self.berContainer, width=6, height=4, dpi=90)
         self.canvas_ber_turb = MplCanvas(self.berContainer, width=6, height=4, dpi=90)
@@ -141,14 +146,14 @@ class PlotPanel(QWidget):
 
         # ── Tab 3: 光强分布 (1x1) ───────────────────────────────────────────
         dist_layout = QVBoxLayout(self.distContainer)
-        dist_layout.setContentsMargins(4, 4, 4, 4)
+        dist_layout.setContentsMargins(6, 6, 6, 6)
 
         self.canvas_dist = MplCanvas(self.distContainer, width=8, height=5, dpi=90)
         dist_layout.addWidget(self._wrap(self.canvas_dist))
 
         # ── Tab 4: 链路预算瀑布图 (1x1) ─────────────────────────────────────
         budget_layout = QVBoxLayout(self.budgetContainer)
-        budget_layout.setContentsMargins(4, 4, 4, 4)
+        budget_layout.setContentsMargins(6, 6, 6, 6)
 
         self.canvas_budget = MplCanvas(self.budgetContainer, width=8, height=5, dpi=90)
         budget_layout.addWidget(self._wrap(self.canvas_budget))
@@ -188,6 +193,15 @@ class PlotPanel(QWidget):
     def _apply_grid(ax):
         ax.grid(True, which="major", linestyle="--", alpha=0.25, color=_C_GRID)
 
+    @staticmethod
+    def _fog_label(params) -> str:
+        """返回用于图表标题的雾模型短名称。"""
+        return {
+            "kim": "Kim",
+            "naboulsi_advection": "Naboulsi 平流",
+            "naboulsi_radiation": "Naboulsi 辐射",
+        }.get(params.get("fog_model", "kim"), "Kim")
+
     # ─────────────────────────────────────────────────────────────────────────
     def _draw_empty(self):
         """画空白占位图"""
@@ -220,7 +234,13 @@ class PlotPanel(QWidget):
 
     # ─────────────────────────────────────────────────────────────────────────
     def update_plots(self, params, results):
-        """根据仿真结果更新所有图表"""
+        """
+        根据仿真结果更新所有图表。
+
+        PlotPanel 只消费 SimulationWorker 已经生成好的曲线数组，不在绘图阶段
+        重新调用模型函数。这样图表与日志、结果摘要使用同一批数据，避免因为
+        二次计算或默认参数不同产生不一致。
+        """
         self._plot_atm(params, results)
         self._plot_scintillation(params, results)
         self._plot_power(params, results)
@@ -232,7 +252,12 @@ class PlotPanel(QWidget):
 
     # ─────────────────────────────────────────────────────────────────────────
     def _plot_atm(self, params, results):
-        """大气衰减 vs 距离"""
+        """
+        绘制大气衰减 vs 距离。
+
+        横向曲线展示同一天气条件下距离变化导致的累计大气损耗；水平线和
+        垂直线标记当前参数点，帮助用户把曲线趋势和本次仿真结果对应起来。
+        """
         self.canvas_atm.fig.clear()
         ax = self.canvas_atm._styled_ax()
 
@@ -253,7 +278,7 @@ class PlotPanel(QWidget):
         ax.set_xlabel("传输距离 (km)", fontsize=10)
         ax.set_ylabel("大气衰减 (dB)", fontsize=10)
         ax.set_title(
-            f"大气衰减 vs 距离  (V={params['visibility_km']}km, λ={params['wavelength_nm']:.0f}nm)",
+            f"大气衰减 vs 距离  (V={params['visibility_km']}km, λ={params['wavelength_nm']:.0f}nm, {self._fog_label(params)})",
             fontsize=12,
             fontweight="bold",
             pad=6,
@@ -263,7 +288,12 @@ class PlotPanel(QWidget):
         self.canvas_atm.draw()
 
     def _plot_scintillation(self, params, results):
-        """闪烁指数 vs 距离"""
+        """
+        绘制闪烁指数 vs 距离。
+
+        闪烁指数反映接收光强起伏。图中 σ_I²=1 作为饱和参考线，当前值用
+        水平虚线标出，便于观察当前链路是否接近强湍流饱和区。
+        """
         self.canvas_scint.fig.clear()
         ax = self.canvas_scint._styled_ax()
 
@@ -302,7 +332,12 @@ class PlotPanel(QWidget):
         self.canvas_scint.draw()
 
     def _plot_power(self, params, results):
-        """接收功率 vs 距离"""
+        """
+        绘制接收功率 vs 距离。
+
+        曲线同时包含大气损耗、几何损耗、指向损耗和光学效率影响；接收机
+        灵敏度线用于直观看出链路在多远距离后失效。
+        """
         self.canvas_power.fig.clear()
         ax = self.canvas_power._styled_ax()
 
@@ -334,7 +369,12 @@ class PlotPanel(QWidget):
         self.canvas_power.draw()
 
     def _plot_noise(self, params, results):
-        """噪声分析饼图"""
+        """
+        绘制噪声组成饼图。
+
+        当前噪声模型只展示热噪声和散粒噪声两项。饼图显示百分比，图例保留
+        A² 数值，便于调试不同探测器参数下哪一类噪声占主导。
+        """
         self.canvas_noise.fig.clear()
         ax = self.canvas_noise.fig.add_subplot(111)
         ax.set_facecolor(_C_BG)
@@ -381,7 +421,12 @@ class PlotPanel(QWidget):
         self.canvas_noise.draw()
 
     def _plot_ber_awgn(self, params, results):
-        """BER vs SNR — AWGN 信道"""
+        """
+        绘制 AWGN 信道 BER 曲线。
+
+        这是无湍流的理论基准曲线，用于比较 OOK、PPM、SIM-BPSK 三种调制
+        在同一 SNR 下的误码率差异。
+        """
         self.canvas_ber.fig.clear()
         ax = self.canvas_ber._styled_ax()
 
@@ -430,7 +475,12 @@ class PlotPanel(QWidget):
         self.canvas_ber.draw()
 
     def _plot_ber_turbulence(self, params, results):
-        """BER vs SNR — 湍流信道"""
+        """
+        绘制湍流信道 BER 曲线。
+
+        虚线为 AWGN 参考，实线为当前 Rytov 方差下的平均 BER。两者差距越大，
+        说明湍流闪烁对链路可靠性的惩罚越明显。
+        """
         self.canvas_ber_turb.fig.clear()
         ax = self.canvas_ber_turb._styled_ax()
 
@@ -438,7 +488,8 @@ class PlotPanel(QWidget):
         M = results.get("M_ppm", 4)
         sr2 = results["sigma_R2"]
 
-        # AWGN 虚线 (参考)
+        # AWGN 虚线 (参考)。颜色与对应调制方式一致，但透明度更低，避免和
+        # 湍流实线混淆。
         ax.semilogy(
             snr_db,
             results["ber_ook_curve"],
@@ -465,7 +516,7 @@ class PlotPanel(QWidget):
             label="─ ─  AWGN (参考)",
         )
 
-        # 湍流实线
+        # 湍流实线。标签中写入 sigma_R2，截图或导出图片后仍能知道曲线条件。
         ax.semilogy(
             snr_db,
             results["ber_ook_turb_curve"],
@@ -507,7 +558,12 @@ class PlotPanel(QWidget):
         self.canvas_ber_turb.draw()
 
     def _plot_distributions(self, params, results):
-        """光强概率密度分布"""
+        """
+        绘制归一化光强概率密度分布。
+
+        三种分布不是同时都作为当前模型使用，而是放在同一图中做形态对比：
+        弱湍流常用对数正态，中强湍流常用 Gamma-Gamma，饱和湍流常用负指数。
+        """
         self.canvas_dist.fig.clear()
         ax = self.canvas_dist._styled_ax()
 
